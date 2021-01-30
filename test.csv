@@ -1,0 +1,841 @@
+id,item_id,dept_id,cat_id,store_id,state_id,demand,date,wm_yr_wk,event_name_1,event_type_1,event_name_2,event_type_2,snap_TX,sell_price
+HOBBIES_2_001_TX_1_evaluation,HOBBIES_2_001,HOBBIES_2,HOBBIES,TX_1,TX,0,2016-04-25,11613,no_event,no_event,no_event,no_event,0,5.47
+HOBBIES_2_002_TX_1_evaluation,HOBBIES_2_002,HOBBIES_2,HOBBIES,TX_1,TX,0,2016-04-25,11613,no_event,no_event,no_event,no_event,0,1.47
+HOBBIES_2_003_TX_1_evaluation,HOBBIES_2_003,HOBBIES_2,HOBBIES,TX_1,TX,1,2016-04-25,11613,no_event,no_event,no_event,no_event,0,1.97
+HOBBIES_2_004_TX_1_evaluation,HOBBIES_2_004,HOBBIES_2,HOBBIES,TX_1,TX,0,2016-04-25,11613,no_event,no_event,no_event,no_event,0,2.47
+HOBBIES_2_005_TX_1_evaluation,HOBBIES_2_005,HOBBIES_2,HOBBIES,TX_1,TX,0,2016-04-25,11613,no_event,no_event,no_event,no_event,0,4.47
+HOBBIES_2_006_TX_1_evaluation,HOBBIES_2_006,HOBBIES_2,HOBBIES,TX_1,TX,0,2016-04-25,11613,no_event,no_event,no_event,no_event,0,3.97
+HOBBIES_2_007_TX_1_evaluation,HOBBIES_2_007,HOBBIES_2,HOBBIES,TX_1,TX,0,2016-04-25,11613,no_event,no_event,no_event,no_event,0,0.97
+HOBBIES_2_008_TX_1_evaluation,HOBBIES_2_008,HOBBIES_2,HOBBIES,TX_1,TX,0,2016-04-25,11613,no_event,no_event,no_event,no_event,0,3.88
+HOBBIES_2_009_TX_1_evaluation,HOBBIES_2_009,HOBBIES_2,HOBBIES,TX_1,TX,0,2016-04-25,11613,no_event,no_event,no_event,no_event,0,5.97
+HOBBIES_2_010_TX_1_evaluation,HOBBIES_2_010,HOBBIES_2,HOBBIES,TX_1,TX,0,2016-04-25,11613,no_event,no_event,no_event,no_event,0,0.97
+HOBBIES_2_001_TX_2_evaluation,HOBBIES_2_001,HOBBIES_2,HOBBIES,TX_2,TX,0,2016-04-25,11613,no_event,no_event,no_event,no_event,0,5.47
+HOBBIES_2_002_TX_2_evaluation,HOBBIES_2_002,HOBBIES_2,HOBBIES,TX_2,TX,0,2016-04-25,11613,no_event,no_event,no_event,no_event,0,1.47
+HOBBIES_2_003_TX_2_evaluation,HOBBIES_2_003,HOBBIES_2,HOBBIES,TX_2,TX,1,2016-04-25,11613,no_event,no_event,no_event,no_event,0,1.97
+HOBBIES_2_004_TX_2_evaluation,HOBBIES_2_004,HOBBIES_2,HOBBIES,TX_2,TX,0,2016-04-25,11613,no_event,no_event,no_event,no_event,0,2.47
+HOBBIES_2_005_TX_2_evaluation,HOBBIES_2_005,HOBBIES_2,HOBBIES,TX_2,TX,0,2016-04-25,11613,no_event,no_event,no_event,no_event,0,4.47
+HOBBIES_2_006_TX_2_evaluation,HOBBIES_2_006,HOBBIES_2,HOBBIES,TX_2,TX,0,2016-04-25,11613,no_event,no_event,no_event,no_event,0,3.97
+HOBBIES_2_007_TX_2_evaluation,HOBBIES_2_007,HOBBIES_2,HOBBIES,TX_2,TX,1,2016-04-25,11613,no_event,no_event,no_event,no_event,0,0.97
+HOBBIES_2_008_TX_2_evaluation,HOBBIES_2_008,HOBBIES_2,HOBBIES,TX_2,TX,0,2016-04-25,11613,no_event,no_event,no_event,no_event,0,3.88
+HOBBIES_2_009_TX_2_evaluation,HOBBIES_2_009,HOBBIES_2,HOBBIES,TX_2,TX,3,2016-04-25,11613,no_event,no_event,no_event,no_event,0,5.97
+HOBBIES_2_010_TX_2_evaluation,HOBBIES_2_010,HOBBIES_2,HOBBIES,TX_2,TX,0,2016-04-25,11613,no_event,no_event,no_event,no_event,0,0.97
+HOBBIES_2_001_TX_3_evaluation,HOBBIES_2_001,HOBBIES_2,HOBBIES,TX_3,TX,0,2016-04-25,11613,no_event,no_event,no_event,no_event,0,5.47
+HOBBIES_2_002_TX_3_evaluation,HOBBIES_2_002,HOBBIES_2,HOBBIES,TX_3,TX,0,2016-04-25,11613,no_event,no_event,no_event,no_event,0,1.47
+HOBBIES_2_003_TX_3_evaluation,HOBBIES_2_003,HOBBIES_2,HOBBIES,TX_3,TX,2,2016-04-25,11613,no_event,no_event,no_event,no_event,0,1.97
+HOBBIES_2_004_TX_3_evaluation,HOBBIES_2_004,HOBBIES_2,HOBBIES,TX_3,TX,0,2016-04-25,11613,no_event,no_event,no_event,no_event,0,2.47
+HOBBIES_2_005_TX_3_evaluation,HOBBIES_2_005,HOBBIES_2,HOBBIES,TX_3,TX,0,2016-04-25,11613,no_event,no_event,no_event,no_event,0,4.47
+HOBBIES_2_006_TX_3_evaluation,HOBBIES_2_006,HOBBIES_2,HOBBIES,TX_3,TX,0,2016-04-25,11613,no_event,no_event,no_event,no_event,0,3.97
+HOBBIES_2_007_TX_3_evaluation,HOBBIES_2_007,HOBBIES_2,HOBBIES,TX_3,TX,0,2016-04-25,11613,no_event,no_event,no_event,no_event,0,0.97
+HOBBIES_2_008_TX_3_evaluation,HOBBIES_2_008,HOBBIES_2,HOBBIES,TX_3,TX,0,2016-04-25,11613,no_event,no_event,no_event,no_event,0,3.88
+HOBBIES_2_009_TX_3_evaluation,HOBBIES_2_009,HOBBIES_2,HOBBIES,TX_3,TX,0,2016-04-25,11613,no_event,no_event,no_event,no_event,0,5.97
+HOBBIES_2_010_TX_3_evaluation,HOBBIES_2_010,HOBBIES_2,HOBBIES,TX_3,TX,0,2016-04-25,11613,no_event,no_event,no_event,no_event,0,0.97
+HOBBIES_2_001_TX_1_evaluation,HOBBIES_2_001,HOBBIES_2,HOBBIES,TX_1,TX,0,2016-04-26,11613,no_event,no_event,no_event,no_event,0,5.47
+HOBBIES_2_002_TX_1_evaluation,HOBBIES_2_002,HOBBIES_2,HOBBIES,TX_1,TX,0,2016-04-26,11613,no_event,no_event,no_event,no_event,0,1.47
+HOBBIES_2_003_TX_1_evaluation,HOBBIES_2_003,HOBBIES_2,HOBBIES,TX_1,TX,1,2016-04-26,11613,no_event,no_event,no_event,no_event,0,1.97
+HOBBIES_2_004_TX_1_evaluation,HOBBIES_2_004,HOBBIES_2,HOBBIES,TX_1,TX,0,2016-04-26,11613,no_event,no_event,no_event,no_event,0,2.47
+HOBBIES_2_005_TX_1_evaluation,HOBBIES_2_005,HOBBIES_2,HOBBIES,TX_1,TX,0,2016-04-26,11613,no_event,no_event,no_event,no_event,0,4.47
+HOBBIES_2_006_TX_1_evaluation,HOBBIES_2_006,HOBBIES_2,HOBBIES,TX_1,TX,0,2016-04-26,11613,no_event,no_event,no_event,no_event,0,3.97
+HOBBIES_2_007_TX_1_evaluation,HOBBIES_2_007,HOBBIES_2,HOBBIES,TX_1,TX,0,2016-04-26,11613,no_event,no_event,no_event,no_event,0,0.97
+HOBBIES_2_008_TX_1_evaluation,HOBBIES_2_008,HOBBIES_2,HOBBIES,TX_1,TX,0,2016-04-26,11613,no_event,no_event,no_event,no_event,0,3.88
+HOBBIES_2_009_TX_1_evaluation,HOBBIES_2_009,HOBBIES_2,HOBBIES,TX_1,TX,0,2016-04-26,11613,no_event,no_event,no_event,no_event,0,5.97
+HOBBIES_2_010_TX_1_evaluation,HOBBIES_2_010,HOBBIES_2,HOBBIES,TX_1,TX,1,2016-04-26,11613,no_event,no_event,no_event,no_event,0,0.97
+HOBBIES_2_001_TX_2_evaluation,HOBBIES_2_001,HOBBIES_2,HOBBIES,TX_2,TX,0,2016-04-26,11613,no_event,no_event,no_event,no_event,0,5.47
+HOBBIES_2_002_TX_2_evaluation,HOBBIES_2_002,HOBBIES_2,HOBBIES,TX_2,TX,0,2016-04-26,11613,no_event,no_event,no_event,no_event,0,1.47
+HOBBIES_2_003_TX_2_evaluation,HOBBIES_2_003,HOBBIES_2,HOBBIES,TX_2,TX,1,2016-04-26,11613,no_event,no_event,no_event,no_event,0,1.97
+HOBBIES_2_004_TX_2_evaluation,HOBBIES_2_004,HOBBIES_2,HOBBIES,TX_2,TX,0,2016-04-26,11613,no_event,no_event,no_event,no_event,0,2.47
+HOBBIES_2_005_TX_2_evaluation,HOBBIES_2_005,HOBBIES_2,HOBBIES,TX_2,TX,0,2016-04-26,11613,no_event,no_event,no_event,no_event,0,4.47
+HOBBIES_2_006_TX_2_evaluation,HOBBIES_2_006,HOBBIES_2,HOBBIES,TX_2,TX,0,2016-04-26,11613,no_event,no_event,no_event,no_event,0,3.97
+HOBBIES_2_007_TX_2_evaluation,HOBBIES_2_007,HOBBIES_2,HOBBIES,TX_2,TX,0,2016-04-26,11613,no_event,no_event,no_event,no_event,0,0.97
+HOBBIES_2_008_TX_2_evaluation,HOBBIES_2_008,HOBBIES_2,HOBBIES,TX_2,TX,0,2016-04-26,11613,no_event,no_event,no_event,no_event,0,3.88
+HOBBIES_2_009_TX_2_evaluation,HOBBIES_2_009,HOBBIES_2,HOBBIES,TX_2,TX,3,2016-04-26,11613,no_event,no_event,no_event,no_event,0,5.97
+HOBBIES_2_010_TX_2_evaluation,HOBBIES_2_010,HOBBIES_2,HOBBIES,TX_2,TX,0,2016-04-26,11613,no_event,no_event,no_event,no_event,0,0.97
+HOBBIES_2_001_TX_3_evaluation,HOBBIES_2_001,HOBBIES_2,HOBBIES,TX_3,TX,0,2016-04-26,11613,no_event,no_event,no_event,no_event,0,5.47
+HOBBIES_2_002_TX_3_evaluation,HOBBIES_2_002,HOBBIES_2,HOBBIES,TX_3,TX,0,2016-04-26,11613,no_event,no_event,no_event,no_event,0,1.47
+HOBBIES_2_003_TX_3_evaluation,HOBBIES_2_003,HOBBIES_2,HOBBIES,TX_3,TX,1,2016-04-26,11613,no_event,no_event,no_event,no_event,0,1.97
+HOBBIES_2_004_TX_3_evaluation,HOBBIES_2_004,HOBBIES_2,HOBBIES,TX_3,TX,0,2016-04-26,11613,no_event,no_event,no_event,no_event,0,2.47
+HOBBIES_2_005_TX_3_evaluation,HOBBIES_2_005,HOBBIES_2,HOBBIES,TX_3,TX,0,2016-04-26,11613,no_event,no_event,no_event,no_event,0,4.47
+HOBBIES_2_006_TX_3_evaluation,HOBBIES_2_006,HOBBIES_2,HOBBIES,TX_3,TX,0,2016-04-26,11613,no_event,no_event,no_event,no_event,0,3.97
+HOBBIES_2_007_TX_3_evaluation,HOBBIES_2_007,HOBBIES_2,HOBBIES,TX_3,TX,0,2016-04-26,11613,no_event,no_event,no_event,no_event,0,0.97
+HOBBIES_2_008_TX_3_evaluation,HOBBIES_2_008,HOBBIES_2,HOBBIES,TX_3,TX,0,2016-04-26,11613,no_event,no_event,no_event,no_event,0,3.88
+HOBBIES_2_009_TX_3_evaluation,HOBBIES_2_009,HOBBIES_2,HOBBIES,TX_3,TX,0,2016-04-26,11613,no_event,no_event,no_event,no_event,0,5.97
+HOBBIES_2_010_TX_3_evaluation,HOBBIES_2_010,HOBBIES_2,HOBBIES,TX_3,TX,0,2016-04-26,11613,no_event,no_event,no_event,no_event,0,0.97
+HOBBIES_2_001_TX_1_evaluation,HOBBIES_2_001,HOBBIES_2,HOBBIES,TX_1,TX,0,2016-04-27,11613,no_event,no_event,no_event,no_event,0,5.47
+HOBBIES_2_002_TX_1_evaluation,HOBBIES_2_002,HOBBIES_2,HOBBIES,TX_1,TX,0,2016-04-27,11613,no_event,no_event,no_event,no_event,0,1.47
+HOBBIES_2_003_TX_1_evaluation,HOBBIES_2_003,HOBBIES_2,HOBBIES,TX_1,TX,1,2016-04-27,11613,no_event,no_event,no_event,no_event,0,1.97
+HOBBIES_2_004_TX_1_evaluation,HOBBIES_2_004,HOBBIES_2,HOBBIES,TX_1,TX,0,2016-04-27,11613,no_event,no_event,no_event,no_event,0,2.47
+HOBBIES_2_005_TX_1_evaluation,HOBBIES_2_005,HOBBIES_2,HOBBIES,TX_1,TX,0,2016-04-27,11613,no_event,no_event,no_event,no_event,0,4.47
+HOBBIES_2_006_TX_1_evaluation,HOBBIES_2_006,HOBBIES_2,HOBBIES,TX_1,TX,0,2016-04-27,11613,no_event,no_event,no_event,no_event,0,3.97
+HOBBIES_2_007_TX_1_evaluation,HOBBIES_2_007,HOBBIES_2,HOBBIES,TX_1,TX,0,2016-04-27,11613,no_event,no_event,no_event,no_event,0,0.97
+HOBBIES_2_008_TX_1_evaluation,HOBBIES_2_008,HOBBIES_2,HOBBIES,TX_1,TX,0,2016-04-27,11613,no_event,no_event,no_event,no_event,0,3.88
+HOBBIES_2_009_TX_1_evaluation,HOBBIES_2_009,HOBBIES_2,HOBBIES,TX_1,TX,0,2016-04-27,11613,no_event,no_event,no_event,no_event,0,5.97
+HOBBIES_2_010_TX_1_evaluation,HOBBIES_2_010,HOBBIES_2,HOBBIES,TX_1,TX,0,2016-04-27,11613,no_event,no_event,no_event,no_event,0,0.97
+HOBBIES_2_001_TX_2_evaluation,HOBBIES_2_001,HOBBIES_2,HOBBIES,TX_2,TX,0,2016-04-27,11613,no_event,no_event,no_event,no_event,0,5.47
+HOBBIES_2_002_TX_2_evaluation,HOBBIES_2_002,HOBBIES_2,HOBBIES,TX_2,TX,1,2016-04-27,11613,no_event,no_event,no_event,no_event,0,1.47
+HOBBIES_2_003_TX_2_evaluation,HOBBIES_2_003,HOBBIES_2,HOBBIES,TX_2,TX,3,2016-04-27,11613,no_event,no_event,no_event,no_event,0,1.97
+HOBBIES_2_004_TX_2_evaluation,HOBBIES_2_004,HOBBIES_2,HOBBIES,TX_2,TX,0,2016-04-27,11613,no_event,no_event,no_event,no_event,0,2.47
+HOBBIES_2_005_TX_2_evaluation,HOBBIES_2_005,HOBBIES_2,HOBBIES,TX_2,TX,0,2016-04-27,11613,no_event,no_event,no_event,no_event,0,4.47
+HOBBIES_2_006_TX_2_evaluation,HOBBIES_2_006,HOBBIES_2,HOBBIES,TX_2,TX,0,2016-04-27,11613,no_event,no_event,no_event,no_event,0,3.97
+HOBBIES_2_007_TX_2_evaluation,HOBBIES_2_007,HOBBIES_2,HOBBIES,TX_2,TX,1,2016-04-27,11613,no_event,no_event,no_event,no_event,0,0.97
+HOBBIES_2_008_TX_2_evaluation,HOBBIES_2_008,HOBBIES_2,HOBBIES,TX_2,TX,0,2016-04-27,11613,no_event,no_event,no_event,no_event,0,3.88
+HOBBIES_2_009_TX_2_evaluation,HOBBIES_2_009,HOBBIES_2,HOBBIES,TX_2,TX,2,2016-04-27,11613,no_event,no_event,no_event,no_event,0,5.97
+HOBBIES_2_010_TX_2_evaluation,HOBBIES_2_010,HOBBIES_2,HOBBIES,TX_2,TX,0,2016-04-27,11613,no_event,no_event,no_event,no_event,0,0.97
+HOBBIES_2_001_TX_3_evaluation,HOBBIES_2_001,HOBBIES_2,HOBBIES,TX_3,TX,0,2016-04-27,11613,no_event,no_event,no_event,no_event,0,5.47
+HOBBIES_2_002_TX_3_evaluation,HOBBIES_2_002,HOBBIES_2,HOBBIES,TX_3,TX,1,2016-04-27,11613,no_event,no_event,no_event,no_event,0,1.47
+HOBBIES_2_003_TX_3_evaluation,HOBBIES_2_003,HOBBIES_2,HOBBIES,TX_3,TX,0,2016-04-27,11613,no_event,no_event,no_event,no_event,0,1.97
+HOBBIES_2_004_TX_3_evaluation,HOBBIES_2_004,HOBBIES_2,HOBBIES,TX_3,TX,0,2016-04-27,11613,no_event,no_event,no_event,no_event,0,2.47
+HOBBIES_2_005_TX_3_evaluation,HOBBIES_2_005,HOBBIES_2,HOBBIES,TX_3,TX,1,2016-04-27,11613,no_event,no_event,no_event,no_event,0,4.47
+HOBBIES_2_006_TX_3_evaluation,HOBBIES_2_006,HOBBIES_2,HOBBIES,TX_3,TX,0,2016-04-27,11613,no_event,no_event,no_event,no_event,0,3.97
+HOBBIES_2_007_TX_3_evaluation,HOBBIES_2_007,HOBBIES_2,HOBBIES,TX_3,TX,1,2016-04-27,11613,no_event,no_event,no_event,no_event,0,0.97
+HOBBIES_2_008_TX_3_evaluation,HOBBIES_2_008,HOBBIES_2,HOBBIES,TX_3,TX,0,2016-04-27,11613,no_event,no_event,no_event,no_event,0,3.88
+HOBBIES_2_009_TX_3_evaluation,HOBBIES_2_009,HOBBIES_2,HOBBIES,TX_3,TX,0,2016-04-27,11613,no_event,no_event,no_event,no_event,0,5.97
+HOBBIES_2_010_TX_3_evaluation,HOBBIES_2_010,HOBBIES_2,HOBBIES,TX_3,TX,0,2016-04-27,11613,no_event,no_event,no_event,no_event,0,0.97
+HOBBIES_2_001_TX_1_evaluation,HOBBIES_2_001,HOBBIES_2,HOBBIES,TX_1,TX,0,2016-04-28,11613,no_event,no_event,no_event,no_event,0,5.47
+HOBBIES_2_002_TX_1_evaluation,HOBBIES_2_002,HOBBIES_2,HOBBIES,TX_1,TX,0,2016-04-28,11613,no_event,no_event,no_event,no_event,0,1.47
+HOBBIES_2_003_TX_1_evaluation,HOBBIES_2_003,HOBBIES_2,HOBBIES,TX_1,TX,1,2016-04-28,11613,no_event,no_event,no_event,no_event,0,1.97
+HOBBIES_2_004_TX_1_evaluation,HOBBIES_2_004,HOBBIES_2,HOBBIES,TX_1,TX,0,2016-04-28,11613,no_event,no_event,no_event,no_event,0,2.47
+HOBBIES_2_005_TX_1_evaluation,HOBBIES_2_005,HOBBIES_2,HOBBIES,TX_1,TX,0,2016-04-28,11613,no_event,no_event,no_event,no_event,0,4.47
+HOBBIES_2_006_TX_1_evaluation,HOBBIES_2_006,HOBBIES_2,HOBBIES,TX_1,TX,0,2016-04-28,11613,no_event,no_event,no_event,no_event,0,3.97
+HOBBIES_2_007_TX_1_evaluation,HOBBIES_2_007,HOBBIES_2,HOBBIES,TX_1,TX,0,2016-04-28,11613,no_event,no_event,no_event,no_event,0,0.97
+HOBBIES_2_008_TX_1_evaluation,HOBBIES_2_008,HOBBIES_2,HOBBIES,TX_1,TX,0,2016-04-28,11613,no_event,no_event,no_event,no_event,0,3.88
+HOBBIES_2_009_TX_1_evaluation,HOBBIES_2_009,HOBBIES_2,HOBBIES,TX_1,TX,0,2016-04-28,11613,no_event,no_event,no_event,no_event,0,5.97
+HOBBIES_2_010_TX_1_evaluation,HOBBIES_2_010,HOBBIES_2,HOBBIES,TX_1,TX,0,2016-04-28,11613,no_event,no_event,no_event,no_event,0,0.97
+HOBBIES_2_001_TX_2_evaluation,HOBBIES_2_001,HOBBIES_2,HOBBIES,TX_2,TX,1,2016-04-28,11613,no_event,no_event,no_event,no_event,0,5.47
+HOBBIES_2_002_TX_2_evaluation,HOBBIES_2_002,HOBBIES_2,HOBBIES,TX_2,TX,0,2016-04-28,11613,no_event,no_event,no_event,no_event,0,1.47
+HOBBIES_2_003_TX_2_evaluation,HOBBIES_2_003,HOBBIES_2,HOBBIES,TX_2,TX,0,2016-04-28,11613,no_event,no_event,no_event,no_event,0,1.97
+HOBBIES_2_004_TX_2_evaluation,HOBBIES_2_004,HOBBIES_2,HOBBIES,TX_2,TX,0,2016-04-28,11613,no_event,no_event,no_event,no_event,0,2.47
+HOBBIES_2_005_TX_2_evaluation,HOBBIES_2_005,HOBBIES_2,HOBBIES,TX_2,TX,1,2016-04-28,11613,no_event,no_event,no_event,no_event,0,4.47
+HOBBIES_2_006_TX_2_evaluation,HOBBIES_2_006,HOBBIES_2,HOBBIES,TX_2,TX,0,2016-04-28,11613,no_event,no_event,no_event,no_event,0,3.97
+HOBBIES_2_007_TX_2_evaluation,HOBBIES_2_007,HOBBIES_2,HOBBIES,TX_2,TX,1,2016-04-28,11613,no_event,no_event,no_event,no_event,0,0.97
+HOBBIES_2_008_TX_2_evaluation,HOBBIES_2_008,HOBBIES_2,HOBBIES,TX_2,TX,0,2016-04-28,11613,no_event,no_event,no_event,no_event,0,3.88
+HOBBIES_2_009_TX_2_evaluation,HOBBIES_2_009,HOBBIES_2,HOBBIES,TX_2,TX,3,2016-04-28,11613,no_event,no_event,no_event,no_event,0,5.97
+HOBBIES_2_010_TX_2_evaluation,HOBBIES_2_010,HOBBIES_2,HOBBIES,TX_2,TX,0,2016-04-28,11613,no_event,no_event,no_event,no_event,0,0.97
+HOBBIES_2_001_TX_3_evaluation,HOBBIES_2_001,HOBBIES_2,HOBBIES,TX_3,TX,0,2016-04-28,11613,no_event,no_event,no_event,no_event,0,5.47
+HOBBIES_2_002_TX_3_evaluation,HOBBIES_2_002,HOBBIES_2,HOBBIES,TX_3,TX,0,2016-04-28,11613,no_event,no_event,no_event,no_event,0,1.47
+HOBBIES_2_003_TX_3_evaluation,HOBBIES_2_003,HOBBIES_2,HOBBIES,TX_3,TX,2,2016-04-28,11613,no_event,no_event,no_event,no_event,0,1.97
+HOBBIES_2_004_TX_3_evaluation,HOBBIES_2_004,HOBBIES_2,HOBBIES,TX_3,TX,0,2016-04-28,11613,no_event,no_event,no_event,no_event,0,2.47
+HOBBIES_2_005_TX_3_evaluation,HOBBIES_2_005,HOBBIES_2,HOBBIES,TX_3,TX,0,2016-04-28,11613,no_event,no_event,no_event,no_event,0,4.47
+HOBBIES_2_006_TX_3_evaluation,HOBBIES_2_006,HOBBIES_2,HOBBIES,TX_3,TX,1,2016-04-28,11613,no_event,no_event,no_event,no_event,0,3.97
+HOBBIES_2_007_TX_3_evaluation,HOBBIES_2_007,HOBBIES_2,HOBBIES,TX_3,TX,0,2016-04-28,11613,no_event,no_event,no_event,no_event,0,0.97
+HOBBIES_2_008_TX_3_evaluation,HOBBIES_2_008,HOBBIES_2,HOBBIES,TX_3,TX,0,2016-04-28,11613,no_event,no_event,no_event,no_event,0,3.88
+HOBBIES_2_009_TX_3_evaluation,HOBBIES_2_009,HOBBIES_2,HOBBIES,TX_3,TX,0,2016-04-28,11613,no_event,no_event,no_event,no_event,0,5.97
+HOBBIES_2_010_TX_3_evaluation,HOBBIES_2_010,HOBBIES_2,HOBBIES,TX_3,TX,1,2016-04-28,11613,no_event,no_event,no_event,no_event,0,0.97
+HOBBIES_2_001_TX_1_evaluation,HOBBIES_2_001,HOBBIES_2,HOBBIES,TX_1,TX,0,2016-04-29,11613,no_event,no_event,no_event,no_event,0,5.47
+HOBBIES_2_002_TX_1_evaluation,HOBBIES_2_002,HOBBIES_2,HOBBIES,TX_1,TX,0,2016-04-29,11613,no_event,no_event,no_event,no_event,0,1.47
+HOBBIES_2_003_TX_1_evaluation,HOBBIES_2_003,HOBBIES_2,HOBBIES,TX_1,TX,2,2016-04-29,11613,no_event,no_event,no_event,no_event,0,1.97
+HOBBIES_2_004_TX_1_evaluation,HOBBIES_2_004,HOBBIES_2,HOBBIES,TX_1,TX,0,2016-04-29,11613,no_event,no_event,no_event,no_event,0,2.47
+HOBBIES_2_005_TX_1_evaluation,HOBBIES_2_005,HOBBIES_2,HOBBIES,TX_1,TX,0,2016-04-29,11613,no_event,no_event,no_event,no_event,0,4.47
+HOBBIES_2_006_TX_1_evaluation,HOBBIES_2_006,HOBBIES_2,HOBBIES,TX_1,TX,0,2016-04-29,11613,no_event,no_event,no_event,no_event,0,3.97
+HOBBIES_2_007_TX_1_evaluation,HOBBIES_2_007,HOBBIES_2,HOBBIES,TX_1,TX,0,2016-04-29,11613,no_event,no_event,no_event,no_event,0,0.97
+HOBBIES_2_008_TX_1_evaluation,HOBBIES_2_008,HOBBIES_2,HOBBIES,TX_1,TX,0,2016-04-29,11613,no_event,no_event,no_event,no_event,0,3.88
+HOBBIES_2_009_TX_1_evaluation,HOBBIES_2_009,HOBBIES_2,HOBBIES,TX_1,TX,0,2016-04-29,11613,no_event,no_event,no_event,no_event,0,5.97
+HOBBIES_2_010_TX_1_evaluation,HOBBIES_2_010,HOBBIES_2,HOBBIES,TX_1,TX,0,2016-04-29,11613,no_event,no_event,no_event,no_event,0,0.97
+HOBBIES_2_001_TX_2_evaluation,HOBBIES_2_001,HOBBIES_2,HOBBIES,TX_2,TX,0,2016-04-29,11613,no_event,no_event,no_event,no_event,0,5.47
+HOBBIES_2_002_TX_2_evaluation,HOBBIES_2_002,HOBBIES_2,HOBBIES,TX_2,TX,0,2016-04-29,11613,no_event,no_event,no_event,no_event,0,1.47
+HOBBIES_2_003_TX_2_evaluation,HOBBIES_2_003,HOBBIES_2,HOBBIES,TX_2,TX,0,2016-04-29,11613,no_event,no_event,no_event,no_event,0,1.97
+HOBBIES_2_004_TX_2_evaluation,HOBBIES_2_004,HOBBIES_2,HOBBIES,TX_2,TX,0,2016-04-29,11613,no_event,no_event,no_event,no_event,0,2.47
+HOBBIES_2_005_TX_2_evaluation,HOBBIES_2_005,HOBBIES_2,HOBBIES,TX_2,TX,0,2016-04-29,11613,no_event,no_event,no_event,no_event,0,4.47
+HOBBIES_2_006_TX_2_evaluation,HOBBIES_2_006,HOBBIES_2,HOBBIES,TX_2,TX,0,2016-04-29,11613,no_event,no_event,no_event,no_event,0,3.97
+HOBBIES_2_007_TX_2_evaluation,HOBBIES_2_007,HOBBIES_2,HOBBIES,TX_2,TX,1,2016-04-29,11613,no_event,no_event,no_event,no_event,0,0.97
+HOBBIES_2_008_TX_2_evaluation,HOBBIES_2_008,HOBBIES_2,HOBBIES,TX_2,TX,0,2016-04-29,11613,no_event,no_event,no_event,no_event,0,3.88
+HOBBIES_2_009_TX_2_evaluation,HOBBIES_2_009,HOBBIES_2,HOBBIES,TX_2,TX,1,2016-04-29,11613,no_event,no_event,no_event,no_event,0,5.97
+HOBBIES_2_010_TX_2_evaluation,HOBBIES_2_010,HOBBIES_2,HOBBIES,TX_2,TX,0,2016-04-29,11613,no_event,no_event,no_event,no_event,0,0.97
+HOBBIES_2_001_TX_3_evaluation,HOBBIES_2_001,HOBBIES_2,HOBBIES,TX_3,TX,1,2016-04-29,11613,no_event,no_event,no_event,no_event,0,5.47
+HOBBIES_2_002_TX_3_evaluation,HOBBIES_2_002,HOBBIES_2,HOBBIES,TX_3,TX,0,2016-04-29,11613,no_event,no_event,no_event,no_event,0,1.47
+HOBBIES_2_003_TX_3_evaluation,HOBBIES_2_003,HOBBIES_2,HOBBIES,TX_3,TX,1,2016-04-29,11613,no_event,no_event,no_event,no_event,0,1.97
+HOBBIES_2_004_TX_3_evaluation,HOBBIES_2_004,HOBBIES_2,HOBBIES,TX_3,TX,0,2016-04-29,11613,no_event,no_event,no_event,no_event,0,2.47
+HOBBIES_2_005_TX_3_evaluation,HOBBIES_2_005,HOBBIES_2,HOBBIES,TX_3,TX,1,2016-04-29,11613,no_event,no_event,no_event,no_event,0,4.47
+HOBBIES_2_006_TX_3_evaluation,HOBBIES_2_006,HOBBIES_2,HOBBIES,TX_3,TX,0,2016-04-29,11613,no_event,no_event,no_event,no_event,0,3.97
+HOBBIES_2_007_TX_3_evaluation,HOBBIES_2_007,HOBBIES_2,HOBBIES,TX_3,TX,0,2016-04-29,11613,no_event,no_event,no_event,no_event,0,0.97
+HOBBIES_2_008_TX_3_evaluation,HOBBIES_2_008,HOBBIES_2,HOBBIES,TX_3,TX,0,2016-04-29,11613,no_event,no_event,no_event,no_event,0,3.88
+HOBBIES_2_009_TX_3_evaluation,HOBBIES_2_009,HOBBIES_2,HOBBIES,TX_3,TX,0,2016-04-29,11613,no_event,no_event,no_event,no_event,0,5.97
+HOBBIES_2_010_TX_3_evaluation,HOBBIES_2_010,HOBBIES_2,HOBBIES,TX_3,TX,0,2016-04-29,11613,no_event,no_event,no_event,no_event,0,0.97
+HOBBIES_2_001_TX_1_evaluation,HOBBIES_2_001,HOBBIES_2,HOBBIES,TX_1,TX,0,2016-04-30,11614,Pesach End,Religious,no_event,no_event,0,5.47
+HOBBIES_2_002_TX_1_evaluation,HOBBIES_2_002,HOBBIES_2,HOBBIES,TX_1,TX,0,2016-04-30,11614,Pesach End,Religious,no_event,no_event,0,1.47
+HOBBIES_2_003_TX_1_evaluation,HOBBIES_2_003,HOBBIES_2,HOBBIES,TX_1,TX,3,2016-04-30,11614,Pesach End,Religious,no_event,no_event,0,1.97
+HOBBIES_2_004_TX_1_evaluation,HOBBIES_2_004,HOBBIES_2,HOBBIES,TX_1,TX,0,2016-04-30,11614,Pesach End,Religious,no_event,no_event,0,2.47
+HOBBIES_2_005_TX_1_evaluation,HOBBIES_2_005,HOBBIES_2,HOBBIES,TX_1,TX,0,2016-04-30,11614,Pesach End,Religious,no_event,no_event,0,4.47
+HOBBIES_2_006_TX_1_evaluation,HOBBIES_2_006,HOBBIES_2,HOBBIES,TX_1,TX,0,2016-04-30,11614,Pesach End,Religious,no_event,no_event,0,3.97
+HOBBIES_2_007_TX_1_evaluation,HOBBIES_2_007,HOBBIES_2,HOBBIES,TX_1,TX,0,2016-04-30,11614,Pesach End,Religious,no_event,no_event,0,0.97
+HOBBIES_2_008_TX_1_evaluation,HOBBIES_2_008,HOBBIES_2,HOBBIES,TX_1,TX,0,2016-04-30,11614,Pesach End,Religious,no_event,no_event,0,3.88
+HOBBIES_2_009_TX_1_evaluation,HOBBIES_2_009,HOBBIES_2,HOBBIES,TX_1,TX,0,2016-04-30,11614,Pesach End,Religious,no_event,no_event,0,5.97
+HOBBIES_2_010_TX_1_evaluation,HOBBIES_2_010,HOBBIES_2,HOBBIES,TX_1,TX,1,2016-04-30,11614,Pesach End,Religious,no_event,no_event,0,0.97
+HOBBIES_2_001_TX_2_evaluation,HOBBIES_2_001,HOBBIES_2,HOBBIES,TX_2,TX,1,2016-04-30,11614,Pesach End,Religious,no_event,no_event,0,5.47
+HOBBIES_2_002_TX_2_evaluation,HOBBIES_2_002,HOBBIES_2,HOBBIES,TX_2,TX,0,2016-04-30,11614,Pesach End,Religious,no_event,no_event,0,1.47
+HOBBIES_2_003_TX_2_evaluation,HOBBIES_2_003,HOBBIES_2,HOBBIES,TX_2,TX,3,2016-04-30,11614,Pesach End,Religious,no_event,no_event,0,1.97
+HOBBIES_2_004_TX_2_evaluation,HOBBIES_2_004,HOBBIES_2,HOBBIES,TX_2,TX,0,2016-04-30,11614,Pesach End,Religious,no_event,no_event,0,2.47
+HOBBIES_2_005_TX_2_evaluation,HOBBIES_2_005,HOBBIES_2,HOBBIES,TX_2,TX,1,2016-04-30,11614,Pesach End,Religious,no_event,no_event,0,4.47
+HOBBIES_2_006_TX_2_evaluation,HOBBIES_2_006,HOBBIES_2,HOBBIES,TX_2,TX,0,2016-04-30,11614,Pesach End,Religious,no_event,no_event,0,3.97
+HOBBIES_2_007_TX_2_evaluation,HOBBIES_2_007,HOBBIES_2,HOBBIES,TX_2,TX,0,2016-04-30,11614,Pesach End,Religious,no_event,no_event,0,0.97
+HOBBIES_2_008_TX_2_evaluation,HOBBIES_2_008,HOBBIES_2,HOBBIES,TX_2,TX,0,2016-04-30,11614,Pesach End,Religious,no_event,no_event,0,3.88
+HOBBIES_2_009_TX_2_evaluation,HOBBIES_2_009,HOBBIES_2,HOBBIES,TX_2,TX,0,2016-04-30,11614,Pesach End,Religious,no_event,no_event,0,5.97
+HOBBIES_2_010_TX_2_evaluation,HOBBIES_2_010,HOBBIES_2,HOBBIES,TX_2,TX,0,2016-04-30,11614,Pesach End,Religious,no_event,no_event,0,0.97
+HOBBIES_2_001_TX_3_evaluation,HOBBIES_2_001,HOBBIES_2,HOBBIES,TX_3,TX,0,2016-04-30,11614,Pesach End,Religious,no_event,no_event,0,5.47
+HOBBIES_2_002_TX_3_evaluation,HOBBIES_2_002,HOBBIES_2,HOBBIES,TX_3,TX,1,2016-04-30,11614,Pesach End,Religious,no_event,no_event,0,1.47
+HOBBIES_2_003_TX_3_evaluation,HOBBIES_2_003,HOBBIES_2,HOBBIES,TX_3,TX,2,2016-04-30,11614,Pesach End,Religious,no_event,no_event,0,1.97
+HOBBIES_2_004_TX_3_evaluation,HOBBIES_2_004,HOBBIES_2,HOBBIES,TX_3,TX,0,2016-04-30,11614,Pesach End,Religious,no_event,no_event,0,2.47
+HOBBIES_2_005_TX_3_evaluation,HOBBIES_2_005,HOBBIES_2,HOBBIES,TX_3,TX,0,2016-04-30,11614,Pesach End,Religious,no_event,no_event,0,4.47
+HOBBIES_2_006_TX_3_evaluation,HOBBIES_2_006,HOBBIES_2,HOBBIES,TX_3,TX,0,2016-04-30,11614,Pesach End,Religious,no_event,no_event,0,3.97
+HOBBIES_2_007_TX_3_evaluation,HOBBIES_2_007,HOBBIES_2,HOBBIES,TX_3,TX,0,2016-04-30,11614,Pesach End,Religious,no_event,no_event,0,0.97
+HOBBIES_2_008_TX_3_evaluation,HOBBIES_2_008,HOBBIES_2,HOBBIES,TX_3,TX,0,2016-04-30,11614,Pesach End,Religious,no_event,no_event,0,3.88
+HOBBIES_2_009_TX_3_evaluation,HOBBIES_2_009,HOBBIES_2,HOBBIES,TX_3,TX,0,2016-04-30,11614,Pesach End,Religious,no_event,no_event,0,5.97
+HOBBIES_2_010_TX_3_evaluation,HOBBIES_2_010,HOBBIES_2,HOBBIES,TX_3,TX,0,2016-04-30,11614,Pesach End,Religious,no_event,no_event,0,0.97
+HOBBIES_2_001_TX_1_evaluation,HOBBIES_2_001,HOBBIES_2,HOBBIES,TX_1,TX,0,2016-05-01,11614,OrthodoxEaster,Religious,no_event,no_event,1,5.47
+HOBBIES_2_002_TX_1_evaluation,HOBBIES_2_002,HOBBIES_2,HOBBIES,TX_1,TX,0,2016-05-01,11614,OrthodoxEaster,Religious,no_event,no_event,1,1.47
+HOBBIES_2_003_TX_1_evaluation,HOBBIES_2_003,HOBBIES_2,HOBBIES,TX_1,TX,1,2016-05-01,11614,OrthodoxEaster,Religious,no_event,no_event,1,1.97
+HOBBIES_2_004_TX_1_evaluation,HOBBIES_2_004,HOBBIES_2,HOBBIES,TX_1,TX,1,2016-05-01,11614,OrthodoxEaster,Religious,no_event,no_event,1,2.47
+HOBBIES_2_005_TX_1_evaluation,HOBBIES_2_005,HOBBIES_2,HOBBIES,TX_1,TX,0,2016-05-01,11614,OrthodoxEaster,Religious,no_event,no_event,1,4.47
+HOBBIES_2_006_TX_1_evaluation,HOBBIES_2_006,HOBBIES_2,HOBBIES,TX_1,TX,0,2016-05-01,11614,OrthodoxEaster,Religious,no_event,no_event,1,3.97
+HOBBIES_2_007_TX_1_evaluation,HOBBIES_2_007,HOBBIES_2,HOBBIES,TX_1,TX,1,2016-05-01,11614,OrthodoxEaster,Religious,no_event,no_event,1,0.97
+HOBBIES_2_008_TX_1_evaluation,HOBBIES_2_008,HOBBIES_2,HOBBIES,TX_1,TX,1,2016-05-01,11614,OrthodoxEaster,Religious,no_event,no_event,1,3.88
+HOBBIES_2_009_TX_1_evaluation,HOBBIES_2_009,HOBBIES_2,HOBBIES,TX_1,TX,0,2016-05-01,11614,OrthodoxEaster,Religious,no_event,no_event,1,5.97
+HOBBIES_2_010_TX_1_evaluation,HOBBIES_2_010,HOBBIES_2,HOBBIES,TX_1,TX,0,2016-05-01,11614,OrthodoxEaster,Religious,no_event,no_event,1,0.97
+HOBBIES_2_001_TX_2_evaluation,HOBBIES_2_001,HOBBIES_2,HOBBIES,TX_2,TX,0,2016-05-01,11614,OrthodoxEaster,Religious,no_event,no_event,1,5.47
+HOBBIES_2_002_TX_2_evaluation,HOBBIES_2_002,HOBBIES_2,HOBBIES,TX_2,TX,0,2016-05-01,11614,OrthodoxEaster,Religious,no_event,no_event,1,1.47
+HOBBIES_2_003_TX_2_evaluation,HOBBIES_2_003,HOBBIES_2,HOBBIES,TX_2,TX,1,2016-05-01,11614,OrthodoxEaster,Religious,no_event,no_event,1,1.97
+HOBBIES_2_004_TX_2_evaluation,HOBBIES_2_004,HOBBIES_2,HOBBIES,TX_2,TX,0,2016-05-01,11614,OrthodoxEaster,Religious,no_event,no_event,1,2.47
+HOBBIES_2_005_TX_2_evaluation,HOBBIES_2_005,HOBBIES_2,HOBBIES,TX_2,TX,0,2016-05-01,11614,OrthodoxEaster,Religious,no_event,no_event,1,4.47
+HOBBIES_2_006_TX_2_evaluation,HOBBIES_2_006,HOBBIES_2,HOBBIES,TX_2,TX,0,2016-05-01,11614,OrthodoxEaster,Religious,no_event,no_event,1,3.97
+HOBBIES_2_007_TX_2_evaluation,HOBBIES_2_007,HOBBIES_2,HOBBIES,TX_2,TX,0,2016-05-01,11614,OrthodoxEaster,Religious,no_event,no_event,1,0.97
+HOBBIES_2_008_TX_2_evaluation,HOBBIES_2_008,HOBBIES_2,HOBBIES,TX_2,TX,0,2016-05-01,11614,OrthodoxEaster,Religious,no_event,no_event,1,3.88
+HOBBIES_2_009_TX_2_evaluation,HOBBIES_2_009,HOBBIES_2,HOBBIES,TX_2,TX,4,2016-05-01,11614,OrthodoxEaster,Religious,no_event,no_event,1,5.97
+HOBBIES_2_010_TX_2_evaluation,HOBBIES_2_010,HOBBIES_2,HOBBIES,TX_2,TX,0,2016-05-01,11614,OrthodoxEaster,Religious,no_event,no_event,1,0.97
+HOBBIES_2_001_TX_3_evaluation,HOBBIES_2_001,HOBBIES_2,HOBBIES,TX_3,TX,0,2016-05-01,11614,OrthodoxEaster,Religious,no_event,no_event,1,5.47
+HOBBIES_2_002_TX_3_evaluation,HOBBIES_2_002,HOBBIES_2,HOBBIES,TX_3,TX,0,2016-05-01,11614,OrthodoxEaster,Religious,no_event,no_event,1,1.47
+HOBBIES_2_003_TX_3_evaluation,HOBBIES_2_003,HOBBIES_2,HOBBIES,TX_3,TX,2,2016-05-01,11614,OrthodoxEaster,Religious,no_event,no_event,1,1.97
+HOBBIES_2_004_TX_3_evaluation,HOBBIES_2_004,HOBBIES_2,HOBBIES,TX_3,TX,1,2016-05-01,11614,OrthodoxEaster,Religious,no_event,no_event,1,2.47
+HOBBIES_2_005_TX_3_evaluation,HOBBIES_2_005,HOBBIES_2,HOBBIES,TX_3,TX,1,2016-05-01,11614,OrthodoxEaster,Religious,no_event,no_event,1,4.47
+HOBBIES_2_006_TX_3_evaluation,HOBBIES_2_006,HOBBIES_2,HOBBIES,TX_3,TX,0,2016-05-01,11614,OrthodoxEaster,Religious,no_event,no_event,1,3.97
+HOBBIES_2_007_TX_3_evaluation,HOBBIES_2_007,HOBBIES_2,HOBBIES,TX_3,TX,0,2016-05-01,11614,OrthodoxEaster,Religious,no_event,no_event,1,0.97
+HOBBIES_2_008_TX_3_evaluation,HOBBIES_2_008,HOBBIES_2,HOBBIES,TX_3,TX,0,2016-05-01,11614,OrthodoxEaster,Religious,no_event,no_event,1,3.88
+HOBBIES_2_009_TX_3_evaluation,HOBBIES_2_009,HOBBIES_2,HOBBIES,TX_3,TX,0,2016-05-01,11614,OrthodoxEaster,Religious,no_event,no_event,1,5.97
+HOBBIES_2_010_TX_3_evaluation,HOBBIES_2_010,HOBBIES_2,HOBBIES,TX_3,TX,0,2016-05-01,11614,OrthodoxEaster,Religious,no_event,no_event,1,0.97
+HOBBIES_2_001_TX_1_evaluation,HOBBIES_2_001,HOBBIES_2,HOBBIES,TX_1,TX,0,2016-05-02,11614,no_event,no_event,no_event,no_event,0,5.47
+HOBBIES_2_002_TX_1_evaluation,HOBBIES_2_002,HOBBIES_2,HOBBIES,TX_1,TX,0,2016-05-02,11614,no_event,no_event,no_event,no_event,0,1.47
+HOBBIES_2_003_TX_1_evaluation,HOBBIES_2_003,HOBBIES_2,HOBBIES,TX_1,TX,3,2016-05-02,11614,no_event,no_event,no_event,no_event,0,1.97
+HOBBIES_2_004_TX_1_evaluation,HOBBIES_2_004,HOBBIES_2,HOBBIES,TX_1,TX,0,2016-05-02,11614,no_event,no_event,no_event,no_event,0,2.47
+HOBBIES_2_005_TX_1_evaluation,HOBBIES_2_005,HOBBIES_2,HOBBIES,TX_1,TX,0,2016-05-02,11614,no_event,no_event,no_event,no_event,0,4.47
+HOBBIES_2_006_TX_1_evaluation,HOBBIES_2_006,HOBBIES_2,HOBBIES,TX_1,TX,0,2016-05-02,11614,no_event,no_event,no_event,no_event,0,3.97
+HOBBIES_2_007_TX_1_evaluation,HOBBIES_2_007,HOBBIES_2,HOBBIES,TX_1,TX,0,2016-05-02,11614,no_event,no_event,no_event,no_event,0,0.97
+HOBBIES_2_008_TX_1_evaluation,HOBBIES_2_008,HOBBIES_2,HOBBIES,TX_1,TX,0,2016-05-02,11614,no_event,no_event,no_event,no_event,0,3.88
+HOBBIES_2_009_TX_1_evaluation,HOBBIES_2_009,HOBBIES_2,HOBBIES,TX_1,TX,4,2016-05-02,11614,no_event,no_event,no_event,no_event,0,5.97
+HOBBIES_2_010_TX_1_evaluation,HOBBIES_2_010,HOBBIES_2,HOBBIES,TX_1,TX,0,2016-05-02,11614,no_event,no_event,no_event,no_event,0,0.97
+HOBBIES_2_001_TX_2_evaluation,HOBBIES_2_001,HOBBIES_2,HOBBIES,TX_2,TX,0,2016-05-02,11614,no_event,no_event,no_event,no_event,0,5.47
+HOBBIES_2_002_TX_2_evaluation,HOBBIES_2_002,HOBBIES_2,HOBBIES,TX_2,TX,0,2016-05-02,11614,no_event,no_event,no_event,no_event,0,1.47
+HOBBIES_2_003_TX_2_evaluation,HOBBIES_2_003,HOBBIES_2,HOBBIES,TX_2,TX,3,2016-05-02,11614,no_event,no_event,no_event,no_event,0,1.97
+HOBBIES_2_004_TX_2_evaluation,HOBBIES_2_004,HOBBIES_2,HOBBIES,TX_2,TX,0,2016-05-02,11614,no_event,no_event,no_event,no_event,0,2.47
+HOBBIES_2_005_TX_2_evaluation,HOBBIES_2_005,HOBBIES_2,HOBBIES,TX_2,TX,1,2016-05-02,11614,no_event,no_event,no_event,no_event,0,4.47
+HOBBIES_2_006_TX_2_evaluation,HOBBIES_2_006,HOBBIES_2,HOBBIES,TX_2,TX,0,2016-05-02,11614,no_event,no_event,no_event,no_event,0,3.97
+HOBBIES_2_007_TX_2_evaluation,HOBBIES_2_007,HOBBIES_2,HOBBIES,TX_2,TX,0,2016-05-02,11614,no_event,no_event,no_event,no_event,0,0.97
+HOBBIES_2_008_TX_2_evaluation,HOBBIES_2_008,HOBBIES_2,HOBBIES,TX_2,TX,0,2016-05-02,11614,no_event,no_event,no_event,no_event,0,3.88
+HOBBIES_2_009_TX_2_evaluation,HOBBIES_2_009,HOBBIES_2,HOBBIES,TX_2,TX,1,2016-05-02,11614,no_event,no_event,no_event,no_event,0,5.97
+HOBBIES_2_010_TX_2_evaluation,HOBBIES_2_010,HOBBIES_2,HOBBIES,TX_2,TX,0,2016-05-02,11614,no_event,no_event,no_event,no_event,0,0.97
+HOBBIES_2_001_TX_3_evaluation,HOBBIES_2_001,HOBBIES_2,HOBBIES,TX_3,TX,0,2016-05-02,11614,no_event,no_event,no_event,no_event,0,5.47
+HOBBIES_2_002_TX_3_evaluation,HOBBIES_2_002,HOBBIES_2,HOBBIES,TX_3,TX,0,2016-05-02,11614,no_event,no_event,no_event,no_event,0,1.47
+HOBBIES_2_003_TX_3_evaluation,HOBBIES_2_003,HOBBIES_2,HOBBIES,TX_3,TX,0,2016-05-02,11614,no_event,no_event,no_event,no_event,0,1.97
+HOBBIES_2_004_TX_3_evaluation,HOBBIES_2_004,HOBBIES_2,HOBBIES,TX_3,TX,0,2016-05-02,11614,no_event,no_event,no_event,no_event,0,2.47
+HOBBIES_2_005_TX_3_evaluation,HOBBIES_2_005,HOBBIES_2,HOBBIES,TX_3,TX,0,2016-05-02,11614,no_event,no_event,no_event,no_event,0,4.47
+HOBBIES_2_006_TX_3_evaluation,HOBBIES_2_006,HOBBIES_2,HOBBIES,TX_3,TX,0,2016-05-02,11614,no_event,no_event,no_event,no_event,0,3.97
+HOBBIES_2_007_TX_3_evaluation,HOBBIES_2_007,HOBBIES_2,HOBBIES,TX_3,TX,0,2016-05-02,11614,no_event,no_event,no_event,no_event,0,0.97
+HOBBIES_2_008_TX_3_evaluation,HOBBIES_2_008,HOBBIES_2,HOBBIES,TX_3,TX,0,2016-05-02,11614,no_event,no_event,no_event,no_event,0,3.88
+HOBBIES_2_009_TX_3_evaluation,HOBBIES_2_009,HOBBIES_2,HOBBIES,TX_3,TX,0,2016-05-02,11614,no_event,no_event,no_event,no_event,0,5.97
+HOBBIES_2_010_TX_3_evaluation,HOBBIES_2_010,HOBBIES_2,HOBBIES,TX_3,TX,0,2016-05-02,11614,no_event,no_event,no_event,no_event,0,0.97
+HOBBIES_2_001_TX_1_evaluation,HOBBIES_2_001,HOBBIES_2,HOBBIES,TX_1,TX,0,2016-05-03,11614,no_event,no_event,no_event,no_event,1,5.47
+HOBBIES_2_002_TX_1_evaluation,HOBBIES_2_002,HOBBIES_2,HOBBIES,TX_1,TX,0,2016-05-03,11614,no_event,no_event,no_event,no_event,1,1.47
+HOBBIES_2_003_TX_1_evaluation,HOBBIES_2_003,HOBBIES_2,HOBBIES,TX_1,TX,2,2016-05-03,11614,no_event,no_event,no_event,no_event,1,1.97
+HOBBIES_2_004_TX_1_evaluation,HOBBIES_2_004,HOBBIES_2,HOBBIES,TX_1,TX,0,2016-05-03,11614,no_event,no_event,no_event,no_event,1,2.47
+HOBBIES_2_005_TX_1_evaluation,HOBBIES_2_005,HOBBIES_2,HOBBIES,TX_1,TX,0,2016-05-03,11614,no_event,no_event,no_event,no_event,1,4.47
+HOBBIES_2_006_TX_1_evaluation,HOBBIES_2_006,HOBBIES_2,HOBBIES,TX_1,TX,0,2016-05-03,11614,no_event,no_event,no_event,no_event,1,3.97
+HOBBIES_2_007_TX_1_evaluation,HOBBIES_2_007,HOBBIES_2,HOBBIES,TX_1,TX,0,2016-05-03,11614,no_event,no_event,no_event,no_event,1,0.97
+HOBBIES_2_008_TX_1_evaluation,HOBBIES_2_008,HOBBIES_2,HOBBIES,TX_1,TX,0,2016-05-03,11614,no_event,no_event,no_event,no_event,1,3.88
+HOBBIES_2_009_TX_1_evaluation,HOBBIES_2_009,HOBBIES_2,HOBBIES,TX_1,TX,0,2016-05-03,11614,no_event,no_event,no_event,no_event,1,5.97
+HOBBIES_2_010_TX_1_evaluation,HOBBIES_2_010,HOBBIES_2,HOBBIES,TX_1,TX,1,2016-05-03,11614,no_event,no_event,no_event,no_event,1,0.97
+HOBBIES_2_001_TX_2_evaluation,HOBBIES_2_001,HOBBIES_2,HOBBIES,TX_2,TX,0,2016-05-03,11614,no_event,no_event,no_event,no_event,1,5.47
+HOBBIES_2_002_TX_2_evaluation,HOBBIES_2_002,HOBBIES_2,HOBBIES,TX_2,TX,0,2016-05-03,11614,no_event,no_event,no_event,no_event,1,1.47
+HOBBIES_2_003_TX_2_evaluation,HOBBIES_2_003,HOBBIES_2,HOBBIES,TX_2,TX,1,2016-05-03,11614,no_event,no_event,no_event,no_event,1,1.97
+HOBBIES_2_004_TX_2_evaluation,HOBBIES_2_004,HOBBIES_2,HOBBIES,TX_2,TX,0,2016-05-03,11614,no_event,no_event,no_event,no_event,1,2.47
+HOBBIES_2_005_TX_2_evaluation,HOBBIES_2_005,HOBBIES_2,HOBBIES,TX_2,TX,0,2016-05-03,11614,no_event,no_event,no_event,no_event,1,4.47
+HOBBIES_2_006_TX_2_evaluation,HOBBIES_2_006,HOBBIES_2,HOBBIES,TX_2,TX,0,2016-05-03,11614,no_event,no_event,no_event,no_event,1,3.97
+HOBBIES_2_007_TX_2_evaluation,HOBBIES_2_007,HOBBIES_2,HOBBIES,TX_2,TX,1,2016-05-03,11614,no_event,no_event,no_event,no_event,1,0.97
+HOBBIES_2_008_TX_2_evaluation,HOBBIES_2_008,HOBBIES_2,HOBBIES,TX_2,TX,0,2016-05-03,11614,no_event,no_event,no_event,no_event,1,3.88
+HOBBIES_2_009_TX_2_evaluation,HOBBIES_2_009,HOBBIES_2,HOBBIES,TX_2,TX,3,2016-05-03,11614,no_event,no_event,no_event,no_event,1,5.97
+HOBBIES_2_010_TX_2_evaluation,HOBBIES_2_010,HOBBIES_2,HOBBIES,TX_2,TX,0,2016-05-03,11614,no_event,no_event,no_event,no_event,1,0.97
+HOBBIES_2_001_TX_3_evaluation,HOBBIES_2_001,HOBBIES_2,HOBBIES,TX_3,TX,0,2016-05-03,11614,no_event,no_event,no_event,no_event,1,5.47
+HOBBIES_2_002_TX_3_evaluation,HOBBIES_2_002,HOBBIES_2,HOBBIES,TX_3,TX,0,2016-05-03,11614,no_event,no_event,no_event,no_event,1,1.47
+HOBBIES_2_003_TX_3_evaluation,HOBBIES_2_003,HOBBIES_2,HOBBIES,TX_3,TX,4,2016-05-03,11614,no_event,no_event,no_event,no_event,1,1.97
+HOBBIES_2_004_TX_3_evaluation,HOBBIES_2_004,HOBBIES_2,HOBBIES,TX_3,TX,0,2016-05-03,11614,no_event,no_event,no_event,no_event,1,2.47
+HOBBIES_2_005_TX_3_evaluation,HOBBIES_2_005,HOBBIES_2,HOBBIES,TX_3,TX,0,2016-05-03,11614,no_event,no_event,no_event,no_event,1,4.47
+HOBBIES_2_006_TX_3_evaluation,HOBBIES_2_006,HOBBIES_2,HOBBIES,TX_3,TX,0,2016-05-03,11614,no_event,no_event,no_event,no_event,1,3.97
+HOBBIES_2_007_TX_3_evaluation,HOBBIES_2_007,HOBBIES_2,HOBBIES,TX_3,TX,0,2016-05-03,11614,no_event,no_event,no_event,no_event,1,0.97
+HOBBIES_2_008_TX_3_evaluation,HOBBIES_2_008,HOBBIES_2,HOBBIES,TX_3,TX,1,2016-05-03,11614,no_event,no_event,no_event,no_event,1,3.88
+HOBBIES_2_009_TX_3_evaluation,HOBBIES_2_009,HOBBIES_2,HOBBIES,TX_3,TX,0,2016-05-03,11614,no_event,no_event,no_event,no_event,1,5.97
+HOBBIES_2_010_TX_3_evaluation,HOBBIES_2_010,HOBBIES_2,HOBBIES,TX_3,TX,0,2016-05-03,11614,no_event,no_event,no_event,no_event,1,0.97
+HOBBIES_2_001_TX_1_evaluation,HOBBIES_2_001,HOBBIES_2,HOBBIES,TX_1,TX,0,2016-05-04,11614,no_event,no_event,no_event,no_event,0,5.47
+HOBBIES_2_002_TX_1_evaluation,HOBBIES_2_002,HOBBIES_2,HOBBIES,TX_1,TX,0,2016-05-04,11614,no_event,no_event,no_event,no_event,0,1.47
+HOBBIES_2_003_TX_1_evaluation,HOBBIES_2_003,HOBBIES_2,HOBBIES,TX_1,TX,1,2016-05-04,11614,no_event,no_event,no_event,no_event,0,1.97
+HOBBIES_2_004_TX_1_evaluation,HOBBIES_2_004,HOBBIES_2,HOBBIES,TX_1,TX,1,2016-05-04,11614,no_event,no_event,no_event,no_event,0,2.47
+HOBBIES_2_005_TX_1_evaluation,HOBBIES_2_005,HOBBIES_2,HOBBIES,TX_1,TX,0,2016-05-04,11614,no_event,no_event,no_event,no_event,0,4.47
+HOBBIES_2_006_TX_1_evaluation,HOBBIES_2_006,HOBBIES_2,HOBBIES,TX_1,TX,0,2016-05-04,11614,no_event,no_event,no_event,no_event,0,3.97
+HOBBIES_2_007_TX_1_evaluation,HOBBIES_2_007,HOBBIES_2,HOBBIES,TX_1,TX,0,2016-05-04,11614,no_event,no_event,no_event,no_event,0,0.97
+HOBBIES_2_008_TX_1_evaluation,HOBBIES_2_008,HOBBIES_2,HOBBIES,TX_1,TX,0,2016-05-04,11614,no_event,no_event,no_event,no_event,0,3.88
+HOBBIES_2_009_TX_1_evaluation,HOBBIES_2_009,HOBBIES_2,HOBBIES,TX_1,TX,0,2016-05-04,11614,no_event,no_event,no_event,no_event,0,5.97
+HOBBIES_2_010_TX_1_evaluation,HOBBIES_2_010,HOBBIES_2,HOBBIES,TX_1,TX,0,2016-05-04,11614,no_event,no_event,no_event,no_event,0,0.97
+HOBBIES_2_001_TX_2_evaluation,HOBBIES_2_001,HOBBIES_2,HOBBIES,TX_2,TX,0,2016-05-04,11614,no_event,no_event,no_event,no_event,0,5.47
+HOBBIES_2_002_TX_2_evaluation,HOBBIES_2_002,HOBBIES_2,HOBBIES,TX_2,TX,0,2016-05-04,11614,no_event,no_event,no_event,no_event,0,1.47
+HOBBIES_2_003_TX_2_evaluation,HOBBIES_2_003,HOBBIES_2,HOBBIES,TX_2,TX,0,2016-05-04,11614,no_event,no_event,no_event,no_event,0,1.97
+HOBBIES_2_004_TX_2_evaluation,HOBBIES_2_004,HOBBIES_2,HOBBIES,TX_2,TX,0,2016-05-04,11614,no_event,no_event,no_event,no_event,0,2.47
+HOBBIES_2_005_TX_2_evaluation,HOBBIES_2_005,HOBBIES_2,HOBBIES,TX_2,TX,0,2016-05-04,11614,no_event,no_event,no_event,no_event,0,4.47
+HOBBIES_2_006_TX_2_evaluation,HOBBIES_2_006,HOBBIES_2,HOBBIES,TX_2,TX,1,2016-05-04,11614,no_event,no_event,no_event,no_event,0,3.97
+HOBBIES_2_007_TX_2_evaluation,HOBBIES_2_007,HOBBIES_2,HOBBIES,TX_2,TX,0,2016-05-04,11614,no_event,no_event,no_event,no_event,0,0.97
+HOBBIES_2_008_TX_2_evaluation,HOBBIES_2_008,HOBBIES_2,HOBBIES,TX_2,TX,0,2016-05-04,11614,no_event,no_event,no_event,no_event,0,3.88
+HOBBIES_2_009_TX_2_evaluation,HOBBIES_2_009,HOBBIES_2,HOBBIES,TX_2,TX,0,2016-05-04,11614,no_event,no_event,no_event,no_event,0,5.97
+HOBBIES_2_010_TX_2_evaluation,HOBBIES_2_010,HOBBIES_2,HOBBIES,TX_2,TX,0,2016-05-04,11614,no_event,no_event,no_event,no_event,0,0.97
+HOBBIES_2_001_TX_3_evaluation,HOBBIES_2_001,HOBBIES_2,HOBBIES,TX_3,TX,0,2016-05-04,11614,no_event,no_event,no_event,no_event,0,5.47
+HOBBIES_2_002_TX_3_evaluation,HOBBIES_2_002,HOBBIES_2,HOBBIES,TX_3,TX,1,2016-05-04,11614,no_event,no_event,no_event,no_event,0,1.47
+HOBBIES_2_003_TX_3_evaluation,HOBBIES_2_003,HOBBIES_2,HOBBIES,TX_3,TX,1,2016-05-04,11614,no_event,no_event,no_event,no_event,0,1.97
+HOBBIES_2_004_TX_3_evaluation,HOBBIES_2_004,HOBBIES_2,HOBBIES,TX_3,TX,0,2016-05-04,11614,no_event,no_event,no_event,no_event,0,2.47
+HOBBIES_2_005_TX_3_evaluation,HOBBIES_2_005,HOBBIES_2,HOBBIES,TX_3,TX,0,2016-05-04,11614,no_event,no_event,no_event,no_event,0,4.47
+HOBBIES_2_006_TX_3_evaluation,HOBBIES_2_006,HOBBIES_2,HOBBIES,TX_3,TX,0,2016-05-04,11614,no_event,no_event,no_event,no_event,0,3.97
+HOBBIES_2_007_TX_3_evaluation,HOBBIES_2_007,HOBBIES_2,HOBBIES,TX_3,TX,1,2016-05-04,11614,no_event,no_event,no_event,no_event,0,0.97
+HOBBIES_2_008_TX_3_evaluation,HOBBIES_2_008,HOBBIES_2,HOBBIES,TX_3,TX,0,2016-05-04,11614,no_event,no_event,no_event,no_event,0,3.88
+HOBBIES_2_009_TX_3_evaluation,HOBBIES_2_009,HOBBIES_2,HOBBIES,TX_3,TX,0,2016-05-04,11614,no_event,no_event,no_event,no_event,0,5.97
+HOBBIES_2_010_TX_3_evaluation,HOBBIES_2_010,HOBBIES_2,HOBBIES,TX_3,TX,0,2016-05-04,11614,no_event,no_event,no_event,no_event,0,0.97
+HOBBIES_2_001_TX_1_evaluation,HOBBIES_2_001,HOBBIES_2,HOBBIES,TX_1,TX,0,2016-05-05,11614,Cinco De Mayo,Cultural,no_event,no_event,1,5.47
+HOBBIES_2_002_TX_1_evaluation,HOBBIES_2_002,HOBBIES_2,HOBBIES,TX_1,TX,0,2016-05-05,11614,Cinco De Mayo,Cultural,no_event,no_event,1,1.47
+HOBBIES_2_003_TX_1_evaluation,HOBBIES_2_003,HOBBIES_2,HOBBIES,TX_1,TX,0,2016-05-05,11614,Cinco De Mayo,Cultural,no_event,no_event,1,1.97
+HOBBIES_2_004_TX_1_evaluation,HOBBIES_2_004,HOBBIES_2,HOBBIES,TX_1,TX,0,2016-05-05,11614,Cinco De Mayo,Cultural,no_event,no_event,1,2.47
+HOBBIES_2_005_TX_1_evaluation,HOBBIES_2_005,HOBBIES_2,HOBBIES,TX_1,TX,1,2016-05-05,11614,Cinco De Mayo,Cultural,no_event,no_event,1,4.47
+HOBBIES_2_006_TX_1_evaluation,HOBBIES_2_006,HOBBIES_2,HOBBIES,TX_1,TX,0,2016-05-05,11614,Cinco De Mayo,Cultural,no_event,no_event,1,3.97
+HOBBIES_2_007_TX_1_evaluation,HOBBIES_2_007,HOBBIES_2,HOBBIES,TX_1,TX,0,2016-05-05,11614,Cinco De Mayo,Cultural,no_event,no_event,1,0.97
+HOBBIES_2_008_TX_1_evaluation,HOBBIES_2_008,HOBBIES_2,HOBBIES,TX_1,TX,0,2016-05-05,11614,Cinco De Mayo,Cultural,no_event,no_event,1,3.88
+HOBBIES_2_009_TX_1_evaluation,HOBBIES_2_009,HOBBIES_2,HOBBIES,TX_1,TX,2,2016-05-05,11614,Cinco De Mayo,Cultural,no_event,no_event,1,5.97
+HOBBIES_2_010_TX_1_evaluation,HOBBIES_2_010,HOBBIES_2,HOBBIES,TX_1,TX,0,2016-05-05,11614,Cinco De Mayo,Cultural,no_event,no_event,1,0.97
+HOBBIES_2_001_TX_2_evaluation,HOBBIES_2_001,HOBBIES_2,HOBBIES,TX_2,TX,0,2016-05-05,11614,Cinco De Mayo,Cultural,no_event,no_event,1,5.47
+HOBBIES_2_002_TX_2_evaluation,HOBBIES_2_002,HOBBIES_2,HOBBIES,TX_2,TX,0,2016-05-05,11614,Cinco De Mayo,Cultural,no_event,no_event,1,1.47
+HOBBIES_2_003_TX_2_evaluation,HOBBIES_2_003,HOBBIES_2,HOBBIES,TX_2,TX,0,2016-05-05,11614,Cinco De Mayo,Cultural,no_event,no_event,1,1.97
+HOBBIES_2_004_TX_2_evaluation,HOBBIES_2_004,HOBBIES_2,HOBBIES,TX_2,TX,1,2016-05-05,11614,Cinco De Mayo,Cultural,no_event,no_event,1,2.47
+HOBBIES_2_005_TX_2_evaluation,HOBBIES_2_005,HOBBIES_2,HOBBIES,TX_2,TX,0,2016-05-05,11614,Cinco De Mayo,Cultural,no_event,no_event,1,4.47
+HOBBIES_2_006_TX_2_evaluation,HOBBIES_2_006,HOBBIES_2,HOBBIES,TX_2,TX,0,2016-05-05,11614,Cinco De Mayo,Cultural,no_event,no_event,1,3.97
+HOBBIES_2_007_TX_2_evaluation,HOBBIES_2_007,HOBBIES_2,HOBBIES,TX_2,TX,0,2016-05-05,11614,Cinco De Mayo,Cultural,no_event,no_event,1,0.97
+HOBBIES_2_008_TX_2_evaluation,HOBBIES_2_008,HOBBIES_2,HOBBIES,TX_2,TX,0,2016-05-05,11614,Cinco De Mayo,Cultural,no_event,no_event,1,3.88
+HOBBIES_2_009_TX_2_evaluation,HOBBIES_2_009,HOBBIES_2,HOBBIES,TX_2,TX,1,2016-05-05,11614,Cinco De Mayo,Cultural,no_event,no_event,1,5.97
+HOBBIES_2_010_TX_2_evaluation,HOBBIES_2_010,HOBBIES_2,HOBBIES,TX_2,TX,0,2016-05-05,11614,Cinco De Mayo,Cultural,no_event,no_event,1,0.97
+HOBBIES_2_001_TX_3_evaluation,HOBBIES_2_001,HOBBIES_2,HOBBIES,TX_3,TX,1,2016-05-05,11614,Cinco De Mayo,Cultural,no_event,no_event,1,5.47
+HOBBIES_2_002_TX_3_evaluation,HOBBIES_2_002,HOBBIES_2,HOBBIES,TX_3,TX,0,2016-05-05,11614,Cinco De Mayo,Cultural,no_event,no_event,1,1.47
+HOBBIES_2_003_TX_3_evaluation,HOBBIES_2_003,HOBBIES_2,HOBBIES,TX_3,TX,1,2016-05-05,11614,Cinco De Mayo,Cultural,no_event,no_event,1,1.97
+HOBBIES_2_004_TX_3_evaluation,HOBBIES_2_004,HOBBIES_2,HOBBIES,TX_3,TX,0,2016-05-05,11614,Cinco De Mayo,Cultural,no_event,no_event,1,2.47
+HOBBIES_2_005_TX_3_evaluation,HOBBIES_2_005,HOBBIES_2,HOBBIES,TX_3,TX,0,2016-05-05,11614,Cinco De Mayo,Cultural,no_event,no_event,1,4.47
+HOBBIES_2_006_TX_3_evaluation,HOBBIES_2_006,HOBBIES_2,HOBBIES,TX_3,TX,0,2016-05-05,11614,Cinco De Mayo,Cultural,no_event,no_event,1,3.97
+HOBBIES_2_007_TX_3_evaluation,HOBBIES_2_007,HOBBIES_2,HOBBIES,TX_3,TX,1,2016-05-05,11614,Cinco De Mayo,Cultural,no_event,no_event,1,0.97
+HOBBIES_2_008_TX_3_evaluation,HOBBIES_2_008,HOBBIES_2,HOBBIES,TX_3,TX,1,2016-05-05,11614,Cinco De Mayo,Cultural,no_event,no_event,1,3.88
+HOBBIES_2_009_TX_3_evaluation,HOBBIES_2_009,HOBBIES_2,HOBBIES,TX_3,TX,0,2016-05-05,11614,Cinco De Mayo,Cultural,no_event,no_event,1,5.97
+HOBBIES_2_010_TX_3_evaluation,HOBBIES_2_010,HOBBIES_2,HOBBIES,TX_3,TX,0,2016-05-05,11614,Cinco De Mayo,Cultural,no_event,no_event,1,0.97
+HOBBIES_2_001_TX_1_evaluation,HOBBIES_2_001,HOBBIES_2,HOBBIES,TX_1,TX,0,2016-05-06,11614,no_event,no_event,no_event,no_event,1,5.47
+HOBBIES_2_002_TX_1_evaluation,HOBBIES_2_002,HOBBIES_2,HOBBIES,TX_1,TX,0,2016-05-06,11614,no_event,no_event,no_event,no_event,1,1.47
+HOBBIES_2_003_TX_1_evaluation,HOBBIES_2_003,HOBBIES_2,HOBBIES,TX_1,TX,0,2016-05-06,11614,no_event,no_event,no_event,no_event,1,1.97
+HOBBIES_2_004_TX_1_evaluation,HOBBIES_2_004,HOBBIES_2,HOBBIES,TX_1,TX,1,2016-05-06,11614,no_event,no_event,no_event,no_event,1,2.47
+HOBBIES_2_005_TX_1_evaluation,HOBBIES_2_005,HOBBIES_2,HOBBIES,TX_1,TX,0,2016-05-06,11614,no_event,no_event,no_event,no_event,1,4.47
+HOBBIES_2_006_TX_1_evaluation,HOBBIES_2_006,HOBBIES_2,HOBBIES,TX_1,TX,0,2016-05-06,11614,no_event,no_event,no_event,no_event,1,3.97
+HOBBIES_2_007_TX_1_evaluation,HOBBIES_2_007,HOBBIES_2,HOBBIES,TX_1,TX,0,2016-05-06,11614,no_event,no_event,no_event,no_event,1,0.97
+HOBBIES_2_008_TX_1_evaluation,HOBBIES_2_008,HOBBIES_2,HOBBIES,TX_1,TX,0,2016-05-06,11614,no_event,no_event,no_event,no_event,1,3.88
+HOBBIES_2_009_TX_1_evaluation,HOBBIES_2_009,HOBBIES_2,HOBBIES,TX_1,TX,0,2016-05-06,11614,no_event,no_event,no_event,no_event,1,5.97
+HOBBIES_2_010_TX_1_evaluation,HOBBIES_2_010,HOBBIES_2,HOBBIES,TX_1,TX,0,2016-05-06,11614,no_event,no_event,no_event,no_event,1,0.97
+HOBBIES_2_001_TX_2_evaluation,HOBBIES_2_001,HOBBIES_2,HOBBIES,TX_2,TX,0,2016-05-06,11614,no_event,no_event,no_event,no_event,1,5.47
+HOBBIES_2_002_TX_2_evaluation,HOBBIES_2_002,HOBBIES_2,HOBBIES,TX_2,TX,0,2016-05-06,11614,no_event,no_event,no_event,no_event,1,1.47
+HOBBIES_2_003_TX_2_evaluation,HOBBIES_2_003,HOBBIES_2,HOBBIES,TX_2,TX,0,2016-05-06,11614,no_event,no_event,no_event,no_event,1,1.97
+HOBBIES_2_004_TX_2_evaluation,HOBBIES_2_004,HOBBIES_2,HOBBIES,TX_2,TX,0,2016-05-06,11614,no_event,no_event,no_event,no_event,1,2.47
+HOBBIES_2_005_TX_2_evaluation,HOBBIES_2_005,HOBBIES_2,HOBBIES,TX_2,TX,0,2016-05-06,11614,no_event,no_event,no_event,no_event,1,4.47
+HOBBIES_2_006_TX_2_evaluation,HOBBIES_2_006,HOBBIES_2,HOBBIES,TX_2,TX,1,2016-05-06,11614,no_event,no_event,no_event,no_event,1,3.97
+HOBBIES_2_007_TX_2_evaluation,HOBBIES_2_007,HOBBIES_2,HOBBIES,TX_2,TX,0,2016-05-06,11614,no_event,no_event,no_event,no_event,1,0.97
+HOBBIES_2_008_TX_2_evaluation,HOBBIES_2_008,HOBBIES_2,HOBBIES,TX_2,TX,0,2016-05-06,11614,no_event,no_event,no_event,no_event,1,3.88
+HOBBIES_2_009_TX_2_evaluation,HOBBIES_2_009,HOBBIES_2,HOBBIES,TX_2,TX,1,2016-05-06,11614,no_event,no_event,no_event,no_event,1,5.97
+HOBBIES_2_010_TX_2_evaluation,HOBBIES_2_010,HOBBIES_2,HOBBIES,TX_2,TX,2,2016-05-06,11614,no_event,no_event,no_event,no_event,1,0.97
+HOBBIES_2_001_TX_3_evaluation,HOBBIES_2_001,HOBBIES_2,HOBBIES,TX_3,TX,1,2016-05-06,11614,no_event,no_event,no_event,no_event,1,5.47
+HOBBIES_2_002_TX_3_evaluation,HOBBIES_2_002,HOBBIES_2,HOBBIES,TX_3,TX,0,2016-05-06,11614,no_event,no_event,no_event,no_event,1,1.47
+HOBBIES_2_003_TX_3_evaluation,HOBBIES_2_003,HOBBIES_2,HOBBIES,TX_3,TX,0,2016-05-06,11614,no_event,no_event,no_event,no_event,1,1.97
+HOBBIES_2_004_TX_3_evaluation,HOBBIES_2_004,HOBBIES_2,HOBBIES,TX_3,TX,0,2016-05-06,11614,no_event,no_event,no_event,no_event,1,2.47
+HOBBIES_2_005_TX_3_evaluation,HOBBIES_2_005,HOBBIES_2,HOBBIES,TX_3,TX,0,2016-05-06,11614,no_event,no_event,no_event,no_event,1,4.47
+HOBBIES_2_006_TX_3_evaluation,HOBBIES_2_006,HOBBIES_2,HOBBIES,TX_3,TX,0,2016-05-06,11614,no_event,no_event,no_event,no_event,1,3.97
+HOBBIES_2_007_TX_3_evaluation,HOBBIES_2_007,HOBBIES_2,HOBBIES,TX_3,TX,0,2016-05-06,11614,no_event,no_event,no_event,no_event,1,0.97
+HOBBIES_2_008_TX_3_evaluation,HOBBIES_2_008,HOBBIES_2,HOBBIES,TX_3,TX,0,2016-05-06,11614,no_event,no_event,no_event,no_event,1,3.88
+HOBBIES_2_009_TX_3_evaluation,HOBBIES_2_009,HOBBIES_2,HOBBIES,TX_3,TX,0,2016-05-06,11614,no_event,no_event,no_event,no_event,1,5.97
+HOBBIES_2_010_TX_3_evaluation,HOBBIES_2_010,HOBBIES_2,HOBBIES,TX_3,TX,1,2016-05-06,11614,no_event,no_event,no_event,no_event,1,0.97
+HOBBIES_2_001_TX_1_evaluation,HOBBIES_2_001,HOBBIES_2,HOBBIES,TX_1,TX,0,2016-05-07,11615,no_event,no_event,no_event,no_event,1,5.47
+HOBBIES_2_002_TX_1_evaluation,HOBBIES_2_002,HOBBIES_2,HOBBIES,TX_1,TX,0,2016-05-07,11615,no_event,no_event,no_event,no_event,1,1.47
+HOBBIES_2_003_TX_1_evaluation,HOBBIES_2_003,HOBBIES_2,HOBBIES,TX_1,TX,1,2016-05-07,11615,no_event,no_event,no_event,no_event,1,1.97
+HOBBIES_2_004_TX_1_evaluation,HOBBIES_2_004,HOBBIES_2,HOBBIES,TX_1,TX,0,2016-05-07,11615,no_event,no_event,no_event,no_event,1,2.47
+HOBBIES_2_005_TX_1_evaluation,HOBBIES_2_005,HOBBIES_2,HOBBIES,TX_1,TX,0,2016-05-07,11615,no_event,no_event,no_event,no_event,1,4.47
+HOBBIES_2_006_TX_1_evaluation,HOBBIES_2_006,HOBBIES_2,HOBBIES,TX_1,TX,0,2016-05-07,11615,no_event,no_event,no_event,no_event,1,3.97
+HOBBIES_2_007_TX_1_evaluation,HOBBIES_2_007,HOBBIES_2,HOBBIES,TX_1,TX,0,2016-05-07,11615,no_event,no_event,no_event,no_event,1,0.97
+HOBBIES_2_008_TX_1_evaluation,HOBBIES_2_008,HOBBIES_2,HOBBIES,TX_1,TX,0,2016-05-07,11615,no_event,no_event,no_event,no_event,1,3.88
+HOBBIES_2_009_TX_1_evaluation,HOBBIES_2_009,HOBBIES_2,HOBBIES,TX_1,TX,0,2016-05-07,11615,no_event,no_event,no_event,no_event,1,5.97
+HOBBIES_2_010_TX_1_evaluation,HOBBIES_2_010,HOBBIES_2,HOBBIES,TX_1,TX,0,2016-05-07,11615,no_event,no_event,no_event,no_event,1,0.97
+HOBBIES_2_001_TX_2_evaluation,HOBBIES_2_001,HOBBIES_2,HOBBIES,TX_2,TX,0,2016-05-07,11615,no_event,no_event,no_event,no_event,1,5.47
+HOBBIES_2_002_TX_2_evaluation,HOBBIES_2_002,HOBBIES_2,HOBBIES,TX_2,TX,0,2016-05-07,11615,no_event,no_event,no_event,no_event,1,1.47
+HOBBIES_2_003_TX_2_evaluation,HOBBIES_2_003,HOBBIES_2,HOBBIES,TX_2,TX,1,2016-05-07,11615,no_event,no_event,no_event,no_event,1,1.97
+HOBBIES_2_004_TX_2_evaluation,HOBBIES_2_004,HOBBIES_2,HOBBIES,TX_2,TX,0,2016-05-07,11615,no_event,no_event,no_event,no_event,1,2.47
+HOBBIES_2_005_TX_2_evaluation,HOBBIES_2_005,HOBBIES_2,HOBBIES,TX_2,TX,1,2016-05-07,11615,no_event,no_event,no_event,no_event,1,4.47
+HOBBIES_2_006_TX_2_evaluation,HOBBIES_2_006,HOBBIES_2,HOBBIES,TX_2,TX,0,2016-05-07,11615,no_event,no_event,no_event,no_event,1,3.97
+HOBBIES_2_007_TX_2_evaluation,HOBBIES_2_007,HOBBIES_2,HOBBIES,TX_2,TX,0,2016-05-07,11615,no_event,no_event,no_event,no_event,1,0.97
+HOBBIES_2_008_TX_2_evaluation,HOBBIES_2_008,HOBBIES_2,HOBBIES,TX_2,TX,0,2016-05-07,11615,no_event,no_event,no_event,no_event,1,3.88
+HOBBIES_2_009_TX_2_evaluation,HOBBIES_2_009,HOBBIES_2,HOBBIES,TX_2,TX,0,2016-05-07,11615,no_event,no_event,no_event,no_event,1,5.97
+HOBBIES_2_010_TX_2_evaluation,HOBBIES_2_010,HOBBIES_2,HOBBIES,TX_2,TX,0,2016-05-07,11615,no_event,no_event,no_event,no_event,1,0.97
+HOBBIES_2_001_TX_3_evaluation,HOBBIES_2_001,HOBBIES_2,HOBBIES,TX_3,TX,0,2016-05-07,11615,no_event,no_event,no_event,no_event,1,5.47
+HOBBIES_2_002_TX_3_evaluation,HOBBIES_2_002,HOBBIES_2,HOBBIES,TX_3,TX,1,2016-05-07,11615,no_event,no_event,no_event,no_event,1,1.47
+HOBBIES_2_003_TX_3_evaluation,HOBBIES_2_003,HOBBIES_2,HOBBIES,TX_3,TX,2,2016-05-07,11615,no_event,no_event,no_event,no_event,1,1.97
+HOBBIES_2_004_TX_3_evaluation,HOBBIES_2_004,HOBBIES_2,HOBBIES,TX_3,TX,0,2016-05-07,11615,no_event,no_event,no_event,no_event,1,2.47
+HOBBIES_2_005_TX_3_evaluation,HOBBIES_2_005,HOBBIES_2,HOBBIES,TX_3,TX,0,2016-05-07,11615,no_event,no_event,no_event,no_event,1,4.47
+HOBBIES_2_006_TX_3_evaluation,HOBBIES_2_006,HOBBIES_2,HOBBIES,TX_3,TX,0,2016-05-07,11615,no_event,no_event,no_event,no_event,1,3.97
+HOBBIES_2_007_TX_3_evaluation,HOBBIES_2_007,HOBBIES_2,HOBBIES,TX_3,TX,0,2016-05-07,11615,no_event,no_event,no_event,no_event,1,0.97
+HOBBIES_2_008_TX_3_evaluation,HOBBIES_2_008,HOBBIES_2,HOBBIES,TX_3,TX,0,2016-05-07,11615,no_event,no_event,no_event,no_event,1,3.88
+HOBBIES_2_009_TX_3_evaluation,HOBBIES_2_009,HOBBIES_2,HOBBIES,TX_3,TX,0,2016-05-07,11615,no_event,no_event,no_event,no_event,1,5.97
+HOBBIES_2_010_TX_3_evaluation,HOBBIES_2_010,HOBBIES_2,HOBBIES,TX_3,TX,0,2016-05-07,11615,no_event,no_event,no_event,no_event,1,0.97
+HOBBIES_2_001_TX_1_evaluation,HOBBIES_2_001,HOBBIES_2,HOBBIES,TX_1,TX,1,2016-05-08,11615,Mother's day,Cultural,no_event,no_event,0,5.47
+HOBBIES_2_002_TX_1_evaluation,HOBBIES_2_002,HOBBIES_2,HOBBIES,TX_1,TX,0,2016-05-08,11615,Mother's day,Cultural,no_event,no_event,0,1.47
+HOBBIES_2_003_TX_1_evaluation,HOBBIES_2_003,HOBBIES_2,HOBBIES,TX_1,TX,1,2016-05-08,11615,Mother's day,Cultural,no_event,no_event,0,1.97
+HOBBIES_2_004_TX_1_evaluation,HOBBIES_2_004,HOBBIES_2,HOBBIES,TX_1,TX,0,2016-05-08,11615,Mother's day,Cultural,no_event,no_event,0,2.47
+HOBBIES_2_005_TX_1_evaluation,HOBBIES_2_005,HOBBIES_2,HOBBIES,TX_1,TX,0,2016-05-08,11615,Mother's day,Cultural,no_event,no_event,0,4.47
+HOBBIES_2_006_TX_1_evaluation,HOBBIES_2_006,HOBBIES_2,HOBBIES,TX_1,TX,0,2016-05-08,11615,Mother's day,Cultural,no_event,no_event,0,3.97
+HOBBIES_2_007_TX_1_evaluation,HOBBIES_2_007,HOBBIES_2,HOBBIES,TX_1,TX,0,2016-05-08,11615,Mother's day,Cultural,no_event,no_event,0,0.97
+HOBBIES_2_008_TX_1_evaluation,HOBBIES_2_008,HOBBIES_2,HOBBIES,TX_1,TX,0,2016-05-08,11615,Mother's day,Cultural,no_event,no_event,0,3.88
+HOBBIES_2_009_TX_1_evaluation,HOBBIES_2_009,HOBBIES_2,HOBBIES,TX_1,TX,0,2016-05-08,11615,Mother's day,Cultural,no_event,no_event,0,5.97
+HOBBIES_2_010_TX_1_evaluation,HOBBIES_2_010,HOBBIES_2,HOBBIES,TX_1,TX,4,2016-05-08,11615,Mother's day,Cultural,no_event,no_event,0,0.97
+HOBBIES_2_001_TX_2_evaluation,HOBBIES_2_001,HOBBIES_2,HOBBIES,TX_2,TX,0,2016-05-08,11615,Mother's day,Cultural,no_event,no_event,0,5.47
+HOBBIES_2_002_TX_2_evaluation,HOBBIES_2_002,HOBBIES_2,HOBBIES,TX_2,TX,1,2016-05-08,11615,Mother's day,Cultural,no_event,no_event,0,1.47
+HOBBIES_2_003_TX_2_evaluation,HOBBIES_2_003,HOBBIES_2,HOBBIES,TX_2,TX,1,2016-05-08,11615,Mother's day,Cultural,no_event,no_event,0,1.97
+HOBBIES_2_004_TX_2_evaluation,HOBBIES_2_004,HOBBIES_2,HOBBIES,TX_2,TX,1,2016-05-08,11615,Mother's day,Cultural,no_event,no_event,0,2.47
+HOBBIES_2_005_TX_2_evaluation,HOBBIES_2_005,HOBBIES_2,HOBBIES,TX_2,TX,0,2016-05-08,11615,Mother's day,Cultural,no_event,no_event,0,4.47
+HOBBIES_2_006_TX_2_evaluation,HOBBIES_2_006,HOBBIES_2,HOBBIES,TX_2,TX,0,2016-05-08,11615,Mother's day,Cultural,no_event,no_event,0,3.97
+HOBBIES_2_007_TX_2_evaluation,HOBBIES_2_007,HOBBIES_2,HOBBIES,TX_2,TX,1,2016-05-08,11615,Mother's day,Cultural,no_event,no_event,0,0.97
+HOBBIES_2_008_TX_2_evaluation,HOBBIES_2_008,HOBBIES_2,HOBBIES,TX_2,TX,0,2016-05-08,11615,Mother's day,Cultural,no_event,no_event,0,3.88
+HOBBIES_2_009_TX_2_evaluation,HOBBIES_2_009,HOBBIES_2,HOBBIES,TX_2,TX,0,2016-05-08,11615,Mother's day,Cultural,no_event,no_event,0,5.97
+HOBBIES_2_010_TX_2_evaluation,HOBBIES_2_010,HOBBIES_2,HOBBIES,TX_2,TX,0,2016-05-08,11615,Mother's day,Cultural,no_event,no_event,0,0.97
+HOBBIES_2_001_TX_3_evaluation,HOBBIES_2_001,HOBBIES_2,HOBBIES,TX_3,TX,0,2016-05-08,11615,Mother's day,Cultural,no_event,no_event,0,5.47
+HOBBIES_2_002_TX_3_evaluation,HOBBIES_2_002,HOBBIES_2,HOBBIES,TX_3,TX,1,2016-05-08,11615,Mother's day,Cultural,no_event,no_event,0,1.47
+HOBBIES_2_003_TX_3_evaluation,HOBBIES_2_003,HOBBIES_2,HOBBIES,TX_3,TX,0,2016-05-08,11615,Mother's day,Cultural,no_event,no_event,0,1.97
+HOBBIES_2_004_TX_3_evaluation,HOBBIES_2_004,HOBBIES_2,HOBBIES,TX_3,TX,1,2016-05-08,11615,Mother's day,Cultural,no_event,no_event,0,2.47
+HOBBIES_2_005_TX_3_evaluation,HOBBIES_2_005,HOBBIES_2,HOBBIES,TX_3,TX,0,2016-05-08,11615,Mother's day,Cultural,no_event,no_event,0,4.47
+HOBBIES_2_006_TX_3_evaluation,HOBBIES_2_006,HOBBIES_2,HOBBIES,TX_3,TX,0,2016-05-08,11615,Mother's day,Cultural,no_event,no_event,0,3.97
+HOBBIES_2_007_TX_3_evaluation,HOBBIES_2_007,HOBBIES_2,HOBBIES,TX_3,TX,0,2016-05-08,11615,Mother's day,Cultural,no_event,no_event,0,0.97
+HOBBIES_2_008_TX_3_evaluation,HOBBIES_2_008,HOBBIES_2,HOBBIES,TX_3,TX,0,2016-05-08,11615,Mother's day,Cultural,no_event,no_event,0,3.88
+HOBBIES_2_009_TX_3_evaluation,HOBBIES_2_009,HOBBIES_2,HOBBIES,TX_3,TX,0,2016-05-08,11615,Mother's day,Cultural,no_event,no_event,0,5.97
+HOBBIES_2_010_TX_3_evaluation,HOBBIES_2_010,HOBBIES_2,HOBBIES,TX_3,TX,1,2016-05-08,11615,Mother's day,Cultural,no_event,no_event,0,0.97
+HOBBIES_2_001_TX_1_evaluation,HOBBIES_2_001,HOBBIES_2,HOBBIES,TX_1,TX,0,2016-05-09,11615,no_event,no_event,no_event,no_event,1,5.47
+HOBBIES_2_002_TX_1_evaluation,HOBBIES_2_002,HOBBIES_2,HOBBIES,TX_1,TX,0,2016-05-09,11615,no_event,no_event,no_event,no_event,1,1.47
+HOBBIES_2_003_TX_1_evaluation,HOBBIES_2_003,HOBBIES_2,HOBBIES,TX_1,TX,0,2016-05-09,11615,no_event,no_event,no_event,no_event,1,1.97
+HOBBIES_2_004_TX_1_evaluation,HOBBIES_2_004,HOBBIES_2,HOBBIES,TX_1,TX,0,2016-05-09,11615,no_event,no_event,no_event,no_event,1,2.47
+HOBBIES_2_005_TX_1_evaluation,HOBBIES_2_005,HOBBIES_2,HOBBIES,TX_1,TX,0,2016-05-09,11615,no_event,no_event,no_event,no_event,1,4.47
+HOBBIES_2_006_TX_1_evaluation,HOBBIES_2_006,HOBBIES_2,HOBBIES,TX_1,TX,0,2016-05-09,11615,no_event,no_event,no_event,no_event,1,3.97
+HOBBIES_2_007_TX_1_evaluation,HOBBIES_2_007,HOBBIES_2,HOBBIES,TX_1,TX,0,2016-05-09,11615,no_event,no_event,no_event,no_event,1,0.97
+HOBBIES_2_008_TX_1_evaluation,HOBBIES_2_008,HOBBIES_2,HOBBIES,TX_1,TX,0,2016-05-09,11615,no_event,no_event,no_event,no_event,1,3.88
+HOBBIES_2_009_TX_1_evaluation,HOBBIES_2_009,HOBBIES_2,HOBBIES,TX_1,TX,0,2016-05-09,11615,no_event,no_event,no_event,no_event,1,5.97
+HOBBIES_2_010_TX_1_evaluation,HOBBIES_2_010,HOBBIES_2,HOBBIES,TX_1,TX,0,2016-05-09,11615,no_event,no_event,no_event,no_event,1,0.97
+HOBBIES_2_001_TX_2_evaluation,HOBBIES_2_001,HOBBIES_2,HOBBIES,TX_2,TX,0,2016-05-09,11615,no_event,no_event,no_event,no_event,1,5.47
+HOBBIES_2_002_TX_2_evaluation,HOBBIES_2_002,HOBBIES_2,HOBBIES,TX_2,TX,0,2016-05-09,11615,no_event,no_event,no_event,no_event,1,1.47
+HOBBIES_2_003_TX_2_evaluation,HOBBIES_2_003,HOBBIES_2,HOBBIES,TX_2,TX,0,2016-05-09,11615,no_event,no_event,no_event,no_event,1,1.97
+HOBBIES_2_004_TX_2_evaluation,HOBBIES_2_004,HOBBIES_2,HOBBIES,TX_2,TX,0,2016-05-09,11615,no_event,no_event,no_event,no_event,1,2.47
+HOBBIES_2_005_TX_2_evaluation,HOBBIES_2_005,HOBBIES_2,HOBBIES,TX_2,TX,1,2016-05-09,11615,no_event,no_event,no_event,no_event,1,4.47
+HOBBIES_2_006_TX_2_evaluation,HOBBIES_2_006,HOBBIES_2,HOBBIES,TX_2,TX,0,2016-05-09,11615,no_event,no_event,no_event,no_event,1,3.97
+HOBBIES_2_007_TX_2_evaluation,HOBBIES_2_007,HOBBIES_2,HOBBIES,TX_2,TX,0,2016-05-09,11615,no_event,no_event,no_event,no_event,1,0.97
+HOBBIES_2_008_TX_2_evaluation,HOBBIES_2_008,HOBBIES_2,HOBBIES,TX_2,TX,2,2016-05-09,11615,no_event,no_event,no_event,no_event,1,3.88
+HOBBIES_2_009_TX_2_evaluation,HOBBIES_2_009,HOBBIES_2,HOBBIES,TX_2,TX,1,2016-05-09,11615,no_event,no_event,no_event,no_event,1,5.97
+HOBBIES_2_010_TX_2_evaluation,HOBBIES_2_010,HOBBIES_2,HOBBIES,TX_2,TX,0,2016-05-09,11615,no_event,no_event,no_event,no_event,1,0.97
+HOBBIES_2_001_TX_3_evaluation,HOBBIES_2_001,HOBBIES_2,HOBBIES,TX_3,TX,0,2016-05-09,11615,no_event,no_event,no_event,no_event,1,5.47
+HOBBIES_2_002_TX_3_evaluation,HOBBIES_2_002,HOBBIES_2,HOBBIES,TX_3,TX,0,2016-05-09,11615,no_event,no_event,no_event,no_event,1,1.47
+HOBBIES_2_003_TX_3_evaluation,HOBBIES_2_003,HOBBIES_2,HOBBIES,TX_3,TX,0,2016-05-09,11615,no_event,no_event,no_event,no_event,1,1.97
+HOBBIES_2_004_TX_3_evaluation,HOBBIES_2_004,HOBBIES_2,HOBBIES,TX_3,TX,0,2016-05-09,11615,no_event,no_event,no_event,no_event,1,2.47
+HOBBIES_2_005_TX_3_evaluation,HOBBIES_2_005,HOBBIES_2,HOBBIES,TX_3,TX,0,2016-05-09,11615,no_event,no_event,no_event,no_event,1,4.47
+HOBBIES_2_006_TX_3_evaluation,HOBBIES_2_006,HOBBIES_2,HOBBIES,TX_3,TX,0,2016-05-09,11615,no_event,no_event,no_event,no_event,1,3.97
+HOBBIES_2_007_TX_3_evaluation,HOBBIES_2_007,HOBBIES_2,HOBBIES,TX_3,TX,4,2016-05-09,11615,no_event,no_event,no_event,no_event,1,0.97
+HOBBIES_2_008_TX_3_evaluation,HOBBIES_2_008,HOBBIES_2,HOBBIES,TX_3,TX,0,2016-05-09,11615,no_event,no_event,no_event,no_event,1,3.88
+HOBBIES_2_009_TX_3_evaluation,HOBBIES_2_009,HOBBIES_2,HOBBIES,TX_3,TX,0,2016-05-09,11615,no_event,no_event,no_event,no_event,1,5.97
+HOBBIES_2_010_TX_3_evaluation,HOBBIES_2_010,HOBBIES_2,HOBBIES,TX_3,TX,0,2016-05-09,11615,no_event,no_event,no_event,no_event,1,0.97
+HOBBIES_2_001_TX_1_evaluation,HOBBIES_2_001,HOBBIES_2,HOBBIES,TX_1,TX,0,2016-05-10,11615,no_event,no_event,no_event,no_event,0,5.47
+HOBBIES_2_002_TX_1_evaluation,HOBBIES_2_002,HOBBIES_2,HOBBIES,TX_1,TX,0,2016-05-10,11615,no_event,no_event,no_event,no_event,0,1.47
+HOBBIES_2_003_TX_1_evaluation,HOBBIES_2_003,HOBBIES_2,HOBBIES,TX_1,TX,0,2016-05-10,11615,no_event,no_event,no_event,no_event,0,1.97
+HOBBIES_2_004_TX_1_evaluation,HOBBIES_2_004,HOBBIES_2,HOBBIES,TX_1,TX,0,2016-05-10,11615,no_event,no_event,no_event,no_event,0,2.47
+HOBBIES_2_005_TX_1_evaluation,HOBBIES_2_005,HOBBIES_2,HOBBIES,TX_1,TX,0,2016-05-10,11615,no_event,no_event,no_event,no_event,0,4.47
+HOBBIES_2_006_TX_1_evaluation,HOBBIES_2_006,HOBBIES_2,HOBBIES,TX_1,TX,0,2016-05-10,11615,no_event,no_event,no_event,no_event,0,3.97
+HOBBIES_2_007_TX_1_evaluation,HOBBIES_2_007,HOBBIES_2,HOBBIES,TX_1,TX,0,2016-05-10,11615,no_event,no_event,no_event,no_event,0,0.97
+HOBBIES_2_008_TX_1_evaluation,HOBBIES_2_008,HOBBIES_2,HOBBIES,TX_1,TX,0,2016-05-10,11615,no_event,no_event,no_event,no_event,0,3.88
+HOBBIES_2_009_TX_1_evaluation,HOBBIES_2_009,HOBBIES_2,HOBBIES,TX_1,TX,0,2016-05-10,11615,no_event,no_event,no_event,no_event,0,5.97
+HOBBIES_2_010_TX_1_evaluation,HOBBIES_2_010,HOBBIES_2,HOBBIES,TX_1,TX,0,2016-05-10,11615,no_event,no_event,no_event,no_event,0,0.97
+HOBBIES_2_001_TX_2_evaluation,HOBBIES_2_001,HOBBIES_2,HOBBIES,TX_2,TX,0,2016-05-10,11615,no_event,no_event,no_event,no_event,0,5.47
+HOBBIES_2_002_TX_2_evaluation,HOBBIES_2_002,HOBBIES_2,HOBBIES,TX_2,TX,0,2016-05-10,11615,no_event,no_event,no_event,no_event,0,1.47
+HOBBIES_2_003_TX_2_evaluation,HOBBIES_2_003,HOBBIES_2,HOBBIES,TX_2,TX,1,2016-05-10,11615,no_event,no_event,no_event,no_event,0,1.97
+HOBBIES_2_004_TX_2_evaluation,HOBBIES_2_004,HOBBIES_2,HOBBIES,TX_2,TX,0,2016-05-10,11615,no_event,no_event,no_event,no_event,0,2.47
+HOBBIES_2_005_TX_2_evaluation,HOBBIES_2_005,HOBBIES_2,HOBBIES,TX_2,TX,0,2016-05-10,11615,no_event,no_event,no_event,no_event,0,4.47
+HOBBIES_2_006_TX_2_evaluation,HOBBIES_2_006,HOBBIES_2,HOBBIES,TX_2,TX,0,2016-05-10,11615,no_event,no_event,no_event,no_event,0,3.97
+HOBBIES_2_007_TX_2_evaluation,HOBBIES_2_007,HOBBIES_2,HOBBIES,TX_2,TX,0,2016-05-10,11615,no_event,no_event,no_event,no_event,0,0.97
+HOBBIES_2_008_TX_2_evaluation,HOBBIES_2_008,HOBBIES_2,HOBBIES,TX_2,TX,2,2016-05-10,11615,no_event,no_event,no_event,no_event,0,3.88
+HOBBIES_2_009_TX_2_evaluation,HOBBIES_2_009,HOBBIES_2,HOBBIES,TX_2,TX,1,2016-05-10,11615,no_event,no_event,no_event,no_event,0,5.97
+HOBBIES_2_010_TX_2_evaluation,HOBBIES_2_010,HOBBIES_2,HOBBIES,TX_2,TX,0,2016-05-10,11615,no_event,no_event,no_event,no_event,0,0.97
+HOBBIES_2_001_TX_3_evaluation,HOBBIES_2_001,HOBBIES_2,HOBBIES,TX_3,TX,0,2016-05-10,11615,no_event,no_event,no_event,no_event,0,5.47
+HOBBIES_2_002_TX_3_evaluation,HOBBIES_2_002,HOBBIES_2,HOBBIES,TX_3,TX,0,2016-05-10,11615,no_event,no_event,no_event,no_event,0,1.47
+HOBBIES_2_003_TX_3_evaluation,HOBBIES_2_003,HOBBIES_2,HOBBIES,TX_3,TX,2,2016-05-10,11615,no_event,no_event,no_event,no_event,0,1.97
+HOBBIES_2_004_TX_3_evaluation,HOBBIES_2_004,HOBBIES_2,HOBBIES,TX_3,TX,7,2016-05-10,11615,no_event,no_event,no_event,no_event,0,2.47
+HOBBIES_2_005_TX_3_evaluation,HOBBIES_2_005,HOBBIES_2,HOBBIES,TX_3,TX,0,2016-05-10,11615,no_event,no_event,no_event,no_event,0,4.47
+HOBBIES_2_006_TX_3_evaluation,HOBBIES_2_006,HOBBIES_2,HOBBIES,TX_3,TX,0,2016-05-10,11615,no_event,no_event,no_event,no_event,0,3.97
+HOBBIES_2_007_TX_3_evaluation,HOBBIES_2_007,HOBBIES_2,HOBBIES,TX_3,TX,0,2016-05-10,11615,no_event,no_event,no_event,no_event,0,0.97
+HOBBIES_2_008_TX_3_evaluation,HOBBIES_2_008,HOBBIES_2,HOBBIES,TX_3,TX,0,2016-05-10,11615,no_event,no_event,no_event,no_event,0,3.88
+HOBBIES_2_009_TX_3_evaluation,HOBBIES_2_009,HOBBIES_2,HOBBIES,TX_3,TX,0,2016-05-10,11615,no_event,no_event,no_event,no_event,0,5.97
+HOBBIES_2_010_TX_3_evaluation,HOBBIES_2_010,HOBBIES_2,HOBBIES,TX_3,TX,0,2016-05-10,11615,no_event,no_event,no_event,no_event,0,0.97
+HOBBIES_2_001_TX_1_evaluation,HOBBIES_2_001,HOBBIES_2,HOBBIES,TX_1,TX,0,2016-05-11,11615,no_event,no_event,no_event,no_event,1,5.47
+HOBBIES_2_002_TX_1_evaluation,HOBBIES_2_002,HOBBIES_2,HOBBIES,TX_1,TX,0,2016-05-11,11615,no_event,no_event,no_event,no_event,1,1.47
+HOBBIES_2_003_TX_1_evaluation,HOBBIES_2_003,HOBBIES_2,HOBBIES,TX_1,TX,0,2016-05-11,11615,no_event,no_event,no_event,no_event,1,1.97
+HOBBIES_2_004_TX_1_evaluation,HOBBIES_2_004,HOBBIES_2,HOBBIES,TX_1,TX,2,2016-05-11,11615,no_event,no_event,no_event,no_event,1,2.47
+HOBBIES_2_005_TX_1_evaluation,HOBBIES_2_005,HOBBIES_2,HOBBIES,TX_1,TX,0,2016-05-11,11615,no_event,no_event,no_event,no_event,1,4.47
+HOBBIES_2_006_TX_1_evaluation,HOBBIES_2_006,HOBBIES_2,HOBBIES,TX_1,TX,0,2016-05-11,11615,no_event,no_event,no_event,no_event,1,3.97
+HOBBIES_2_007_TX_1_evaluation,HOBBIES_2_007,HOBBIES_2,HOBBIES,TX_1,TX,0,2016-05-11,11615,no_event,no_event,no_event,no_event,1,0.97
+HOBBIES_2_008_TX_1_evaluation,HOBBIES_2_008,HOBBIES_2,HOBBIES,TX_1,TX,0,2016-05-11,11615,no_event,no_event,no_event,no_event,1,3.88
+HOBBIES_2_009_TX_1_evaluation,HOBBIES_2_009,HOBBIES_2,HOBBIES,TX_1,TX,1,2016-05-11,11615,no_event,no_event,no_event,no_event,1,5.97
+HOBBIES_2_010_TX_1_evaluation,HOBBIES_2_010,HOBBIES_2,HOBBIES,TX_1,TX,0,2016-05-11,11615,no_event,no_event,no_event,no_event,1,0.97
+HOBBIES_2_001_TX_2_evaluation,HOBBIES_2_001,HOBBIES_2,HOBBIES,TX_2,TX,1,2016-05-11,11615,no_event,no_event,no_event,no_event,1,5.47
+HOBBIES_2_002_TX_2_evaluation,HOBBIES_2_002,HOBBIES_2,HOBBIES,TX_2,TX,0,2016-05-11,11615,no_event,no_event,no_event,no_event,1,1.47
+HOBBIES_2_003_TX_2_evaluation,HOBBIES_2_003,HOBBIES_2,HOBBIES,TX_2,TX,2,2016-05-11,11615,no_event,no_event,no_event,no_event,1,1.97
+HOBBIES_2_004_TX_2_evaluation,HOBBIES_2_004,HOBBIES_2,HOBBIES,TX_2,TX,0,2016-05-11,11615,no_event,no_event,no_event,no_event,1,2.47
+HOBBIES_2_005_TX_2_evaluation,HOBBIES_2_005,HOBBIES_2,HOBBIES,TX_2,TX,0,2016-05-11,11615,no_event,no_event,no_event,no_event,1,4.47
+HOBBIES_2_006_TX_2_evaluation,HOBBIES_2_006,HOBBIES_2,HOBBIES,TX_2,TX,0,2016-05-11,11615,no_event,no_event,no_event,no_event,1,3.97
+HOBBIES_2_007_TX_2_evaluation,HOBBIES_2_007,HOBBIES_2,HOBBIES,TX_2,TX,1,2016-05-11,11615,no_event,no_event,no_event,no_event,1,0.97
+HOBBIES_2_008_TX_2_evaluation,HOBBIES_2_008,HOBBIES_2,HOBBIES,TX_2,TX,0,2016-05-11,11615,no_event,no_event,no_event,no_event,1,3.88
+HOBBIES_2_009_TX_2_evaluation,HOBBIES_2_009,HOBBIES_2,HOBBIES,TX_2,TX,3,2016-05-11,11615,no_event,no_event,no_event,no_event,1,5.97
+HOBBIES_2_010_TX_2_evaluation,HOBBIES_2_010,HOBBIES_2,HOBBIES,TX_2,TX,0,2016-05-11,11615,no_event,no_event,no_event,no_event,1,0.97
+HOBBIES_2_001_TX_3_evaluation,HOBBIES_2_001,HOBBIES_2,HOBBIES,TX_3,TX,0,2016-05-11,11615,no_event,no_event,no_event,no_event,1,5.47
+HOBBIES_2_002_TX_3_evaluation,HOBBIES_2_002,HOBBIES_2,HOBBIES,TX_3,TX,0,2016-05-11,11615,no_event,no_event,no_event,no_event,1,1.47
+HOBBIES_2_003_TX_3_evaluation,HOBBIES_2_003,HOBBIES_2,HOBBIES,TX_3,TX,2,2016-05-11,11615,no_event,no_event,no_event,no_event,1,1.97
+HOBBIES_2_004_TX_3_evaluation,HOBBIES_2_004,HOBBIES_2,HOBBIES,TX_3,TX,0,2016-05-11,11615,no_event,no_event,no_event,no_event,1,2.47
+HOBBIES_2_005_TX_3_evaluation,HOBBIES_2_005,HOBBIES_2,HOBBIES,TX_3,TX,0,2016-05-11,11615,no_event,no_event,no_event,no_event,1,4.47
+HOBBIES_2_006_TX_3_evaluation,HOBBIES_2_006,HOBBIES_2,HOBBIES,TX_3,TX,0,2016-05-11,11615,no_event,no_event,no_event,no_event,1,3.97
+HOBBIES_2_007_TX_3_evaluation,HOBBIES_2_007,HOBBIES_2,HOBBIES,TX_3,TX,0,2016-05-11,11615,no_event,no_event,no_event,no_event,1,0.97
+HOBBIES_2_008_TX_3_evaluation,HOBBIES_2_008,HOBBIES_2,HOBBIES,TX_3,TX,0,2016-05-11,11615,no_event,no_event,no_event,no_event,1,3.88
+HOBBIES_2_009_TX_3_evaluation,HOBBIES_2_009,HOBBIES_2,HOBBIES,TX_3,TX,0,2016-05-11,11615,no_event,no_event,no_event,no_event,1,5.97
+HOBBIES_2_010_TX_3_evaluation,HOBBIES_2_010,HOBBIES_2,HOBBIES,TX_3,TX,0,2016-05-11,11615,no_event,no_event,no_event,no_event,1,0.97
+HOBBIES_2_001_TX_1_evaluation,HOBBIES_2_001,HOBBIES_2,HOBBIES,TX_1,TX,0,2016-05-12,11615,no_event,no_event,no_event,no_event,1,5.47
+HOBBIES_2_002_TX_1_evaluation,HOBBIES_2_002,HOBBIES_2,HOBBIES,TX_1,TX,0,2016-05-12,11615,no_event,no_event,no_event,no_event,1,1.47
+HOBBIES_2_003_TX_1_evaluation,HOBBIES_2_003,HOBBIES_2,HOBBIES,TX_1,TX,0,2016-05-12,11615,no_event,no_event,no_event,no_event,1,1.97
+HOBBIES_2_004_TX_1_evaluation,HOBBIES_2_004,HOBBIES_2,HOBBIES,TX_1,TX,1,2016-05-12,11615,no_event,no_event,no_event,no_event,1,2.47
+HOBBIES_2_005_TX_1_evaluation,HOBBIES_2_005,HOBBIES_2,HOBBIES,TX_1,TX,0,2016-05-12,11615,no_event,no_event,no_event,no_event,1,4.47
+HOBBIES_2_006_TX_1_evaluation,HOBBIES_2_006,HOBBIES_2,HOBBIES,TX_1,TX,0,2016-05-12,11615,no_event,no_event,no_event,no_event,1,3.97
+HOBBIES_2_007_TX_1_evaluation,HOBBIES_2_007,HOBBIES_2,HOBBIES,TX_1,TX,1,2016-05-12,11615,no_event,no_event,no_event,no_event,1,0.97
+HOBBIES_2_008_TX_1_evaluation,HOBBIES_2_008,HOBBIES_2,HOBBIES,TX_1,TX,0,2016-05-12,11615,no_event,no_event,no_event,no_event,1,3.88
+HOBBIES_2_009_TX_1_evaluation,HOBBIES_2_009,HOBBIES_2,HOBBIES,TX_1,TX,2,2016-05-12,11615,no_event,no_event,no_event,no_event,1,5.97
+HOBBIES_2_010_TX_1_evaluation,HOBBIES_2_010,HOBBIES_2,HOBBIES,TX_1,TX,0,2016-05-12,11615,no_event,no_event,no_event,no_event,1,0.97
+HOBBIES_2_001_TX_2_evaluation,HOBBIES_2_001,HOBBIES_2,HOBBIES,TX_2,TX,0,2016-05-12,11615,no_event,no_event,no_event,no_event,1,5.47
+HOBBIES_2_002_TX_2_evaluation,HOBBIES_2_002,HOBBIES_2,HOBBIES,TX_2,TX,2,2016-05-12,11615,no_event,no_event,no_event,no_event,1,1.47
+HOBBIES_2_003_TX_2_evaluation,HOBBIES_2_003,HOBBIES_2,HOBBIES,TX_2,TX,1,2016-05-12,11615,no_event,no_event,no_event,no_event,1,1.97
+HOBBIES_2_004_TX_2_evaluation,HOBBIES_2_004,HOBBIES_2,HOBBIES,TX_2,TX,1,2016-05-12,11615,no_event,no_event,no_event,no_event,1,2.47
+HOBBIES_2_005_TX_2_evaluation,HOBBIES_2_005,HOBBIES_2,HOBBIES,TX_2,TX,0,2016-05-12,11615,no_event,no_event,no_event,no_event,1,4.47
+HOBBIES_2_006_TX_2_evaluation,HOBBIES_2_006,HOBBIES_2,HOBBIES,TX_2,TX,0,2016-05-12,11615,no_event,no_event,no_event,no_event,1,3.97
+HOBBIES_2_007_TX_2_evaluation,HOBBIES_2_007,HOBBIES_2,HOBBIES,TX_2,TX,2,2016-05-12,11615,no_event,no_event,no_event,no_event,1,0.97
+HOBBIES_2_008_TX_2_evaluation,HOBBIES_2_008,HOBBIES_2,HOBBIES,TX_2,TX,0,2016-05-12,11615,no_event,no_event,no_event,no_event,1,3.88
+HOBBIES_2_009_TX_2_evaluation,HOBBIES_2_009,HOBBIES_2,HOBBIES,TX_2,TX,0,2016-05-12,11615,no_event,no_event,no_event,no_event,1,5.97
+HOBBIES_2_010_TX_2_evaluation,HOBBIES_2_010,HOBBIES_2,HOBBIES,TX_2,TX,0,2016-05-12,11615,no_event,no_event,no_event,no_event,1,0.97
+HOBBIES_2_001_TX_3_evaluation,HOBBIES_2_001,HOBBIES_2,HOBBIES,TX_3,TX,0,2016-05-12,11615,no_event,no_event,no_event,no_event,1,5.47
+HOBBIES_2_002_TX_3_evaluation,HOBBIES_2_002,HOBBIES_2,HOBBIES,TX_3,TX,0,2016-05-12,11615,no_event,no_event,no_event,no_event,1,1.47
+HOBBIES_2_003_TX_3_evaluation,HOBBIES_2_003,HOBBIES_2,HOBBIES,TX_3,TX,1,2016-05-12,11615,no_event,no_event,no_event,no_event,1,1.97
+HOBBIES_2_004_TX_3_evaluation,HOBBIES_2_004,HOBBIES_2,HOBBIES,TX_3,TX,0,2016-05-12,11615,no_event,no_event,no_event,no_event,1,2.47
+HOBBIES_2_005_TX_3_evaluation,HOBBIES_2_005,HOBBIES_2,HOBBIES,TX_3,TX,0,2016-05-12,11615,no_event,no_event,no_event,no_event,1,4.47
+HOBBIES_2_006_TX_3_evaluation,HOBBIES_2_006,HOBBIES_2,HOBBIES,TX_3,TX,0,2016-05-12,11615,no_event,no_event,no_event,no_event,1,3.97
+HOBBIES_2_007_TX_3_evaluation,HOBBIES_2_007,HOBBIES_2,HOBBIES,TX_3,TX,0,2016-05-12,11615,no_event,no_event,no_event,no_event,1,0.97
+HOBBIES_2_008_TX_3_evaluation,HOBBIES_2_008,HOBBIES_2,HOBBIES,TX_3,TX,0,2016-05-12,11615,no_event,no_event,no_event,no_event,1,3.88
+HOBBIES_2_009_TX_3_evaluation,HOBBIES_2_009,HOBBIES_2,HOBBIES,TX_3,TX,0,2016-05-12,11615,no_event,no_event,no_event,no_event,1,5.97
+HOBBIES_2_010_TX_3_evaluation,HOBBIES_2_010,HOBBIES_2,HOBBIES,TX_3,TX,0,2016-05-12,11615,no_event,no_event,no_event,no_event,1,0.97
+HOBBIES_2_001_TX_1_evaluation,HOBBIES_2_001,HOBBIES_2,HOBBIES,TX_1,TX,0,2016-05-13,11615,no_event,no_event,no_event,no_event,1,5.47
+HOBBIES_2_002_TX_1_evaluation,HOBBIES_2_002,HOBBIES_2,HOBBIES,TX_1,TX,0,2016-05-13,11615,no_event,no_event,no_event,no_event,1,1.47
+HOBBIES_2_003_TX_1_evaluation,HOBBIES_2_003,HOBBIES_2,HOBBIES,TX_1,TX,1,2016-05-13,11615,no_event,no_event,no_event,no_event,1,1.97
+HOBBIES_2_004_TX_1_evaluation,HOBBIES_2_004,HOBBIES_2,HOBBIES,TX_1,TX,0,2016-05-13,11615,no_event,no_event,no_event,no_event,1,2.47
+HOBBIES_2_005_TX_1_evaluation,HOBBIES_2_005,HOBBIES_2,HOBBIES,TX_1,TX,1,2016-05-13,11615,no_event,no_event,no_event,no_event,1,4.47
+HOBBIES_2_006_TX_1_evaluation,HOBBIES_2_006,HOBBIES_2,HOBBIES,TX_1,TX,0,2016-05-13,11615,no_event,no_event,no_event,no_event,1,3.97
+HOBBIES_2_007_TX_1_evaluation,HOBBIES_2_007,HOBBIES_2,HOBBIES,TX_1,TX,0,2016-05-13,11615,no_event,no_event,no_event,no_event,1,0.97
+HOBBIES_2_008_TX_1_evaluation,HOBBIES_2_008,HOBBIES_2,HOBBIES,TX_1,TX,1,2016-05-13,11615,no_event,no_event,no_event,no_event,1,3.88
+HOBBIES_2_009_TX_1_evaluation,HOBBIES_2_009,HOBBIES_2,HOBBIES,TX_1,TX,2,2016-05-13,11615,no_event,no_event,no_event,no_event,1,5.97
+HOBBIES_2_010_TX_1_evaluation,HOBBIES_2_010,HOBBIES_2,HOBBIES,TX_1,TX,0,2016-05-13,11615,no_event,no_event,no_event,no_event,1,0.97
+HOBBIES_2_001_TX_2_evaluation,HOBBIES_2_001,HOBBIES_2,HOBBIES,TX_2,TX,0,2016-05-13,11615,no_event,no_event,no_event,no_event,1,5.47
+HOBBIES_2_002_TX_2_evaluation,HOBBIES_2_002,HOBBIES_2,HOBBIES,TX_2,TX,2,2016-05-13,11615,no_event,no_event,no_event,no_event,1,1.47
+HOBBIES_2_003_TX_2_evaluation,HOBBIES_2_003,HOBBIES_2,HOBBIES,TX_2,TX,1,2016-05-13,11615,no_event,no_event,no_event,no_event,1,1.97
+HOBBIES_2_004_TX_2_evaluation,HOBBIES_2_004,HOBBIES_2,HOBBIES,TX_2,TX,1,2016-05-13,11615,no_event,no_event,no_event,no_event,1,2.47
+HOBBIES_2_005_TX_2_evaluation,HOBBIES_2_005,HOBBIES_2,HOBBIES,TX_2,TX,0,2016-05-13,11615,no_event,no_event,no_event,no_event,1,4.47
+HOBBIES_2_006_TX_2_evaluation,HOBBIES_2_006,HOBBIES_2,HOBBIES,TX_2,TX,0,2016-05-13,11615,no_event,no_event,no_event,no_event,1,3.97
+HOBBIES_2_007_TX_2_evaluation,HOBBIES_2_007,HOBBIES_2,HOBBIES,TX_2,TX,0,2016-05-13,11615,no_event,no_event,no_event,no_event,1,0.97
+HOBBIES_2_008_TX_2_evaluation,HOBBIES_2_008,HOBBIES_2,HOBBIES,TX_2,TX,0,2016-05-13,11615,no_event,no_event,no_event,no_event,1,3.88
+HOBBIES_2_009_TX_2_evaluation,HOBBIES_2_009,HOBBIES_2,HOBBIES,TX_2,TX,1,2016-05-13,11615,no_event,no_event,no_event,no_event,1,5.97
+HOBBIES_2_010_TX_2_evaluation,HOBBIES_2_010,HOBBIES_2,HOBBIES,TX_2,TX,0,2016-05-13,11615,no_event,no_event,no_event,no_event,1,0.97
+HOBBIES_2_001_TX_3_evaluation,HOBBIES_2_001,HOBBIES_2,HOBBIES,TX_3,TX,0,2016-05-13,11615,no_event,no_event,no_event,no_event,1,5.47
+HOBBIES_2_002_TX_3_evaluation,HOBBIES_2_002,HOBBIES_2,HOBBIES,TX_3,TX,2,2016-05-13,11615,no_event,no_event,no_event,no_event,1,1.47
+HOBBIES_2_003_TX_3_evaluation,HOBBIES_2_003,HOBBIES_2,HOBBIES,TX_3,TX,1,2016-05-13,11615,no_event,no_event,no_event,no_event,1,1.97
+HOBBIES_2_004_TX_3_evaluation,HOBBIES_2_004,HOBBIES_2,HOBBIES,TX_3,TX,0,2016-05-13,11615,no_event,no_event,no_event,no_event,1,2.47
+HOBBIES_2_005_TX_3_evaluation,HOBBIES_2_005,HOBBIES_2,HOBBIES,TX_3,TX,0,2016-05-13,11615,no_event,no_event,no_event,no_event,1,4.47
+HOBBIES_2_006_TX_3_evaluation,HOBBIES_2_006,HOBBIES_2,HOBBIES,TX_3,TX,0,2016-05-13,11615,no_event,no_event,no_event,no_event,1,3.97
+HOBBIES_2_007_TX_3_evaluation,HOBBIES_2_007,HOBBIES_2,HOBBIES,TX_3,TX,1,2016-05-13,11615,no_event,no_event,no_event,no_event,1,0.97
+HOBBIES_2_008_TX_3_evaluation,HOBBIES_2_008,HOBBIES_2,HOBBIES,TX_3,TX,1,2016-05-13,11615,no_event,no_event,no_event,no_event,1,3.88
+HOBBIES_2_009_TX_3_evaluation,HOBBIES_2_009,HOBBIES_2,HOBBIES,TX_3,TX,0,2016-05-13,11615,no_event,no_event,no_event,no_event,1,5.97
+HOBBIES_2_010_TX_3_evaluation,HOBBIES_2_010,HOBBIES_2,HOBBIES,TX_3,TX,0,2016-05-13,11615,no_event,no_event,no_event,no_event,1,0.97
+HOBBIES_2_001_TX_1_evaluation,HOBBIES_2_001,HOBBIES_2,HOBBIES,TX_1,TX,0,2016-05-14,11616,no_event,no_event,no_event,no_event,0,5.47
+HOBBIES_2_002_TX_1_evaluation,HOBBIES_2_002,HOBBIES_2,HOBBIES,TX_1,TX,0,2016-05-14,11616,no_event,no_event,no_event,no_event,0,1.47
+HOBBIES_2_003_TX_1_evaluation,HOBBIES_2_003,HOBBIES_2,HOBBIES,TX_1,TX,1,2016-05-14,11616,no_event,no_event,no_event,no_event,0,1.97
+HOBBIES_2_004_TX_1_evaluation,HOBBIES_2_004,HOBBIES_2,HOBBIES,TX_1,TX,0,2016-05-14,11616,no_event,no_event,no_event,no_event,0,2.47
+HOBBIES_2_005_TX_1_evaluation,HOBBIES_2_005,HOBBIES_2,HOBBIES,TX_1,TX,0,2016-05-14,11616,no_event,no_event,no_event,no_event,0,4.47
+HOBBIES_2_006_TX_1_evaluation,HOBBIES_2_006,HOBBIES_2,HOBBIES,TX_1,TX,0,2016-05-14,11616,no_event,no_event,no_event,no_event,0,3.97
+HOBBIES_2_007_TX_1_evaluation,HOBBIES_2_007,HOBBIES_2,HOBBIES,TX_1,TX,0,2016-05-14,11616,no_event,no_event,no_event,no_event,0,0.97
+HOBBIES_2_008_TX_1_evaluation,HOBBIES_2_008,HOBBIES_2,HOBBIES,TX_1,TX,0,2016-05-14,11616,no_event,no_event,no_event,no_event,0,3.88
+HOBBIES_2_009_TX_1_evaluation,HOBBIES_2_009,HOBBIES_2,HOBBIES,TX_1,TX,0,2016-05-14,11616,no_event,no_event,no_event,no_event,0,5.97
+HOBBIES_2_010_TX_1_evaluation,HOBBIES_2_010,HOBBIES_2,HOBBIES,TX_1,TX,1,2016-05-14,11616,no_event,no_event,no_event,no_event,0,0.97
+HOBBIES_2_001_TX_2_evaluation,HOBBIES_2_001,HOBBIES_2,HOBBIES,TX_2,TX,0,2016-05-14,11616,no_event,no_event,no_event,no_event,0,5.47
+HOBBIES_2_002_TX_2_evaluation,HOBBIES_2_002,HOBBIES_2,HOBBIES,TX_2,TX,1,2016-05-14,11616,no_event,no_event,no_event,no_event,0,1.47
+HOBBIES_2_003_TX_2_evaluation,HOBBIES_2_003,HOBBIES_2,HOBBIES,TX_2,TX,0,2016-05-14,11616,no_event,no_event,no_event,no_event,0,1.97
+HOBBIES_2_004_TX_2_evaluation,HOBBIES_2_004,HOBBIES_2,HOBBIES,TX_2,TX,0,2016-05-14,11616,no_event,no_event,no_event,no_event,0,2.47
+HOBBIES_2_005_TX_2_evaluation,HOBBIES_2_005,HOBBIES_2,HOBBIES,TX_2,TX,0,2016-05-14,11616,no_event,no_event,no_event,no_event,0,4.47
+HOBBIES_2_006_TX_2_evaluation,HOBBIES_2_006,HOBBIES_2,HOBBIES,TX_2,TX,2,2016-05-14,11616,no_event,no_event,no_event,no_event,0,3.97
+HOBBIES_2_007_TX_2_evaluation,HOBBIES_2_007,HOBBIES_2,HOBBIES,TX_2,TX,0,2016-05-14,11616,no_event,no_event,no_event,no_event,0,0.97
+HOBBIES_2_008_TX_2_evaluation,HOBBIES_2_008,HOBBIES_2,HOBBIES,TX_2,TX,2,2016-05-14,11616,no_event,no_event,no_event,no_event,0,3.88
+HOBBIES_2_009_TX_2_evaluation,HOBBIES_2_009,HOBBIES_2,HOBBIES,TX_2,TX,0,2016-05-14,11616,no_event,no_event,no_event,no_event,0,5.97
+HOBBIES_2_010_TX_2_evaluation,HOBBIES_2_010,HOBBIES_2,HOBBIES,TX_2,TX,1,2016-05-14,11616,no_event,no_event,no_event,no_event,0,0.97
+HOBBIES_2_001_TX_3_evaluation,HOBBIES_2_001,HOBBIES_2,HOBBIES,TX_3,TX,0,2016-05-14,11616,no_event,no_event,no_event,no_event,0,5.47
+HOBBIES_2_002_TX_3_evaluation,HOBBIES_2_002,HOBBIES_2,HOBBIES,TX_3,TX,0,2016-05-14,11616,no_event,no_event,no_event,no_event,0,1.47
+HOBBIES_2_003_TX_3_evaluation,HOBBIES_2_003,HOBBIES_2,HOBBIES,TX_3,TX,1,2016-05-14,11616,no_event,no_event,no_event,no_event,0,1.97
+HOBBIES_2_004_TX_3_evaluation,HOBBIES_2_004,HOBBIES_2,HOBBIES,TX_3,TX,0,2016-05-14,11616,no_event,no_event,no_event,no_event,0,2.47
+HOBBIES_2_005_TX_3_evaluation,HOBBIES_2_005,HOBBIES_2,HOBBIES,TX_3,TX,0,2016-05-14,11616,no_event,no_event,no_event,no_event,0,4.47
+HOBBIES_2_006_TX_3_evaluation,HOBBIES_2_006,HOBBIES_2,HOBBIES,TX_3,TX,0,2016-05-14,11616,no_event,no_event,no_event,no_event,0,3.97
+HOBBIES_2_007_TX_3_evaluation,HOBBIES_2_007,HOBBIES_2,HOBBIES,TX_3,TX,0,2016-05-14,11616,no_event,no_event,no_event,no_event,0,0.97
+HOBBIES_2_008_TX_3_evaluation,HOBBIES_2_008,HOBBIES_2,HOBBIES,TX_3,TX,2,2016-05-14,11616,no_event,no_event,no_event,no_event,0,3.88
+HOBBIES_2_009_TX_3_evaluation,HOBBIES_2_009,HOBBIES_2,HOBBIES,TX_3,TX,0,2016-05-14,11616,no_event,no_event,no_event,no_event,0,5.97
+HOBBIES_2_010_TX_3_evaluation,HOBBIES_2_010,HOBBIES_2,HOBBIES,TX_3,TX,0,2016-05-14,11616,no_event,no_event,no_event,no_event,0,0.97
+HOBBIES_2_001_TX_1_evaluation,HOBBIES_2_001,HOBBIES_2,HOBBIES,TX_1,TX,0,2016-05-15,11616,no_event,no_event,no_event,no_event,1,5.47
+HOBBIES_2_002_TX_1_evaluation,HOBBIES_2_002,HOBBIES_2,HOBBIES,TX_1,TX,0,2016-05-15,11616,no_event,no_event,no_event,no_event,1,1.47
+HOBBIES_2_003_TX_1_evaluation,HOBBIES_2_003,HOBBIES_2,HOBBIES,TX_1,TX,1,2016-05-15,11616,no_event,no_event,no_event,no_event,1,1.97
+HOBBIES_2_004_TX_1_evaluation,HOBBIES_2_004,HOBBIES_2,HOBBIES,TX_1,TX,1,2016-05-15,11616,no_event,no_event,no_event,no_event,1,2.47
+HOBBIES_2_005_TX_1_evaluation,HOBBIES_2_005,HOBBIES_2,HOBBIES,TX_1,TX,0,2016-05-15,11616,no_event,no_event,no_event,no_event,1,4.47
+HOBBIES_2_006_TX_1_evaluation,HOBBIES_2_006,HOBBIES_2,HOBBIES,TX_1,TX,0,2016-05-15,11616,no_event,no_event,no_event,no_event,1,3.97
+HOBBIES_2_007_TX_1_evaluation,HOBBIES_2_007,HOBBIES_2,HOBBIES,TX_1,TX,0,2016-05-15,11616,no_event,no_event,no_event,no_event,1,0.97
+HOBBIES_2_008_TX_1_evaluation,HOBBIES_2_008,HOBBIES_2,HOBBIES,TX_1,TX,0,2016-05-15,11616,no_event,no_event,no_event,no_event,1,3.88
+HOBBIES_2_009_TX_1_evaluation,HOBBIES_2_009,HOBBIES_2,HOBBIES,TX_1,TX,1,2016-05-15,11616,no_event,no_event,no_event,no_event,1,5.97
+HOBBIES_2_010_TX_1_evaluation,HOBBIES_2_010,HOBBIES_2,HOBBIES,TX_1,TX,1,2016-05-15,11616,no_event,no_event,no_event,no_event,1,0.97
+HOBBIES_2_001_TX_2_evaluation,HOBBIES_2_001,HOBBIES_2,HOBBIES,TX_2,TX,1,2016-05-15,11616,no_event,no_event,no_event,no_event,1,5.47
+HOBBIES_2_002_TX_2_evaluation,HOBBIES_2_002,HOBBIES_2,HOBBIES,TX_2,TX,0,2016-05-15,11616,no_event,no_event,no_event,no_event,1,1.47
+HOBBIES_2_003_TX_2_evaluation,HOBBIES_2_003,HOBBIES_2,HOBBIES,TX_2,TX,0,2016-05-15,11616,no_event,no_event,no_event,no_event,1,1.97
+HOBBIES_2_004_TX_2_evaluation,HOBBIES_2_004,HOBBIES_2,HOBBIES,TX_2,TX,0,2016-05-15,11616,no_event,no_event,no_event,no_event,1,2.47
+HOBBIES_2_005_TX_2_evaluation,HOBBIES_2_005,HOBBIES_2,HOBBIES,TX_2,TX,0,2016-05-15,11616,no_event,no_event,no_event,no_event,1,4.47
+HOBBIES_2_006_TX_2_evaluation,HOBBIES_2_006,HOBBIES_2,HOBBIES,TX_2,TX,0,2016-05-15,11616,no_event,no_event,no_event,no_event,1,3.97
+HOBBIES_2_007_TX_2_evaluation,HOBBIES_2_007,HOBBIES_2,HOBBIES,TX_2,TX,0,2016-05-15,11616,no_event,no_event,no_event,no_event,1,0.97
+HOBBIES_2_008_TX_2_evaluation,HOBBIES_2_008,HOBBIES_2,HOBBIES,TX_2,TX,0,2016-05-15,11616,no_event,no_event,no_event,no_event,1,3.88
+HOBBIES_2_009_TX_2_evaluation,HOBBIES_2_009,HOBBIES_2,HOBBIES,TX_2,TX,0,2016-05-15,11616,no_event,no_event,no_event,no_event,1,5.97
+HOBBIES_2_010_TX_2_evaluation,HOBBIES_2_010,HOBBIES_2,HOBBIES,TX_2,TX,1,2016-05-15,11616,no_event,no_event,no_event,no_event,1,0.97
+HOBBIES_2_001_TX_3_evaluation,HOBBIES_2_001,HOBBIES_2,HOBBIES,TX_3,TX,0,2016-05-15,11616,no_event,no_event,no_event,no_event,1,5.47
+HOBBIES_2_002_TX_3_evaluation,HOBBIES_2_002,HOBBIES_2,HOBBIES,TX_3,TX,0,2016-05-15,11616,no_event,no_event,no_event,no_event,1,1.47
+HOBBIES_2_003_TX_3_evaluation,HOBBIES_2_003,HOBBIES_2,HOBBIES,TX_3,TX,0,2016-05-15,11616,no_event,no_event,no_event,no_event,1,1.97
+HOBBIES_2_004_TX_3_evaluation,HOBBIES_2_004,HOBBIES_2,HOBBIES,TX_3,TX,0,2016-05-15,11616,no_event,no_event,no_event,no_event,1,2.47
+HOBBIES_2_005_TX_3_evaluation,HOBBIES_2_005,HOBBIES_2,HOBBIES,TX_3,TX,0,2016-05-15,11616,no_event,no_event,no_event,no_event,1,4.47
+HOBBIES_2_006_TX_3_evaluation,HOBBIES_2_006,HOBBIES_2,HOBBIES,TX_3,TX,0,2016-05-15,11616,no_event,no_event,no_event,no_event,1,3.97
+HOBBIES_2_007_TX_3_evaluation,HOBBIES_2_007,HOBBIES_2,HOBBIES,TX_3,TX,1,2016-05-15,11616,no_event,no_event,no_event,no_event,1,0.97
+HOBBIES_2_008_TX_3_evaluation,HOBBIES_2_008,HOBBIES_2,HOBBIES,TX_3,TX,0,2016-05-15,11616,no_event,no_event,no_event,no_event,1,3.88
+HOBBIES_2_009_TX_3_evaluation,HOBBIES_2_009,HOBBIES_2,HOBBIES,TX_3,TX,0,2016-05-15,11616,no_event,no_event,no_event,no_event,1,5.97
+HOBBIES_2_010_TX_3_evaluation,HOBBIES_2_010,HOBBIES_2,HOBBIES,TX_3,TX,0,2016-05-15,11616,no_event,no_event,no_event,no_event,1,0.97
+HOBBIES_2_001_TX_1_evaluation,HOBBIES_2_001,HOBBIES_2,HOBBIES,TX_1,TX,0,2016-05-16,11616,no_event,no_event,no_event,no_event,0,5.47
+HOBBIES_2_002_TX_1_evaluation,HOBBIES_2_002,HOBBIES_2,HOBBIES,TX_1,TX,0,2016-05-16,11616,no_event,no_event,no_event,no_event,0,1.47
+HOBBIES_2_003_TX_1_evaluation,HOBBIES_2_003,HOBBIES_2,HOBBIES,TX_1,TX,1,2016-05-16,11616,no_event,no_event,no_event,no_event,0,1.97
+HOBBIES_2_004_TX_1_evaluation,HOBBIES_2_004,HOBBIES_2,HOBBIES,TX_1,TX,0,2016-05-16,11616,no_event,no_event,no_event,no_event,0,2.47
+HOBBIES_2_005_TX_1_evaluation,HOBBIES_2_005,HOBBIES_2,HOBBIES,TX_1,TX,0,2016-05-16,11616,no_event,no_event,no_event,no_event,0,4.47
+HOBBIES_2_006_TX_1_evaluation,HOBBIES_2_006,HOBBIES_2,HOBBIES,TX_1,TX,0,2016-05-16,11616,no_event,no_event,no_event,no_event,0,3.97
+HOBBIES_2_007_TX_1_evaluation,HOBBIES_2_007,HOBBIES_2,HOBBIES,TX_1,TX,0,2016-05-16,11616,no_event,no_event,no_event,no_event,0,0.97
+HOBBIES_2_008_TX_1_evaluation,HOBBIES_2_008,HOBBIES_2,HOBBIES,TX_1,TX,0,2016-05-16,11616,no_event,no_event,no_event,no_event,0,3.88
+HOBBIES_2_009_TX_1_evaluation,HOBBIES_2_009,HOBBIES_2,HOBBIES,TX_1,TX,1,2016-05-16,11616,no_event,no_event,no_event,no_event,0,5.97
+HOBBIES_2_010_TX_1_evaluation,HOBBIES_2_010,HOBBIES_2,HOBBIES,TX_1,TX,0,2016-05-16,11616,no_event,no_event,no_event,no_event,0,0.97
+HOBBIES_2_001_TX_2_evaluation,HOBBIES_2_001,HOBBIES_2,HOBBIES,TX_2,TX,1,2016-05-16,11616,no_event,no_event,no_event,no_event,0,5.47
+HOBBIES_2_002_TX_2_evaluation,HOBBIES_2_002,HOBBIES_2,HOBBIES,TX_2,TX,1,2016-05-16,11616,no_event,no_event,no_event,no_event,0,1.47
+HOBBIES_2_003_TX_2_evaluation,HOBBIES_2_003,HOBBIES_2,HOBBIES,TX_2,TX,0,2016-05-16,11616,no_event,no_event,no_event,no_event,0,1.97
+HOBBIES_2_004_TX_2_evaluation,HOBBIES_2_004,HOBBIES_2,HOBBIES,TX_2,TX,0,2016-05-16,11616,no_event,no_event,no_event,no_event,0,2.47
+HOBBIES_2_005_TX_2_evaluation,HOBBIES_2_005,HOBBIES_2,HOBBIES,TX_2,TX,1,2016-05-16,11616,no_event,no_event,no_event,no_event,0,4.47
+HOBBIES_2_006_TX_2_evaluation,HOBBIES_2_006,HOBBIES_2,HOBBIES,TX_2,TX,1,2016-05-16,11616,no_event,no_event,no_event,no_event,0,3.97
+HOBBIES_2_007_TX_2_evaluation,HOBBIES_2_007,HOBBIES_2,HOBBIES,TX_2,TX,2,2016-05-16,11616,no_event,no_event,no_event,no_event,0,0.97
+HOBBIES_2_008_TX_2_evaluation,HOBBIES_2_008,HOBBIES_2,HOBBIES,TX_2,TX,0,2016-05-16,11616,no_event,no_event,no_event,no_event,0,3.88
+HOBBIES_2_009_TX_2_evaluation,HOBBIES_2_009,HOBBIES_2,HOBBIES,TX_2,TX,2,2016-05-16,11616,no_event,no_event,no_event,no_event,0,5.97
+HOBBIES_2_010_TX_2_evaluation,HOBBIES_2_010,HOBBIES_2,HOBBIES,TX_2,TX,0,2016-05-16,11616,no_event,no_event,no_event,no_event,0,0.97
+HOBBIES_2_001_TX_3_evaluation,HOBBIES_2_001,HOBBIES_2,HOBBIES,TX_3,TX,0,2016-05-16,11616,no_event,no_event,no_event,no_event,0,5.47
+HOBBIES_2_002_TX_3_evaluation,HOBBIES_2_002,HOBBIES_2,HOBBIES,TX_3,TX,2,2016-05-16,11616,no_event,no_event,no_event,no_event,0,1.47
+HOBBIES_2_003_TX_3_evaluation,HOBBIES_2_003,HOBBIES_2,HOBBIES,TX_3,TX,4,2016-05-16,11616,no_event,no_event,no_event,no_event,0,1.97
+HOBBIES_2_004_TX_3_evaluation,HOBBIES_2_004,HOBBIES_2,HOBBIES,TX_3,TX,1,2016-05-16,11616,no_event,no_event,no_event,no_event,0,2.47
+HOBBIES_2_005_TX_3_evaluation,HOBBIES_2_005,HOBBIES_2,HOBBIES,TX_3,TX,0,2016-05-16,11616,no_event,no_event,no_event,no_event,0,4.47
+HOBBIES_2_006_TX_3_evaluation,HOBBIES_2_006,HOBBIES_2,HOBBIES,TX_3,TX,0,2016-05-16,11616,no_event,no_event,no_event,no_event,0,3.97
+HOBBIES_2_007_TX_3_evaluation,HOBBIES_2_007,HOBBIES_2,HOBBIES,TX_3,TX,0,2016-05-16,11616,no_event,no_event,no_event,no_event,0,0.97
+HOBBIES_2_008_TX_3_evaluation,HOBBIES_2_008,HOBBIES_2,HOBBIES,TX_3,TX,1,2016-05-16,11616,no_event,no_event,no_event,no_event,0,3.88
+HOBBIES_2_009_TX_3_evaluation,HOBBIES_2_009,HOBBIES_2,HOBBIES,TX_3,TX,0,2016-05-16,11616,no_event,no_event,no_event,no_event,0,5.97
+HOBBIES_2_010_TX_3_evaluation,HOBBIES_2_010,HOBBIES_2,HOBBIES,TX_3,TX,0,2016-05-16,11616,no_event,no_event,no_event,no_event,0,0.97
+HOBBIES_2_001_TX_1_evaluation,HOBBIES_2_001,HOBBIES_2,HOBBIES,TX_1,TX,0,2016-05-17,11616,no_event,no_event,no_event,no_event,0,5.47
+HOBBIES_2_002_TX_1_evaluation,HOBBIES_2_002,HOBBIES_2,HOBBIES,TX_1,TX,0,2016-05-17,11616,no_event,no_event,no_event,no_event,0,1.47
+HOBBIES_2_003_TX_1_evaluation,HOBBIES_2_003,HOBBIES_2,HOBBIES,TX_1,TX,1,2016-05-17,11616,no_event,no_event,no_event,no_event,0,1.97
+HOBBIES_2_004_TX_1_evaluation,HOBBIES_2_004,HOBBIES_2,HOBBIES,TX_1,TX,0,2016-05-17,11616,no_event,no_event,no_event,no_event,0,2.47
+HOBBIES_2_005_TX_1_evaluation,HOBBIES_2_005,HOBBIES_2,HOBBIES,TX_1,TX,0,2016-05-17,11616,no_event,no_event,no_event,no_event,0,4.47
+HOBBIES_2_006_TX_1_evaluation,HOBBIES_2_006,HOBBIES_2,HOBBIES,TX_1,TX,0,2016-05-17,11616,no_event,no_event,no_event,no_event,0,3.97
+HOBBIES_2_007_TX_1_evaluation,HOBBIES_2_007,HOBBIES_2,HOBBIES,TX_1,TX,2,2016-05-17,11616,no_event,no_event,no_event,no_event,0,0.97
+HOBBIES_2_008_TX_1_evaluation,HOBBIES_2_008,HOBBIES_2,HOBBIES,TX_1,TX,0,2016-05-17,11616,no_event,no_event,no_event,no_event,0,3.88
+HOBBIES_2_009_TX_1_evaluation,HOBBIES_2_009,HOBBIES_2,HOBBIES,TX_1,TX,2,2016-05-17,11616,no_event,no_event,no_event,no_event,0,5.97
+HOBBIES_2_010_TX_1_evaluation,HOBBIES_2_010,HOBBIES_2,HOBBIES,TX_1,TX,0,2016-05-17,11616,no_event,no_event,no_event,no_event,0,0.97
+HOBBIES_2_001_TX_2_evaluation,HOBBIES_2_001,HOBBIES_2,HOBBIES,TX_2,TX,0,2016-05-17,11616,no_event,no_event,no_event,no_event,0,5.47
+HOBBIES_2_002_TX_2_evaluation,HOBBIES_2_002,HOBBIES_2,HOBBIES,TX_2,TX,1,2016-05-17,11616,no_event,no_event,no_event,no_event,0,1.47
+HOBBIES_2_003_TX_2_evaluation,HOBBIES_2_003,HOBBIES_2,HOBBIES,TX_2,TX,4,2016-05-17,11616,no_event,no_event,no_event,no_event,0,1.97
+HOBBIES_2_004_TX_2_evaluation,HOBBIES_2_004,HOBBIES_2,HOBBIES,TX_2,TX,1,2016-05-17,11616,no_event,no_event,no_event,no_event,0,2.47
+HOBBIES_2_005_TX_2_evaluation,HOBBIES_2_005,HOBBIES_2,HOBBIES,TX_2,TX,0,2016-05-17,11616,no_event,no_event,no_event,no_event,0,4.47
+HOBBIES_2_006_TX_2_evaluation,HOBBIES_2_006,HOBBIES_2,HOBBIES,TX_2,TX,0,2016-05-17,11616,no_event,no_event,no_event,no_event,0,3.97
+HOBBIES_2_007_TX_2_evaluation,HOBBIES_2_007,HOBBIES_2,HOBBIES,TX_2,TX,0,2016-05-17,11616,no_event,no_event,no_event,no_event,0,0.97
+HOBBIES_2_008_TX_2_evaluation,HOBBIES_2_008,HOBBIES_2,HOBBIES,TX_2,TX,1,2016-05-17,11616,no_event,no_event,no_event,no_event,0,3.88
+HOBBIES_2_009_TX_2_evaluation,HOBBIES_2_009,HOBBIES_2,HOBBIES,TX_2,TX,1,2016-05-17,11616,no_event,no_event,no_event,no_event,0,5.97
+HOBBIES_2_010_TX_2_evaluation,HOBBIES_2_010,HOBBIES_2,HOBBIES,TX_2,TX,0,2016-05-17,11616,no_event,no_event,no_event,no_event,0,0.97
+HOBBIES_2_001_TX_3_evaluation,HOBBIES_2_001,HOBBIES_2,HOBBIES,TX_3,TX,0,2016-05-17,11616,no_event,no_event,no_event,no_event,0,5.47
+HOBBIES_2_002_TX_3_evaluation,HOBBIES_2_002,HOBBIES_2,HOBBIES,TX_3,TX,0,2016-05-17,11616,no_event,no_event,no_event,no_event,0,1.47
+HOBBIES_2_003_TX_3_evaluation,HOBBIES_2_003,HOBBIES_2,HOBBIES,TX_3,TX,1,2016-05-17,11616,no_event,no_event,no_event,no_event,0,1.97
+HOBBIES_2_004_TX_3_evaluation,HOBBIES_2_004,HOBBIES_2,HOBBIES,TX_3,TX,0,2016-05-17,11616,no_event,no_event,no_event,no_event,0,2.47
+HOBBIES_2_005_TX_3_evaluation,HOBBIES_2_005,HOBBIES_2,HOBBIES,TX_3,TX,0,2016-05-17,11616,no_event,no_event,no_event,no_event,0,4.47
+HOBBIES_2_006_TX_3_evaluation,HOBBIES_2_006,HOBBIES_2,HOBBIES,TX_3,TX,0,2016-05-17,11616,no_event,no_event,no_event,no_event,0,3.97
+HOBBIES_2_007_TX_3_evaluation,HOBBIES_2_007,HOBBIES_2,HOBBIES,TX_3,TX,0,2016-05-17,11616,no_event,no_event,no_event,no_event,0,0.97
+HOBBIES_2_008_TX_3_evaluation,HOBBIES_2_008,HOBBIES_2,HOBBIES,TX_3,TX,0,2016-05-17,11616,no_event,no_event,no_event,no_event,0,3.88
+HOBBIES_2_009_TX_3_evaluation,HOBBIES_2_009,HOBBIES_2,HOBBIES,TX_3,TX,0,2016-05-17,11616,no_event,no_event,no_event,no_event,0,5.97
+HOBBIES_2_010_TX_3_evaluation,HOBBIES_2_010,HOBBIES_2,HOBBIES,TX_3,TX,1,2016-05-17,11616,no_event,no_event,no_event,no_event,0,0.97
+HOBBIES_2_001_TX_1_evaluation,HOBBIES_2_001,HOBBIES_2,HOBBIES,TX_1,TX,0,2016-05-18,11616,no_event,no_event,no_event,no_event,0,5.47
+HOBBIES_2_002_TX_1_evaluation,HOBBIES_2_002,HOBBIES_2,HOBBIES,TX_1,TX,0,2016-05-18,11616,no_event,no_event,no_event,no_event,0,1.47
+HOBBIES_2_003_TX_1_evaluation,HOBBIES_2_003,HOBBIES_2,HOBBIES,TX_1,TX,1,2016-05-18,11616,no_event,no_event,no_event,no_event,0,1.97
+HOBBIES_2_004_TX_1_evaluation,HOBBIES_2_004,HOBBIES_2,HOBBIES,TX_1,TX,1,2016-05-18,11616,no_event,no_event,no_event,no_event,0,2.47
+HOBBIES_2_005_TX_1_evaluation,HOBBIES_2_005,HOBBIES_2,HOBBIES,TX_1,TX,0,2016-05-18,11616,no_event,no_event,no_event,no_event,0,4.47
+HOBBIES_2_006_TX_1_evaluation,HOBBIES_2_006,HOBBIES_2,HOBBIES,TX_1,TX,0,2016-05-18,11616,no_event,no_event,no_event,no_event,0,3.97
+HOBBIES_2_007_TX_1_evaluation,HOBBIES_2_007,HOBBIES_2,HOBBIES,TX_1,TX,1,2016-05-18,11616,no_event,no_event,no_event,no_event,0,0.97
+HOBBIES_2_008_TX_1_evaluation,HOBBIES_2_008,HOBBIES_2,HOBBIES,TX_1,TX,0,2016-05-18,11616,no_event,no_event,no_event,no_event,0,3.88
+HOBBIES_2_009_TX_1_evaluation,HOBBIES_2_009,HOBBIES_2,HOBBIES,TX_1,TX,0,2016-05-18,11616,no_event,no_event,no_event,no_event,0,5.97
+HOBBIES_2_010_TX_1_evaluation,HOBBIES_2_010,HOBBIES_2,HOBBIES,TX_1,TX,0,2016-05-18,11616,no_event,no_event,no_event,no_event,0,0.97
+HOBBIES_2_001_TX_2_evaluation,HOBBIES_2_001,HOBBIES_2,HOBBIES,TX_2,TX,0,2016-05-18,11616,no_event,no_event,no_event,no_event,0,5.47
+HOBBIES_2_002_TX_2_evaluation,HOBBIES_2_002,HOBBIES_2,HOBBIES,TX_2,TX,2,2016-05-18,11616,no_event,no_event,no_event,no_event,0,1.47
+HOBBIES_2_003_TX_2_evaluation,HOBBIES_2_003,HOBBIES_2,HOBBIES,TX_2,TX,0,2016-05-18,11616,no_event,no_event,no_event,no_event,0,1.97
+HOBBIES_2_004_TX_2_evaluation,HOBBIES_2_004,HOBBIES_2,HOBBIES,TX_2,TX,0,2016-05-18,11616,no_event,no_event,no_event,no_event,0,2.47
+HOBBIES_2_005_TX_2_evaluation,HOBBIES_2_005,HOBBIES_2,HOBBIES,TX_2,TX,0,2016-05-18,11616,no_event,no_event,no_event,no_event,0,4.47
+HOBBIES_2_006_TX_2_evaluation,HOBBIES_2_006,HOBBIES_2,HOBBIES,TX_2,TX,1,2016-05-18,11616,no_event,no_event,no_event,no_event,0,3.97
+HOBBIES_2_007_TX_2_evaluation,HOBBIES_2_007,HOBBIES_2,HOBBIES,TX_2,TX,0,2016-05-18,11616,no_event,no_event,no_event,no_event,0,0.97
+HOBBIES_2_008_TX_2_evaluation,HOBBIES_2_008,HOBBIES_2,HOBBIES,TX_2,TX,0,2016-05-18,11616,no_event,no_event,no_event,no_event,0,3.88
+HOBBIES_2_009_TX_2_evaluation,HOBBIES_2_009,HOBBIES_2,HOBBIES,TX_2,TX,0,2016-05-18,11616,no_event,no_event,no_event,no_event,0,5.97
+HOBBIES_2_010_TX_2_evaluation,HOBBIES_2_010,HOBBIES_2,HOBBIES,TX_2,TX,1,2016-05-18,11616,no_event,no_event,no_event,no_event,0,0.97
+HOBBIES_2_001_TX_3_evaluation,HOBBIES_2_001,HOBBIES_2,HOBBIES,TX_3,TX,0,2016-05-18,11616,no_event,no_event,no_event,no_event,0,5.47
+HOBBIES_2_002_TX_3_evaluation,HOBBIES_2_002,HOBBIES_2,HOBBIES,TX_3,TX,0,2016-05-18,11616,no_event,no_event,no_event,no_event,0,1.47
+HOBBIES_2_003_TX_3_evaluation,HOBBIES_2_003,HOBBIES_2,HOBBIES,TX_3,TX,0,2016-05-18,11616,no_event,no_event,no_event,no_event,0,1.97
+HOBBIES_2_004_TX_3_evaluation,HOBBIES_2_004,HOBBIES_2,HOBBIES,TX_3,TX,0,2016-05-18,11616,no_event,no_event,no_event,no_event,0,2.47
+HOBBIES_2_005_TX_3_evaluation,HOBBIES_2_005,HOBBIES_2,HOBBIES,TX_3,TX,0,2016-05-18,11616,no_event,no_event,no_event,no_event,0,4.47
+HOBBIES_2_006_TX_3_evaluation,HOBBIES_2_006,HOBBIES_2,HOBBIES,TX_3,TX,0,2016-05-18,11616,no_event,no_event,no_event,no_event,0,3.97
+HOBBIES_2_007_TX_3_evaluation,HOBBIES_2_007,HOBBIES_2,HOBBIES,TX_3,TX,0,2016-05-18,11616,no_event,no_event,no_event,no_event,0,0.97
+HOBBIES_2_008_TX_3_evaluation,HOBBIES_2_008,HOBBIES_2,HOBBIES,TX_3,TX,0,2016-05-18,11616,no_event,no_event,no_event,no_event,0,3.88
+HOBBIES_2_009_TX_3_evaluation,HOBBIES_2_009,HOBBIES_2,HOBBIES,TX_3,TX,0,2016-05-18,11616,no_event,no_event,no_event,no_event,0,5.97
+HOBBIES_2_010_TX_3_evaluation,HOBBIES_2_010,HOBBIES_2,HOBBIES,TX_3,TX,2,2016-05-18,11616,no_event,no_event,no_event,no_event,0,0.97
+HOBBIES_2_001_TX_1_evaluation,HOBBIES_2_001,HOBBIES_2,HOBBIES,TX_1,TX,0,2016-05-19,11616,no_event,no_event,no_event,no_event,0,5.47
+HOBBIES_2_002_TX_1_evaluation,HOBBIES_2_002,HOBBIES_2,HOBBIES,TX_1,TX,0,2016-05-19,11616,no_event,no_event,no_event,no_event,0,1.47
+HOBBIES_2_003_TX_1_evaluation,HOBBIES_2_003,HOBBIES_2,HOBBIES,TX_1,TX,3,2016-05-19,11616,no_event,no_event,no_event,no_event,0,1.97
+HOBBIES_2_004_TX_1_evaluation,HOBBIES_2_004,HOBBIES_2,HOBBIES,TX_1,TX,0,2016-05-19,11616,no_event,no_event,no_event,no_event,0,2.47
+HOBBIES_2_005_TX_1_evaluation,HOBBIES_2_005,HOBBIES_2,HOBBIES,TX_1,TX,0,2016-05-19,11616,no_event,no_event,no_event,no_event,0,4.47
+HOBBIES_2_006_TX_1_evaluation,HOBBIES_2_006,HOBBIES_2,HOBBIES,TX_1,TX,0,2016-05-19,11616,no_event,no_event,no_event,no_event,0,3.97
+HOBBIES_2_007_TX_1_evaluation,HOBBIES_2_007,HOBBIES_2,HOBBIES,TX_1,TX,1,2016-05-19,11616,no_event,no_event,no_event,no_event,0,0.97
+HOBBIES_2_008_TX_1_evaluation,HOBBIES_2_008,HOBBIES_2,HOBBIES,TX_1,TX,0,2016-05-19,11616,no_event,no_event,no_event,no_event,0,3.88
+HOBBIES_2_009_TX_1_evaluation,HOBBIES_2_009,HOBBIES_2,HOBBIES,TX_1,TX,1,2016-05-19,11616,no_event,no_event,no_event,no_event,0,5.97
+HOBBIES_2_010_TX_1_evaluation,HOBBIES_2_010,HOBBIES_2,HOBBIES,TX_1,TX,0,2016-05-19,11616,no_event,no_event,no_event,no_event,0,0.97
+HOBBIES_2_001_TX_2_evaluation,HOBBIES_2_001,HOBBIES_2,HOBBIES,TX_2,TX,0,2016-05-19,11616,no_event,no_event,no_event,no_event,0,5.47
+HOBBIES_2_002_TX_2_evaluation,HOBBIES_2_002,HOBBIES_2,HOBBIES,TX_2,TX,1,2016-05-19,11616,no_event,no_event,no_event,no_event,0,1.47
+HOBBIES_2_003_TX_2_evaluation,HOBBIES_2_003,HOBBIES_2,HOBBIES,TX_2,TX,0,2016-05-19,11616,no_event,no_event,no_event,no_event,0,1.97
+HOBBIES_2_004_TX_2_evaluation,HOBBIES_2_004,HOBBIES_2,HOBBIES,TX_2,TX,0,2016-05-19,11616,no_event,no_event,no_event,no_event,0,2.47
+HOBBIES_2_005_TX_2_evaluation,HOBBIES_2_005,HOBBIES_2,HOBBIES,TX_2,TX,0,2016-05-19,11616,no_event,no_event,no_event,no_event,0,4.47
+HOBBIES_2_006_TX_2_evaluation,HOBBIES_2_006,HOBBIES_2,HOBBIES,TX_2,TX,0,2016-05-19,11616,no_event,no_event,no_event,no_event,0,3.97
+HOBBIES_2_007_TX_2_evaluation,HOBBIES_2_007,HOBBIES_2,HOBBIES,TX_2,TX,0,2016-05-19,11616,no_event,no_event,no_event,no_event,0,0.97
+HOBBIES_2_008_TX_2_evaluation,HOBBIES_2_008,HOBBIES_2,HOBBIES,TX_2,TX,0,2016-05-19,11616,no_event,no_event,no_event,no_event,0,3.88
+HOBBIES_2_009_TX_2_evaluation,HOBBIES_2_009,HOBBIES_2,HOBBIES,TX_2,TX,2,2016-05-19,11616,no_event,no_event,no_event,no_event,0,5.97
+HOBBIES_2_010_TX_2_evaluation,HOBBIES_2_010,HOBBIES_2,HOBBIES,TX_2,TX,0,2016-05-19,11616,no_event,no_event,no_event,no_event,0,0.97
+HOBBIES_2_001_TX_3_evaluation,HOBBIES_2_001,HOBBIES_2,HOBBIES,TX_3,TX,0,2016-05-19,11616,no_event,no_event,no_event,no_event,0,5.47
+HOBBIES_2_002_TX_3_evaluation,HOBBIES_2_002,HOBBIES_2,HOBBIES,TX_3,TX,0,2016-05-19,11616,no_event,no_event,no_event,no_event,0,1.47
+HOBBIES_2_003_TX_3_evaluation,HOBBIES_2_003,HOBBIES_2,HOBBIES,TX_3,TX,1,2016-05-19,11616,no_event,no_event,no_event,no_event,0,1.97
+HOBBIES_2_004_TX_3_evaluation,HOBBIES_2_004,HOBBIES_2,HOBBIES,TX_3,TX,1,2016-05-19,11616,no_event,no_event,no_event,no_event,0,2.47
+HOBBIES_2_005_TX_3_evaluation,HOBBIES_2_005,HOBBIES_2,HOBBIES,TX_3,TX,0,2016-05-19,11616,no_event,no_event,no_event,no_event,0,4.47
+HOBBIES_2_006_TX_3_evaluation,HOBBIES_2_006,HOBBIES_2,HOBBIES,TX_3,TX,0,2016-05-19,11616,no_event,no_event,no_event,no_event,0,3.97
+HOBBIES_2_007_TX_3_evaluation,HOBBIES_2_007,HOBBIES_2,HOBBIES,TX_3,TX,0,2016-05-19,11616,no_event,no_event,no_event,no_event,0,0.97
+HOBBIES_2_008_TX_3_evaluation,HOBBIES_2_008,HOBBIES_2,HOBBIES,TX_3,TX,0,2016-05-19,11616,no_event,no_event,no_event,no_event,0,3.88
+HOBBIES_2_009_TX_3_evaluation,HOBBIES_2_009,HOBBIES_2,HOBBIES,TX_3,TX,0,2016-05-19,11616,no_event,no_event,no_event,no_event,0,5.97
+HOBBIES_2_010_TX_3_evaluation,HOBBIES_2_010,HOBBIES_2,HOBBIES,TX_3,TX,0,2016-05-19,11616,no_event,no_event,no_event,no_event,0,0.97
+HOBBIES_2_001_TX_1_evaluation,HOBBIES_2_001,HOBBIES_2,HOBBIES,TX_1,TX,0,2016-05-20,11616,no_event,no_event,no_event,no_event,0,5.47
+HOBBIES_2_002_TX_1_evaluation,HOBBIES_2_002,HOBBIES_2,HOBBIES,TX_1,TX,0,2016-05-20,11616,no_event,no_event,no_event,no_event,0,1.47
+HOBBIES_2_003_TX_1_evaluation,HOBBIES_2_003,HOBBIES_2,HOBBIES,TX_1,TX,0,2016-05-20,11616,no_event,no_event,no_event,no_event,0,1.97
+HOBBIES_2_004_TX_1_evaluation,HOBBIES_2_004,HOBBIES_2,HOBBIES,TX_1,TX,0,2016-05-20,11616,no_event,no_event,no_event,no_event,0,2.47
+HOBBIES_2_005_TX_1_evaluation,HOBBIES_2_005,HOBBIES_2,HOBBIES,TX_1,TX,0,2016-05-20,11616,no_event,no_event,no_event,no_event,0,4.47
+HOBBIES_2_006_TX_1_evaluation,HOBBIES_2_006,HOBBIES_2,HOBBIES,TX_1,TX,0,2016-05-20,11616,no_event,no_event,no_event,no_event,0,3.97
+HOBBIES_2_007_TX_1_evaluation,HOBBIES_2_007,HOBBIES_2,HOBBIES,TX_1,TX,1,2016-05-20,11616,no_event,no_event,no_event,no_event,0,0.97
+HOBBIES_2_008_TX_1_evaluation,HOBBIES_2_008,HOBBIES_2,HOBBIES,TX_1,TX,0,2016-05-20,11616,no_event,no_event,no_event,no_event,0,3.88
+HOBBIES_2_009_TX_1_evaluation,HOBBIES_2_009,HOBBIES_2,HOBBIES,TX_1,TX,0,2016-05-20,11616,no_event,no_event,no_event,no_event,0,5.97
+HOBBIES_2_010_TX_1_evaluation,HOBBIES_2_010,HOBBIES_2,HOBBIES,TX_1,TX,2,2016-05-20,11616,no_event,no_event,no_event,no_event,0,0.97
+HOBBIES_2_001_TX_2_evaluation,HOBBIES_2_001,HOBBIES_2,HOBBIES,TX_2,TX,0,2016-05-20,11616,no_event,no_event,no_event,no_event,0,5.47
+HOBBIES_2_002_TX_2_evaluation,HOBBIES_2_002,HOBBIES_2,HOBBIES,TX_2,TX,0,2016-05-20,11616,no_event,no_event,no_event,no_event,0,1.47
+HOBBIES_2_003_TX_2_evaluation,HOBBIES_2_003,HOBBIES_2,HOBBIES,TX_2,TX,0,2016-05-20,11616,no_event,no_event,no_event,no_event,0,1.97
+HOBBIES_2_004_TX_2_evaluation,HOBBIES_2_004,HOBBIES_2,HOBBIES,TX_2,TX,0,2016-05-20,11616,no_event,no_event,no_event,no_event,0,2.47
+HOBBIES_2_005_TX_2_evaluation,HOBBIES_2_005,HOBBIES_2,HOBBIES,TX_2,TX,0,2016-05-20,11616,no_event,no_event,no_event,no_event,0,4.47
+HOBBIES_2_006_TX_2_evaluation,HOBBIES_2_006,HOBBIES_2,HOBBIES,TX_2,TX,0,2016-05-20,11616,no_event,no_event,no_event,no_event,0,3.97
+HOBBIES_2_007_TX_2_evaluation,HOBBIES_2_007,HOBBIES_2,HOBBIES,TX_2,TX,0,2016-05-20,11616,no_event,no_event,no_event,no_event,0,0.97
+HOBBIES_2_008_TX_2_evaluation,HOBBIES_2_008,HOBBIES_2,HOBBIES,TX_2,TX,0,2016-05-20,11616,no_event,no_event,no_event,no_event,0,3.88
+HOBBIES_2_009_TX_2_evaluation,HOBBIES_2_009,HOBBIES_2,HOBBIES,TX_2,TX,6,2016-05-20,11616,no_event,no_event,no_event,no_event,0,5.97
+HOBBIES_2_010_TX_2_evaluation,HOBBIES_2_010,HOBBIES_2,HOBBIES,TX_2,TX,0,2016-05-20,11616,no_event,no_event,no_event,no_event,0,0.97
+HOBBIES_2_001_TX_3_evaluation,HOBBIES_2_001,HOBBIES_2,HOBBIES,TX_3,TX,1,2016-05-20,11616,no_event,no_event,no_event,no_event,0,5.47
+HOBBIES_2_002_TX_3_evaluation,HOBBIES_2_002,HOBBIES_2,HOBBIES,TX_3,TX,0,2016-05-20,11616,no_event,no_event,no_event,no_event,0,1.47
+HOBBIES_2_003_TX_3_evaluation,HOBBIES_2_003,HOBBIES_2,HOBBIES,TX_3,TX,1,2016-05-20,11616,no_event,no_event,no_event,no_event,0,1.97
+HOBBIES_2_004_TX_3_evaluation,HOBBIES_2_004,HOBBIES_2,HOBBIES,TX_3,TX,0,2016-05-20,11616,no_event,no_event,no_event,no_event,0,2.47
+HOBBIES_2_005_TX_3_evaluation,HOBBIES_2_005,HOBBIES_2,HOBBIES,TX_3,TX,0,2016-05-20,11616,no_event,no_event,no_event,no_event,0,4.47
+HOBBIES_2_006_TX_3_evaluation,HOBBIES_2_006,HOBBIES_2,HOBBIES,TX_3,TX,0,2016-05-20,11616,no_event,no_event,no_event,no_event,0,3.97
+HOBBIES_2_007_TX_3_evaluation,HOBBIES_2_007,HOBBIES_2,HOBBIES,TX_3,TX,0,2016-05-20,11616,no_event,no_event,no_event,no_event,0,0.97
+HOBBIES_2_008_TX_3_evaluation,HOBBIES_2_008,HOBBIES_2,HOBBIES,TX_3,TX,0,2016-05-20,11616,no_event,no_event,no_event,no_event,0,3.88
+HOBBIES_2_009_TX_3_evaluation,HOBBIES_2_009,HOBBIES_2,HOBBIES,TX_3,TX,0,2016-05-20,11616,no_event,no_event,no_event,no_event,0,5.97
+HOBBIES_2_010_TX_3_evaluation,HOBBIES_2_010,HOBBIES_2,HOBBIES,TX_3,TX,0,2016-05-20,11616,no_event,no_event,no_event,no_event,0,0.97
+HOBBIES_2_001_TX_1_evaluation,HOBBIES_2_001,HOBBIES_2,HOBBIES,TX_1,TX,0,2016-05-21,11617,no_event,no_event,no_event,no_event,0,5.47
+HOBBIES_2_002_TX_1_evaluation,HOBBIES_2_002,HOBBIES_2,HOBBIES,TX_1,TX,0,2016-05-21,11617,no_event,no_event,no_event,no_event,0,1.47
+HOBBIES_2_003_TX_1_evaluation,HOBBIES_2_003,HOBBIES_2,HOBBIES,TX_1,TX,0,2016-05-21,11617,no_event,no_event,no_event,no_event,0,1.97
+HOBBIES_2_004_TX_1_evaluation,HOBBIES_2_004,HOBBIES_2,HOBBIES,TX_1,TX,0,2016-05-21,11617,no_event,no_event,no_event,no_event,0,2.47
+HOBBIES_2_005_TX_1_evaluation,HOBBIES_2_005,HOBBIES_2,HOBBIES,TX_1,TX,0,2016-05-21,11617,no_event,no_event,no_event,no_event,0,4.47
+HOBBIES_2_006_TX_1_evaluation,HOBBIES_2_006,HOBBIES_2,HOBBIES,TX_1,TX,0,2016-05-21,11617,no_event,no_event,no_event,no_event,0,3.97
+HOBBIES_2_007_TX_1_evaluation,HOBBIES_2_007,HOBBIES_2,HOBBIES,TX_1,TX,1,2016-05-21,11617,no_event,no_event,no_event,no_event,0,0.97
+HOBBIES_2_008_TX_1_evaluation,HOBBIES_2_008,HOBBIES_2,HOBBIES,TX_1,TX,0,2016-05-21,11617,no_event,no_event,no_event,no_event,0,3.88
+HOBBIES_2_009_TX_1_evaluation,HOBBIES_2_009,HOBBIES_2,HOBBIES,TX_1,TX,1,2016-05-21,11617,no_event,no_event,no_event,no_event,0,5.97
+HOBBIES_2_010_TX_1_evaluation,HOBBIES_2_010,HOBBIES_2,HOBBIES,TX_1,TX,0,2016-05-21,11617,no_event,no_event,no_event,no_event,0,0.97
+HOBBIES_2_001_TX_2_evaluation,HOBBIES_2_001,HOBBIES_2,HOBBIES,TX_2,TX,0,2016-05-21,11617,no_event,no_event,no_event,no_event,0,5.47
+HOBBIES_2_002_TX_2_evaluation,HOBBIES_2_002,HOBBIES_2,HOBBIES,TX_2,TX,1,2016-05-21,11617,no_event,no_event,no_event,no_event,0,1.47
+HOBBIES_2_003_TX_2_evaluation,HOBBIES_2_003,HOBBIES_2,HOBBIES,TX_2,TX,0,2016-05-21,11617,no_event,no_event,no_event,no_event,0,1.97
+HOBBIES_2_004_TX_2_evaluation,HOBBIES_2_004,HOBBIES_2,HOBBIES,TX_2,TX,0,2016-05-21,11617,no_event,no_event,no_event,no_event,0,2.47
+HOBBIES_2_005_TX_2_evaluation,HOBBIES_2_005,HOBBIES_2,HOBBIES,TX_2,TX,1,2016-05-21,11617,no_event,no_event,no_event,no_event,0,4.47
+HOBBIES_2_006_TX_2_evaluation,HOBBIES_2_006,HOBBIES_2,HOBBIES,TX_2,TX,0,2016-05-21,11617,no_event,no_event,no_event,no_event,0,3.97
+HOBBIES_2_007_TX_2_evaluation,HOBBIES_2_007,HOBBIES_2,HOBBIES,TX_2,TX,0,2016-05-21,11617,no_event,no_event,no_event,no_event,0,0.97
+HOBBIES_2_008_TX_2_evaluation,HOBBIES_2_008,HOBBIES_2,HOBBIES,TX_2,TX,0,2016-05-21,11617,no_event,no_event,no_event,no_event,0,3.88
+HOBBIES_2_009_TX_2_evaluation,HOBBIES_2_009,HOBBIES_2,HOBBIES,TX_2,TX,0,2016-05-21,11617,no_event,no_event,no_event,no_event,0,5.97
+HOBBIES_2_010_TX_2_evaluation,HOBBIES_2_010,HOBBIES_2,HOBBIES,TX_2,TX,0,2016-05-21,11617,no_event,no_event,no_event,no_event,0,0.97
+HOBBIES_2_001_TX_3_evaluation,HOBBIES_2_001,HOBBIES_2,HOBBIES,TX_3,TX,0,2016-05-21,11617,no_event,no_event,no_event,no_event,0,5.47
+HOBBIES_2_002_TX_3_evaluation,HOBBIES_2_002,HOBBIES_2,HOBBIES,TX_3,TX,0,2016-05-21,11617,no_event,no_event,no_event,no_event,0,1.47
+HOBBIES_2_003_TX_3_evaluation,HOBBIES_2_003,HOBBIES_2,HOBBIES,TX_3,TX,0,2016-05-21,11617,no_event,no_event,no_event,no_event,0,1.97
+HOBBIES_2_004_TX_3_evaluation,HOBBIES_2_004,HOBBIES_2,HOBBIES,TX_3,TX,0,2016-05-21,11617,no_event,no_event,no_event,no_event,0,2.47
+HOBBIES_2_005_TX_3_evaluation,HOBBIES_2_005,HOBBIES_2,HOBBIES,TX_3,TX,0,2016-05-21,11617,no_event,no_event,no_event,no_event,0,4.47
+HOBBIES_2_006_TX_3_evaluation,HOBBIES_2_006,HOBBIES_2,HOBBIES,TX_3,TX,0,2016-05-21,11617,no_event,no_event,no_event,no_event,0,3.97
+HOBBIES_2_007_TX_3_evaluation,HOBBIES_2_007,HOBBIES_2,HOBBIES,TX_3,TX,1,2016-05-21,11617,no_event,no_event,no_event,no_event,0,0.97
+HOBBIES_2_008_TX_3_evaluation,HOBBIES_2_008,HOBBIES_2,HOBBIES,TX_3,TX,2,2016-05-21,11617,no_event,no_event,no_event,no_event,0,3.88
+HOBBIES_2_009_TX_3_evaluation,HOBBIES_2_009,HOBBIES_2,HOBBIES,TX_3,TX,0,2016-05-21,11617,no_event,no_event,no_event,no_event,0,5.97
+HOBBIES_2_010_TX_3_evaluation,HOBBIES_2_010,HOBBIES_2,HOBBIES,TX_3,TX,0,2016-05-21,11617,no_event,no_event,no_event,no_event,0,0.97
+HOBBIES_2_001_TX_1_evaluation,HOBBIES_2_001,HOBBIES_2,HOBBIES,TX_1,TX,0,2016-05-22,11617,no_event,no_event,no_event,no_event,0,5.47
+HOBBIES_2_002_TX_1_evaluation,HOBBIES_2_002,HOBBIES_2,HOBBIES,TX_1,TX,0,2016-05-22,11617,no_event,no_event,no_event,no_event,0,1.47
+HOBBIES_2_003_TX_1_evaluation,HOBBIES_2_003,HOBBIES_2,HOBBIES,TX_1,TX,1,2016-05-22,11617,no_event,no_event,no_event,no_event,0,1.97
+HOBBIES_2_004_TX_1_evaluation,HOBBIES_2_004,HOBBIES_2,HOBBIES,TX_1,TX,4,2016-05-22,11617,no_event,no_event,no_event,no_event,0,2.47
+HOBBIES_2_005_TX_1_evaluation,HOBBIES_2_005,HOBBIES_2,HOBBIES,TX_1,TX,0,2016-05-22,11617,no_event,no_event,no_event,no_event,0,4.47
+HOBBIES_2_006_TX_1_evaluation,HOBBIES_2_006,HOBBIES_2,HOBBIES,TX_1,TX,0,2016-05-22,11617,no_event,no_event,no_event,no_event,0,3.97
+HOBBIES_2_007_TX_1_evaluation,HOBBIES_2_007,HOBBIES_2,HOBBIES,TX_1,TX,1,2016-05-22,11617,no_event,no_event,no_event,no_event,0,0.97
+HOBBIES_2_008_TX_1_evaluation,HOBBIES_2_008,HOBBIES_2,HOBBIES,TX_1,TX,0,2016-05-22,11617,no_event,no_event,no_event,no_event,0,3.88
+HOBBIES_2_009_TX_1_evaluation,HOBBIES_2_009,HOBBIES_2,HOBBIES,TX_1,TX,0,2016-05-22,11617,no_event,no_event,no_event,no_event,0,5.97
+HOBBIES_2_010_TX_1_evaluation,HOBBIES_2_010,HOBBIES_2,HOBBIES,TX_1,TX,0,2016-05-22,11617,no_event,no_event,no_event,no_event,0,0.97
+HOBBIES_2_001_TX_2_evaluation,HOBBIES_2_001,HOBBIES_2,HOBBIES,TX_2,TX,0,2016-05-22,11617,no_event,no_event,no_event,no_event,0,5.47
+HOBBIES_2_002_TX_2_evaluation,HOBBIES_2_002,HOBBIES_2,HOBBIES,TX_2,TX,0,2016-05-22,11617,no_event,no_event,no_event,no_event,0,1.47
+HOBBIES_2_003_TX_2_evaluation,HOBBIES_2_003,HOBBIES_2,HOBBIES,TX_2,TX,2,2016-05-22,11617,no_event,no_event,no_event,no_event,0,1.97
+HOBBIES_2_004_TX_2_evaluation,HOBBIES_2_004,HOBBIES_2,HOBBIES,TX_2,TX,0,2016-05-22,11617,no_event,no_event,no_event,no_event,0,2.47
+HOBBIES_2_005_TX_2_evaluation,HOBBIES_2_005,HOBBIES_2,HOBBIES,TX_2,TX,0,2016-05-22,11617,no_event,no_event,no_event,no_event,0,4.47
+HOBBIES_2_006_TX_2_evaluation,HOBBIES_2_006,HOBBIES_2,HOBBIES,TX_2,TX,0,2016-05-22,11617,no_event,no_event,no_event,no_event,0,3.97
+HOBBIES_2_007_TX_2_evaluation,HOBBIES_2_007,HOBBIES_2,HOBBIES,TX_2,TX,0,2016-05-22,11617,no_event,no_event,no_event,no_event,0,0.97
+HOBBIES_2_008_TX_2_evaluation,HOBBIES_2_008,HOBBIES_2,HOBBIES,TX_2,TX,1,2016-05-22,11617,no_event,no_event,no_event,no_event,0,3.88
+HOBBIES_2_009_TX_2_evaluation,HOBBIES_2_009,HOBBIES_2,HOBBIES,TX_2,TX,1,2016-05-22,11617,no_event,no_event,no_event,no_event,0,5.97
+HOBBIES_2_010_TX_2_evaluation,HOBBIES_2_010,HOBBIES_2,HOBBIES,TX_2,TX,0,2016-05-22,11617,no_event,no_event,no_event,no_event,0,0.97
+HOBBIES_2_001_TX_3_evaluation,HOBBIES_2_001,HOBBIES_2,HOBBIES,TX_3,TX,0,2016-05-22,11617,no_event,no_event,no_event,no_event,0,5.47
+HOBBIES_2_002_TX_3_evaluation,HOBBIES_2_002,HOBBIES_2,HOBBIES,TX_3,TX,0,2016-05-22,11617,no_event,no_event,no_event,no_event,0,1.47
+HOBBIES_2_003_TX_3_evaluation,HOBBIES_2_003,HOBBIES_2,HOBBIES,TX_3,TX,1,2016-05-22,11617,no_event,no_event,no_event,no_event,0,1.97
+HOBBIES_2_004_TX_3_evaluation,HOBBIES_2_004,HOBBIES_2,HOBBIES,TX_3,TX,1,2016-05-22,11617,no_event,no_event,no_event,no_event,0,2.47
+HOBBIES_2_005_TX_3_evaluation,HOBBIES_2_005,HOBBIES_2,HOBBIES,TX_3,TX,0,2016-05-22,11617,no_event,no_event,no_event,no_event,0,4.47
+HOBBIES_2_006_TX_3_evaluation,HOBBIES_2_006,HOBBIES_2,HOBBIES,TX_3,TX,0,2016-05-22,11617,no_event,no_event,no_event,no_event,0,3.97
+HOBBIES_2_007_TX_3_evaluation,HOBBIES_2_007,HOBBIES_2,HOBBIES,TX_3,TX,0,2016-05-22,11617,no_event,no_event,no_event,no_event,0,0.97
+HOBBIES_2_008_TX_3_evaluation,HOBBIES_2_008,HOBBIES_2,HOBBIES,TX_3,TX,0,2016-05-22,11617,no_event,no_event,no_event,no_event,0,3.88
+HOBBIES_2_009_TX_3_evaluation,HOBBIES_2_009,HOBBIES_2,HOBBIES,TX_3,TX,0,2016-05-22,11617,no_event,no_event,no_event,no_event,0,5.97
+HOBBIES_2_010_TX_3_evaluation,HOBBIES_2_010,HOBBIES_2,HOBBIES,TX_3,TX,1,2016-05-22,11617,no_event,no_event,no_event,no_event,0,0.97
