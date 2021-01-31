@@ -2,15 +2,23 @@
 import argparse
 import os
 import numpy as np
+import pandas as pd
+from datetime import timedelta
+import lightgbm as lgb
+from azureml.core import Run
+
+
 # from sklearn.metrics import mean_squared_error
 # import joblib
 # from sklearn.model_selection import train_test_split
 # from sklearn.preprocessing import OneHotEncoder
-import pandas as pd
-# from azureml.core.run import Run
 # from azureml.data.dataset_factory import TabularDatasetFactory
 
-#Load dataset
+
+# import math
+
+
+# Load dataset
 # df = pd.read_csv('https://raw.githubusercontent.com/dpbac/Forecasting-Walmart-sales-with-Azure/master/data/walmart_tx_stores_10_items.csv?token=AEBB67J22CSLJ35FSAYTPELACF5W4')
 # or the following?
 # df = TabularDatasetFactory.from_delimited_files(path='https://raw.githubusercontent.com/dpbac/Forecasting-Walmart-sales-with-Azure/master/data/walmart_tx_stores_10_items.csv?token=AEBB67J22CSLJ35FSAYTPELACF5W4')
@@ -61,44 +69,42 @@ def change_data_type(df):
 
 # def encode_categorical(df):
 #     """ Transform categorical features in numerical features.
-    
+
 #     Args:
 #         df: dataframe containing categorical features
-        
+
 #     Return:
 #         df: dataframe with numerical features
 #     """
-    
+
 #     cat = ['item_id', 'dept_id', 'cat_id', 'store_id', 'state_id', 'event_name_1', 'event_type_1', 
 #        'event_name_2', 'event_type_2']
 
 #     for feature in cat:
 #         encoder = LabelEncoder()
 #         df[feature] = encoder.fit_transform(df[feature])
-        
+
 #     return df
 
 # create features
 
 # demand based features
 
-forecasting_horizon = 28
-
-def create_lag_features(df, forecasting_horizon):
+def create_lag_features(df, forecast_horizon):
     """ 
     Create lags using forecast horizon as basis 
     
     Args:
         df: dataframe with data for forecasting
     
-        forecasting_horizon (int): Number of time units (e.g. days) to be forecasted
+        forecast_horizon (int): Number of time units (e.g. days) to be forecasted
     
     Return:
         df: dataframe updated containing features created
     """
     
     for num in range(3):
-        df['lag_t'+str(forecasting_horizon+num)] = df.groupby(['id'])['demand'].transform(lambda x: x.shift(forecasting_horizon+num))
+        df['lag_t'+str(forecast_horizon+num)] = df.groupby(['id'])['demand'].transform(lambda x: x.shift(forecast_horizon+num))
 
     return df
 
@@ -212,11 +218,6 @@ def create_revenue_features(df):
 
 # Split time series data
 
-from datetime import timedelta
-
-forecast_horizon = 28
-gap = 0
-
 def split_train_test(df,forecast_horizon, gap):
     """ 
     Split time-series data in training and test datasets.
@@ -233,7 +234,7 @@ def split_train_test(df,forecast_horizon, gap):
         
     """
     
-    last_day_train = df['date'].max() - timedelta(days=forecasting_horizon) - timedelta(days=gap)
+    last_day_train = df['date'].max() - timedelta(days=forecast_horizon) - timedelta(days=gap)
     first_day_test = last_day_train + timedelta(days=1)
     last_day_test = df['date'].max()
     
@@ -249,10 +250,122 @@ def split_train_test(df,forecast_horizon, gap):
     
     return df_train, df_test
 
+def main():
+    
+    
+    # Parse input arguments
+    parser = argparse.ArgumentParser()
+#     parser.add_argument("--data-folder", type=str, dest="data_folder", default=".", help="data folder mounting point")
+    parser.add_argument("--num-leaves", type=int, dest="num_leaves", default=64, help="# of leaves of the tree")
+    parser.add_argument("--min-data-in-leaf", type=int, dest="min_data_in_leaf", default=50, help="minimum # of samples in each leaf")
+    parser.add_argument("--learning-rate", type=float, dest="learning_rate", default=0.001, help="learning rate")
+    parser.add_argument("--feature-fraction",type=float,dest="feature_fraction",default=1.0,help="ratio of features used in each iteration")
+    parser.add_argument("--bagging-fraction",type=float,dest="bagging_fraction",default=1.0,help="ratio of samples used in each iteration")
+    parser.add_argument("--bagging-freq", type=int, dest="bagging_freq", default=1, help="bagging frequency")
+    parser.add_argument("--max-rounds", type=int, dest="max_rounds", default=400, help="# of boosting iterations")
+
+#     parser.add_argument("--max-lag", type=int, dest="max_lag", default=10, help="max lag of unit sales")
+#     parser.add_argument("--window-size", type=int, dest="window_size", default=10, help="window size of moving average of unit sales")
+
+    args = parser.parse_args()
+    args.feature_fraction = round(args.feature_fraction, 2)
+    args.bagging_fraction = round(args.bagging_fraction, 2)
+    print(args)
+
+    # Start an Azure ML run
+    run = Run.get_context()
+
+#     # Data paths
+#     DATA_DIR = args.data_folder
+#     TRAIN_DIR = os.path.join(DATA_DIR, "train")
+
+# +
+    # Data and forecast problem parameters
+    time_column_name = 'date'
+    forecast_horizon = 28
+    gap = 0
+
+    # Parameters of GBM model
+    params = {
+        "objective": "mean_absolute_error",
+        "num_leaves": args.num_leaves,
+        "min_data_in_leaf": args.min_data_in_leaf,
+        "learning_rate": args.learning_rate,
+        "feature_fraction": args.feature_fraction,
+        "bagging_fraction": args.bagging_fraction,
+        "bagging_freq": args.bagging_freq,
+        "num_rounds": args.max_rounds,
+        "early_stopping_rounds": 125,
+        "num_threads": 16,
+    }
+    
+    # Train and validate the model using only the first round data
+#     r = 0
+#     print("---- Round " + str(r + 1) + " ----")
+#     # Load training data
+#     default_train_file = os.path.join(TRAIN_DIR, "train.csv")
+#     if os.path.isfile(default_train_file):
+#         train_df = pd.read_csv(default_train_file)
+#     else:
+#         train_df = pd.read_csv(os.path.join(TRAIN_DIR, "train_" + str(r + 1) + ".csv"))
+        
+    # Load data
+    data = pd.read_csv("../data/walmart/walmart_tx_stores_10_items.csv",parse_dates=[time_column_name])
+        
+        
+    # clean data and create features
+    
+    data = replace_nan_events(data)
+    # data = encode_categorical(data)
+    data = change_data_type(data)
+    data = create_lag_features(data, forecast_horizon)
+    data = create_df_rolling_stats(data)
+    data = create_features_price(data)
+    data = create_date_features(data)
+    data = create_revenue_features(data)
+    
+    # Remove rows with nan
+    data.dropna(inplace=True)
+    
+    # Create a training/testing split
+    df_train, df_test = split_train_test(data,forecast_horizon, gap)
+    
+    X_train=df_train.drop(['demand'],axis=1)
+    y_train=df_train['demand']
+    X_test=df_test.drop(['demand'],axis=1)
+    y_test=df_test['demand']
+    
+    X_train.drop(columns='date',inplace=True)
+    X_test.drop(columns='date',inplace=True)
+
+        
+    d_train = lgb.Dataset(X_train, y_train)
+    d_test = lgb.Dataset(X_test, y_test)
+    
+    # A dictionary to record training results
+    evals_result = {}
+    
+    # Train LightGBM model
+    bst = lgb.train(
+        params, d_train, valid_sets=[d_train, d_test], categorical_feature="auto", evals_result=evals_result)
+    
+    # Get final training loss & validation loss (l1 is the same as mean_absolute_error
+    train_loss = evals_result["training"]["l1"][-1]
+    test_loss = evals_result["valid_1"]["l1"][-1]
+    print("Final training loss is {}".format(train_loss))
+    print("Final test loss is {}".format(test_loss))
 
 
+    # Log the validation loss (MAE)
+    run.log("MAE", np.float(valid_loss) * 100)
 
-## DO THIS PART BASED OM MY PROBLEM
+    # Files saved in the "./outputs" folder are automatically uploaded into run history
+    os.makedirs("./outputs/model", exist_ok=True)
+    bst.save_model("./outputs/model/best-model.txt")
+# -
+
+
+# # DO THIS PART BASED OM MY PROBLEM
 
 # def main():
 #     # Add arguments to script
@@ -265,7 +378,7 @@ def split_train_test(df,forecast_horizon, gap):
 
 #     run.log("Regularization Strength:", np.float(args.C))
 #     run.log("Max iterations:", np.int(args.max_iter))
-    
+
 #     x, y = clean_data(ds)
 
 #     # I'm using stratify since the data is a bit imbalanced 
@@ -275,16 +388,16 @@ def split_train_test(df,forecast_horizon, gap):
 #     model = LogisticRegression(C=args.C, max_iter=args.max_iter).fit(x_train, y_train)
 
 #     accuracy = model.score(x_test, y_test)
-    
+
 #     os.makedirs('outputs',exist_ok = True)
-    
+
 #     joblib.dump(model,'outputs/model.joblib')
-    
-    
+
+
 #     run.log("Accuracy", np.float(accuracy))
+
     
-    
-    
+
     
 
 if __name__ == '__main__':
