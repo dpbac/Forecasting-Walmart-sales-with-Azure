@@ -7,26 +7,6 @@ from datetime import timedelta
 import lightgbm as lgb
 from azureml.core import Run
 
-
-# from sklearn.metrics import mean_squared_error
-# import joblib
-# from sklearn.model_selection import train_test_split
-# from sklearn.preprocessing import OneHotEncoder
-# from azureml.data.dataset_factory import TabularDatasetFactory
-
-
-# import math
-
-
-# Load dataset
-# df = pd.read_csv('https://raw.githubusercontent.com/dpbac/Forecasting-Walmart-sales-with-Azure/master/data/walmart_tx_stores_10_items.csv?token=AEBB67J22CSLJ35FSAYTPELACF5W4')
-# or the following?
-# df = TabularDatasetFactory.from_delimited_files(path='https://raw.githubusercontent.com/dpbac/Forecasting-Walmart-sales-with-Azure/master/data/walmart_tx_stores_10_items.csv?token=AEBB67J22CSLJ35FSAYTPELACF5W4')
-
-# run = Run.get_context()
-
-# Functions
-
 def replace_nan_events(df):
     """ Replace nan events with "no_event"
     
@@ -250,40 +230,74 @@ def split_train_test(df,forecast_horizon, gap):
     
     return df_train, df_test
 
+# Data and forecast problem parameters
+time_column_name = 'date'
+forecast_horizon = 28
+gap = 0
+
+#Load dataset
+time_column_name = 'date'
+data = pd.read_csv("./data/walmart_tx_stores_10_items_with_day.csv", parse_dates=[time_column_name])
+
+# clean data and create features
+    
+data = replace_nan_events(data)
+# data = encode_categorical(data)
+data = change_data_type(data)
+data = create_lag_features(data, forecast_horizon)
+data = create_df_rolling_stats(data)
+data = create_features_price(data)
+data = create_date_features(data)
+data = create_revenue_features(data)
+    
+# Remove rows with nan
+data.dropna(inplace=True)
+    
+# Create a training/testing split
+
+df_train, df_test = split_train_test(data,forecast_horizon, gap)
+    
+X_train=df_train.drop(['demand'],axis=1)
+y_train=df_train['demand']
+X_test=df_test.drop(['demand'],axis=1)
+y_test=df_test['demand']
+    
+X_train.drop(columns='date',inplace=True)
+X_test.drop(columns='date',inplace=True)
+
+# run = Run.get_context()
+
+
 def main():
     
-    
-    # Parse input arguments
+    # Add arguments to script
     parser = argparse.ArgumentParser()
 #     parser.add_argument("--data-folder", type=str, dest="data_folder", default=".", help="data folder mounting point")
-    parser.add_argument("--num-leaves", type=int, dest="num_leaves", default=64, help="# of leaves of the tree")
-    parser.add_argument("--min-data-in-leaf", type=int, dest="min_data_in_leaf", default=50, help="minimum # of samples in each leaf")
-    parser.add_argument("--learning-rate", type=float, dest="learning_rate", default=0.001, help="learning rate")
-    parser.add_argument("--feature-fraction",type=float,dest="feature_fraction",default=1.0,help="ratio of features used in each iteration")
-    parser.add_argument("--bagging-fraction",type=float,dest="bagging_fraction",default=1.0,help="ratio of samples used in each iteration")
-    parser.add_argument("--bagging-freq", type=int, dest="bagging_freq", default=1, help="bagging frequency")
-    parser.add_argument("--max-rounds", type=int, dest="max_rounds", default=400, help="# of boosting iterations")
+    parser.add_argument("--num_leaves", type=int, default=64, help="# of leaves of the tree")
+    parser.add_argument("--min_data_in_leaf", type=int, default=50, help="minimum # of samples in each leaf")
+    parser.add_argument("--learning_rate", type=float, default=0.001, help="learning rate")
+    parser.add_argument("--feature_fraction", type=float,default=1.0,help="ratio of features used in each iteration")
+    parser.add_argument("--bagging_fraction", type=float,default=1.0,help="ratio of samples used in each iteration")
+    parser.add_argument("--bagging_freq", type=int, default=1, help="bagging frequency")
+    parser.add_argument("--max_rounds", type=int, default=400, help="# of boosting iterations")
 
 #     parser.add_argument("--max-lag", type=int, dest="max_lag", default=10, help="max lag of unit sales")
 #     parser.add_argument("--window-size", type=int, dest="window_size", default=10, help="window size of moving average of unit sales")
-
     args = parser.parse_args()
+    
     args.feature_fraction = round(args.feature_fraction, 2)
     args.bagging_fraction = round(args.bagging_fraction, 2)
-    print(args)
 
-    # Start an Azure ML run
-    run = Run.get_context()
-
-#     # Data paths
-#     DATA_DIR = args.data_folder
-#     TRAIN_DIR = os.path.join(DATA_DIR, "train")
-
-# +
-    # Data and forecast problem parameters
-    time_column_name = 'date'
-    forecast_horizon = 28
-    gap = 0
+    
+    run.log("Number leaves:", np.int(args.num_leaves))
+    run.log("Min data in leaf:", np.int(args.min_data_in_leaf))
+    run.log("Learning rate:", np.float(args.learning_rate))
+    run.log("Feature fraction:", np.float(args.feature_fraction))
+    run.log("Bagging fraction:", np.float(args.bagging_fraction))
+    run.log("Bagging frequency:", np.int(args.bagging_freq))
+    run.log("Max rounds:", np.int(args.max_rounds))
+    
+    
 
     # Parameters of GBM model
     params = {
@@ -299,45 +313,8 @@ def main():
         "num_threads": 16,
     }
     
-    # Train and validate the model using only the first round data
-#     r = 0
-#     print("---- Round " + str(r + 1) + " ----")
-#     # Load training data
-#     default_train_file = os.path.join(TRAIN_DIR, "train.csv")
-#     if os.path.isfile(default_train_file):
-#         train_df = pd.read_csv(default_train_file)
-#     else:
-#         train_df = pd.read_csv(os.path.join(TRAIN_DIR, "train_" + str(r + 1) + ".csv"))
-        
-    # Load data
-    data = pd.read_csv("../data/walmart/walmart_tx_stores_10_items.csv",parse_dates=[time_column_name])
-        
-        
-    # clean data and create features
+    print(params)
     
-    data = replace_nan_events(data)
-    # data = encode_categorical(data)
-    data = change_data_type(data)
-    data = create_lag_features(data, forecast_horizon)
-    data = create_df_rolling_stats(data)
-    data = create_features_price(data)
-    data = create_date_features(data)
-    data = create_revenue_features(data)
-    
-    # Remove rows with nan
-    data.dropna(inplace=True)
-    
-    # Create a training/testing split
-    df_train, df_test = split_train_test(data,forecast_horizon, gap)
-    
-    X_train=df_train.drop(['demand'],axis=1)
-    y_train=df_train['demand']
-    X_test=df_test.drop(['demand'],axis=1)
-    y_test=df_test['demand']
-    
-    X_train.drop(columns='date',inplace=True)
-    X_test.drop(columns='date',inplace=True)
-
         
     d_train = lgb.Dataset(X_train, y_train)
     d_test = lgb.Dataset(X_test, y_test)
@@ -346,8 +323,7 @@ def main():
     evals_result = {}
     
     # Train LightGBM model
-    bst = lgb.train(
-        params, d_train, valid_sets=[d_train, d_test], categorical_feature="auto", evals_result=evals_result)
+    bst = lgb.train(params, d_train, valid_sets=[d_train, d_test], categorical_feature="auto", evals_result=evals_result)
     
     # Get final training loss & validation loss (l1 is the same as mean_absolute_error
     train_loss = evals_result["training"]["l1"][-1]
@@ -362,41 +338,6 @@ def main():
     # Files saved in the "./outputs" folder are automatically uploaded into run history
     os.makedirs("./outputs/model", exist_ok=True)
     bst.save_model("./outputs/model/best-model.txt")
-# -
-
-
-# # DO THIS PART BASED OM MY PROBLEM
-
-# def main():
-#     # Add arguments to script
-#     parser = argparse.ArgumentParser()
-
-#     parser.add_argument('--C', type=float, default=1.0, help="Inverse of regularization strength. Smaller values cause stronger regularization")
-#     parser.add_argument('--max_iter', type=int, default=100, help="Maximum number of iterations to converge")
-
-#     args = parser.parse_args()
-
-#     run.log("Regularization Strength:", np.float(args.C))
-#     run.log("Max iterations:", np.int(args.max_iter))
-
-#     x, y = clean_data(ds)
-
-#     # I'm using stratify since the data is a bit imbalanced 
-#     x_train, x_test, y_train, y_test = train_test_split(x, y, test_size=0.30, random_state=123, stratify = y)
-
-
-#     model = LogisticRegression(C=args.C, max_iter=args.max_iter).fit(x_train, y_train)
-
-#     accuracy = model.score(x_test, y_test)
-
-#     os.makedirs('outputs',exist_ok = True)
-
-#     joblib.dump(model,'outputs/model.joblib')
-
-
-#     run.log("Accuracy", np.float(accuracy))
-
-    
 
     
 
