@@ -261,6 +261,62 @@ def create_features(df,forecast_horizon):
     
     return df
 
+if __name__ == "__main__":
+    # Parse input arguments
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--data-folder", type=str, dest="data_folder", default=".", help="data folder mounting point")
+    parser.add_argument("--num-leaves", type=int, dest="num_leaves", default=64, help="# of leaves of the tree")
+    parser.add_argument("--min-data-in-leaf", type=int, dest="min_data_in_leaf", default=50, help="minimum # of samples in each leaf")
+    parser.add_argument("--learning-rate", type=float, dest="learning_rate", default=0.001, help="learning rate")
+    parser.add_argument("--feature-fraction",type=float,dest="feature_fraction",default=1.0,help="ratio of features used in each iteration")
+    parser.add_argument("--bagging-fraction",type=float,dest="bagging_fraction",default=1.0,help="ratio of samples used in each iteration")
+    parser.add_argument("--bagging-freq", type=int, dest="bagging_freq", default=1, help="bagging frequency")
+    parser.add_argument("--max-rounds", type=int, dest="max_rounds", default=400, help="# of boosting iterations")
+    args = parser.parse_args()
+    args.feature_fraction = round(args.feature_fraction, 2)
+    args.bagging_fraction = round(args.bagging_fraction, 2)
+    print(args)
+
+    # Start an Azure ML run
+    run = Run.get_context()
+
+    # Data paths
+    DATA_DIR = args.data_folder
+    TRAIN_DIR = os.path.join(DATA_DIR, "train")
+
+    # Data and forecast problem parameters
+    TRAIN_START_WEEK = 40
+    TRAIN_END_WEEK_LIST = list(range(135, 159, 2))
+    TEST_START_WEEK_LIST = list(range(137, 161, 2))
+    TEST_END_WEEK_LIST = list(range(138, 162, 2))
+    # The start datetime of the first week in the dataset
+    FIRST_WEEK_START = pd.to_datetime("1989-09-14 00:00:00")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 if __name__ == "__main__":
     
