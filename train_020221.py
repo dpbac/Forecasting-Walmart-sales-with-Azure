@@ -236,6 +236,31 @@ def split_train_test(df,forecast_horizon, gap):
     
     return df_train, df_test
 
+def create_features(df,forecast_horizon):
+    """ 
+    Args:
+        df: dataframe with data for forecasting    
+        forecast_horizon (int): Number of time units (e.g. days) to be forecasted
+    
+    Return:
+        df: dataframe updated containing features created
+    """
+    # clean df and create features
+    
+    df = replace_nan_events(df)
+    # df = encode_categorical(df)
+    df = change_data_type(df)
+    df = create_lag_features(df, forecast_horizon)
+    df = create_df_rolling_stats(df)
+    df = create_features_price(df)
+    df = create_date_features(df)
+    df = create_revenue_features(df)
+    
+    # Remove rows with nan
+    df.dropna(inplace=True)
+    
+    return df
+
 
 if __name__ == "__main__":
     
