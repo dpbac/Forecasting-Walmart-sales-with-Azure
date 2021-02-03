@@ -264,7 +264,7 @@ y_test=df_test['demand']
 X_train.drop(columns='date',inplace=True)
 X_test.drop(columns='date',inplace=True)
 
-# run = Run.get_context()
+run = Run.get_context()
 
 
 def main():
@@ -332,7 +332,7 @@ def main():
 
 
     # Log the validation loss (MAE)
-    run.log("MAE", np.float(valid_loss) * 100)
+    run.log("MAE", np.float(test_loss) * 100)
 
     # Files saved in the "./outputs" folder are automatically uploaded into run history
     os.makedirs("./outputs/model", exist_ok=True)
