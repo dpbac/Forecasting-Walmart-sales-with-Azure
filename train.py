@@ -348,7 +348,7 @@ if __name__ == "__main__":
     print("Final test loss is {}".format(val_loss))
     
     # Log the validation loss (MAE)
-    run.log("MAE", np.float(val_loss) * 100)
+    run.log("MAE", np.float(val_loss))
  
     # Files saved in the "./outputs" folder are automatically uploaded into run history
     os.makedirs("./outputs/model", exist_ok=True)
