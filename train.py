@@ -288,7 +288,8 @@ if __name__ == "__main__":
     
   # Parameters of GBM model
     params = {
-        "objective": "mean_absolute_error",
+#         "objective": "mean_absolute_error",
+        "objective": "root_mean_squared_error",
         "num_leaves": args.num_leaves,
         "min_data_in_leaf": args.min_data_in_leaf,
         "learning_rate": args.learning_rate,
@@ -342,13 +343,13 @@ if __name__ == "__main__":
     bst = lgb.train(params, d_train, valid_sets=[d_train, d_val], categorical_feature="auto", evals_result=evals_result)
 
     # Get final training loss & validation loss (l1 is the same as mean_absolute_error
-    train_loss = evals_result["training"]["l1"][-1]
-    val_loss = evals_result["valid_1"]["l1"][-1]
+    train_loss = evals_result["training"]["root_mean_squared_error"][-1]
+    val_loss = evals_result["valid_1"]["root_mean_squared_error"][-1]
     print("Final training loss is {}".format(train_loss))
     print("Final test loss is {}".format(val_loss))
     
     # Log the validation loss (MAE)
-    run.log("MAE", np.float(val_loss))
+    run.log("RMSE", np.float(val_loss))
  
     # Files saved in the "./outputs" folder are automatically uploaded into run history
     os.makedirs("./outputs/model", exist_ok=True)
