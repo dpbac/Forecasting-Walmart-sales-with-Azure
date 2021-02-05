@@ -1,6 +1,10 @@
 *NOTE:* This file is a template that you can use to create the README for your project. The *TODO* comments below will highlight the information you should be sure to include.
 
-# Your Project Title Here
+# Forecasting Walmart Sales with Azure 
+
+At this Capstone Project of **Udacity Nanodegree program Machine Learning Engineer with Microsoft Azure** you will create two models: one using Automated ML (denoted as AutoML from now on) and one customized model whose hyperparameters are tuned using HyperDrive. You will then compare the performance of both the models and deploy the best performing model as a web service. 
+
+## Project Workflow
 
 *TODO:* Write a short introduction to your project.
 
