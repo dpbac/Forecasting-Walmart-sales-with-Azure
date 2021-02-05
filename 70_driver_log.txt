@@ -1,0 +1,493 @@
+2021/02/05 12:05:32 Attempt 1 of http call to http://10.0.0.5:16384/sendlogstoartifacts/info
+2021/02/05 12:05:32 Attempt 1 of http call to http://10.0.0.5:16384/sendlogstoartifacts/status
+[2021-02-05T12:05:33.971469] Entering context manager injector.
+[context_manager_injector.py] Command line Options: Namespace(inject=['ProjectPythonPath:context_managers.ProjectPythonPath', 'RunHistory:context_managers.RunHistory', 'TrackUserError:context_managers.TrackUserError'], invocation=['train_v050221.py', '--data-folder', '/mnt/batch/tasks/shared/LS_root/jobs/quick-starts-ws-137315/azureml/hd_45883ed0-be2a-44c6-823d-a646b28c2f1a_18/mounts/workspaceblobstore/dataset/', '--num-leaves', '88', '--min-data-in-leaf', '140', '--learning-rate', '0.015', '--feature-fraction', '0.8560920060533119', '--bagging-fraction', '0.6640337972592919', '--bagging-freq', '3', '--max-rounds', '460'])
+Script type = None
+Starting the daemon thread to refresh tokens in background for process with pid = 96
+Entering Run History Context Manager.
+[2021-02-05T12:05:36.896558] Current directory: /mnt/batch/tasks/shared/LS_root/jobs/quick-starts-ws-137315/azureml/hd_45883ed0-be2a-44c6-823d-a646b28c2f1a_18/mounts/workspaceblobstore/azureml/HD_45883ed0-be2a-44c6-823d-a646b28c2f1a_18
+[2021-02-05T12:05:36.896784] Preparing to call script [train_v050221.py] with arguments:['--data-folder', '/mnt/batch/tasks/shared/LS_root/jobs/quick-starts-ws-137315/azureml/hd_45883ed0-be2a-44c6-823d-a646b28c2f1a_18/mounts/workspaceblobstore/dataset/', '--num-leaves', '88', '--min-data-in-leaf', '140', '--learning-rate', '0.015', '--feature-fraction', '0.8560920060533119', '--bagging-fraction', '0.6640337972592919', '--bagging-freq', '3', '--max-rounds', '460']
+[2021-02-05T12:05:36.903411] After variable expansion, calling script [train_v050221.py] with arguments:['--data-folder', '/mnt/batch/tasks/shared/LS_root/jobs/quick-starts-ws-137315/azureml/hd_45883ed0-be2a-44c6-823d-a646b28c2f1a_18/mounts/workspaceblobstore/dataset/', '--num-leaves', '88', '--min-data-in-leaf', '140', '--learning-rate', '0.015', '--feature-fraction', '0.8560920060533119', '--bagging-fraction', '0.6640337972592919', '--bagging-freq', '3', '--max-rounds', '460']
+
+Namespace(bagging_fraction=0.66, bagging_freq=3, data_folder='/mnt/batch/tasks/shared/LS_root/jobs/quick-starts-ws-137315/azureml/hd_45883ed0-be2a-44c6-823d-a646b28c2f1a_18/mounts/workspaceblobstore/dataset/', feature_fraction=0.86, learning_rate=0.015, max_rounds=460, min_data_in_leaf=140, num_leaves=88)
+{'objective': 'mean_absolute_error', 'num_leaves': 88, 'min_data_in_leaf': 140, 'learning_rate': 0.015, 'feature_fraction': 0.86, 'bagging_fraction': 0.66, 'bagging_freq': 3, 'num_rounds': 460, 'early_stopping_rounds': 125, 'num_threads': 16}
+---- Round 1 ----
+                              id  ... rolling_revenue_mean_t28
+0  HOBBIES_2_002_TX_1_evaluation  ...                 0.633214
+1  HOBBIES_2_007_TX_1_evaluation  ...                 0.103929
+2  HOBBIES_2_009_TX_1_evaluation  ...                 3.385714
+3  HOBBIES_2_001_TX_2_evaluation  ...                 0.586071
+4  HOBBIES_2_002_TX_2_evaluation  ...                 2.040357
+
+[5 rows x 42 columns]
+First day training dataset:2012-01-29 00:00:00
+Last day training dataset:2016-03-27 00:00:00
+First day test dataset:2016-03-28 00:00:00
+Last day test dataset:2016-04-24 00:00:00
+<class 'pandas.core.frame.DataFrame'>
+Int64Index: 40308 entries, 0 to 40307
+Data columns (total 40 columns):
+ #   Column                    Non-Null Count  Dtype   
+---  ------                    --------------  -----   
+ 0   id                        40308 non-null  category
+ 1   item_id                   40308 non-null  category
+ 2   dept_id                   40308 non-null  category
+ 3   cat_id                    40308 non-null  category
+ 4   store_id                  40308 non-null  category
+ 5   state_id                  40308 non-null  category
+ 6   day                       40308 non-null  category
+ 7   wm_yr_wk                  40308 non-null  int64   
+ 8   event_name_1              40308 non-null  category
+ 9   event_type_1              40308 non-null  category
+ 10  event_name_2              40308 non-null  category
+ 11  event_type_2              40308 non-null  category
+ 12  snap_TX                   40308 non-null  int64   
+ 13  sell_price                40308 non-null  float64 
+ 14  lag_t28                   40308 non-null  float64 
+ 15  lag_t29                   40308 non-null  float64 
+ 16  lag_t30                   40308 non-null  float64 
+ 17  rolling_mean_t7           40308 non-null  float64 
+ 18  rolling_std_t7            40308 non-null  float64 
+ 19  rolling_mean_t30          40308 non-null  float64 
+ 20  rolling_std_t30           40308 non-null  float64 
+ 21  rolling_mean_t90          40308 non-null  float64 
+ 22  rolling_std_t90           40308 non-null  float64 
+ 23  rolling_mean_t180         40308 non-null  float64 
+ 24  rolling_std_t180          40308 non-null  float64 
+ 25  price_change_t1           40308 non-null  float64 
+ 26  price_change_t365         40308 non-null  float64 
+ 27  rolling_price_std_t7      40308 non-null  float64 
+ 28  rolling_price_std_t30     40308 non-null  float64 
+ 29  day_of_month              40308 non-null  int64   
+ 30  day_of_week               40308 non-null  int64   
+ 31  week                      40308 non-null  int64   
+ 32  month                     40308 non-null  int64   
+ 33  year                      40308 non-null  int64   
+ 34  is_month_start            40308 non-null  int64   
+ 35  is_month_end              40308 non-null  int64   
+ 36  is_weekend                40308 non-null  int64   
+ 37  lag_revenue_t1            40308 non-null  float64 
+ 38  rolling_revenue_std_t28   40308 non-null  float64 
+ 39  rolling_revenue_mean_t28  40308 non-null  float64 
+dtypes: category(11), float64(19), int64(10)
+memory usage: 9.7 MB
+None
+/azureml-envs/azureml_c1e0864abd188832cfe6f6b09cffb589/lib/python3.6/site-packages/lightgbm/engine.py:148: UserWarning: Found `num_rounds` in params. Will use it instead of argument
+  warnings.warn("Found `{}` in params. Will use it instead of argument".format(alias))
+/azureml-envs/azureml_c1e0864abd188832cfe6f6b09cffb589/lib/python3.6/site-packages/lightgbm/engine.py:153: UserWarning: Found `early_stopping_rounds` in params. Will use it instead of argument
+  warnings.warn("Found `{}` in params. Will use it instead of argument".format(alias))
+[LightGBM] [Info] Total Bins 4323
+[LightGBM] [Info] Number of data: 40308, number of used features: 36
+[1]	training's l1: 0.274878	valid_1's l1: 0.269083
+Training until validation scores don't improve for 125 rounds
+[2]	training's l1: 0.274847	valid_1's l1: 0.269083
+[3]	training's l1: 0.274838	valid_1's l1: 0.269101
+[4]	training's l1: 0.274857	valid_1's l1: 0.269101
+[5]	training's l1: 0.274869	valid_1's l1: 0.269013
+[6]	training's l1: 0.274891	valid_1's l1: 0.269013
+[7]	training's l1: 0.274864	valid_1's l1: 0.269013
+[8]	training's l1: 0.274879	valid_1's l1: 0.269013
+[9]	training's l1: 0.274891	valid_1's l1: 0.269013
+[10]	training's l1: 0.274909	valid_1's l1: 0.269013
+[11]	training's l1: 0.27491	valid_1's l1: 0.268946
+[12]	training's l1: 0.274938	valid_1's l1: 0.268953
+[13]	training's l1: 0.274938	valid_1's l1: 0.268953
+[14]	training's l1: 0.27494	valid_1's l1: 0.268938
+[15]	training's l1: 0.274948	valid_1's l1: 0.268973
+[16]	training's l1: 0.27495	valid_1's l1: 0.268925
+[17]	training's l1: 0.274986	valid_1's l1: 0.268893
+[18]	training's l1: 0.274979	valid_1's l1: 0.268893
+[19]	training's l1: 0.274976	valid_1's l1: 0.268895
+[20]	training's l1: 0.27496	valid_1's l1: 0.268895
+[21]	training's l1: 0.274958	valid_1's l1: 0.268897
+[22]	training's l1: 0.274948	valid_1's l1: 0.268961
+[23]	training's l1: 0.274947	valid_1's l1: 0.268961
+[24]	training's l1: 0.274929	valid_1's l1: 0.268961
+[25]	training's l1: 0.274929	valid_1's l1: 0.268961
+[26]	training's l1: 0.274925	valid_1's l1: 0.268961
+[27]	training's l1: 0.274924	valid_1's l1: 0.268962
+[28]	training's l1: 0.274919	valid_1's l1: 0.268962
+[29]	training's l1: 0.274925	valid_1's l1: 0.268962
+[30]	training's l1: 0.274932	valid_1's l1: 0.268883
+[31]	training's l1: 0.274945	valid_1's l1: 0.268886
+[32]	training's l1: 0.27491	valid_1's l1: 0.26889
+[33]	training's l1: 0.274912	valid_1's l1: 0.268894
+[34]	training's l1: 0.274912	valid_1's l1: 0.268906
+[35]	training's l1: 0.274911	valid_1's l1: 0.268909
+[36]	training's l1: 0.27491	valid_1's l1: 0.26891
+[37]	training's l1: 0.274909	valid_1's l1: 0.26891
+[38]	training's l1: 0.274909	valid_1's l1: 0.26891
+[39]	training's l1: 0.274913	valid_1's l1: 0.26891
+[40]	training's l1: 0.274913	valid_1's l1: 0.26891
+[41]	training's l1: 0.274912	valid_1's l1: 0.26891
+[42]	training's l1: 0.27491	valid_1's l1: 0.268894
+[43]	training's l1: 0.274908	valid_1's l1: 0.268894
+[44]	training's l1: 0.274901	valid_1's l1: 0.26891
+[45]	training's l1: 0.2749	valid_1's l1: 0.26891
+[46]	training's l1: 0.274905	valid_1's l1: 0.268911
+[47]	training's l1: 0.274904	valid_1's l1: 0.268912
+[48]	training's l1: 0.274903	valid_1's l1: 0.268912
+[49]	training's l1: 0.274905	valid_1's l1: 0.268918
+[50]	training's l1: 0.274904	valid_1's l1: 0.268917
+[51]	training's l1: 0.274903	valid_1's l1: 0.268922
+[52]	training's l1: 0.274901	valid_1's l1: 0.268921
+[53]	training's l1: 0.274893	valid_1's l1: 0.268926
+[54]	training's l1: 0.274891	valid_1's l1: 0.268927
+[55]	training's l1: 0.27489	valid_1's l1: 0.268928
+[56]	training's l1: 0.27489	valid_1's l1: 0.268929
+[57]	training's l1: 0.274888	valid_1's l1: 0.268929
+[58]	training's l1: 0.274897	valid_1's l1: 0.268939
+[59]	training's l1: 0.274896	valid_1's l1: 0.268939
+[60]	training's l1: 0.274895	valid_1's l1: 0.268937
+[61]	training's l1: 0.27489	valid_1's l1: 0.268935
+[62]	training's l1: 0.274889	valid_1's l1: 0.268936
+[63]	training's l1: 0.274881	valid_1's l1: 0.268973
+[64]	training's l1: 0.274867	valid_1's l1: 0.268975
+[65]	training's l1: 0.274866	valid_1's l1: 0.268977
+[66]	training's l1: 0.274861	valid_1's l1: 0.268979
+[67]	training's l1: 0.274849	valid_1's l1: 0.26898
+[68]	training's l1: 0.274857	valid_1's l1: 0.268965
+[69]	training's l1: 0.274856	valid_1's l1: 0.268965
+[70]	training's l1: 0.274855	valid_1's l1: 0.268968
+[71]	training's l1: 0.274854	valid_1's l1: 0.268969
+[72]	training's l1: 0.274853	valid_1's l1: 0.26897
+[73]	training's l1: 0.274851	valid_1's l1: 0.268976
+[74]	training's l1: 0.274848	valid_1's l1: 0.268977
+[75]	training's l1: 0.274832	valid_1's l1: 0.268976
+[76]	training's l1: 0.27483	valid_1's l1: 0.268976
+[77]	training's l1: 0.274832	valid_1's l1: 0.268889
+[78]	training's l1: 0.274815	valid_1's l1: 0.26889
+[79]	training's l1: 0.274815	valid_1's l1: 0.268924
+[80]	training's l1: 0.274813	valid_1's l1: 0.268925
+[81]	training's l1: 0.274805	valid_1's l1: 0.268864
+[82]	training's l1: 0.274794	valid_1's l1: 0.268866
+[83]	training's l1: 0.274789	valid_1's l1: 0.26887
+[84]	training's l1: 0.274785	valid_1's l1: 0.268874
+[85]	training's l1: 0.274787	valid_1's l1: 0.268874
+[86]	training's l1: 0.27476	valid_1's l1: 0.268874
+[87]	training's l1: 0.274745	valid_1's l1: 0.268877
+[88]	training's l1: 0.274742	valid_1's l1: 0.268878
+[89]	training's l1: 0.274736	valid_1's l1: 0.268881
+[90]	training's l1: 0.274727	valid_1's l1: 0.26902
+[91]	training's l1: 0.274721	valid_1's l1: 0.269018
+[92]	training's l1: 0.274716	valid_1's l1: 0.269018
+[93]	training's l1: 0.274699	valid_1's l1: 0.269019
+[94]	training's l1: 0.274696	valid_1's l1: 0.269021
+[95]	training's l1: 0.274694	valid_1's l1: 0.269019
+[96]	training's l1: 0.274689	valid_1's l1: 0.269019
+[97]	training's l1: 0.274664	valid_1's l1: 0.269021
+[98]	training's l1: 0.274653	valid_1's l1: 0.269025
+[99]	training's l1: 0.274647	valid_1's l1: 0.269026
+[100]	training's l1: 0.274636	valid_1's l1: 0.269028
+[101]	training's l1: 0.274612	valid_1's l1: 0.269031
+[102]	training's l1: 0.274601	valid_1's l1: 0.269031
+[103]	training's l1: 0.274598	valid_1's l1: 0.269031
+[104]	training's l1: 0.274595	valid_1's l1: 0.269031
+[105]	training's l1: 0.274591	valid_1's l1: 0.269031
+[106]	training's l1: 0.274586	valid_1's l1: 0.268953
+[107]	training's l1: 0.274579	valid_1's l1: 0.269056
+[108]	training's l1: 0.274572	valid_1's l1: 0.269056
+[109]	training's l1: 0.274561	valid_1's l1: 0.269055
+[110]	training's l1: 0.274557	valid_1's l1: 0.269056
+[111]	training's l1: 0.27455	valid_1's l1: 0.269055
+[112]	training's l1: 0.274549	valid_1's l1: 0.26889
+[113]	training's l1: 0.274544	valid_1's l1: 0.268864
+[114]	training's l1: 0.274542	valid_1's l1: 0.268866
+[115]	training's l1: 0.274535	valid_1's l1: 0.268866
+[116]	training's l1: 0.274528	valid_1's l1: 0.26887
+[117]	training's l1: 0.274522	valid_1's l1: 0.26887
+[118]	training's l1: 0.274516	valid_1's l1: 0.268868
+[119]	training's l1: 0.274507	valid_1's l1: 0.26887
+[120]	training's l1: 0.274507	valid_1's l1: 0.268853
+[121]	training's l1: 0.274464	valid_1's l1: 0.268852
+[122]	training's l1: 0.274454	valid_1's l1: 0.268896
+[123]	training's l1: 0.27445	valid_1's l1: 0.268895
+[124]	training's l1: 0.274447	valid_1's l1: 0.268896
+[125]	training's l1: 0.274444	valid_1's l1: 0.268896
+[126]	training's l1: 0.274441	valid_1's l1: 0.268897
+[127]	training's l1: 0.274426	valid_1's l1: 0.268844
+[128]	training's l1: 0.274412	valid_1's l1: 0.268846
+[129]	training's l1: 0.274391	valid_1's l1: 0.268846
+[130]	training's l1: 0.274382	valid_1's l1: 0.268826
+[131]	training's l1: 0.274374	valid_1's l1: 0.268924
+[132]	training's l1: 0.274365	valid_1's l1: 0.268925
+[133]	training's l1: 0.274354	valid_1's l1: 0.268927
+[134]	training's l1: 0.274344	valid_1's l1: 0.268846
+[135]	training's l1: 0.274326	valid_1's l1: 0.268846
+[136]	training's l1: 0.274302	valid_1's l1: 0.268815
+[137]	training's l1: 0.274288	valid_1's l1: 0.268703
+[138]	training's l1: 0.274274	valid_1's l1: 0.268703
+[139]	training's l1: 0.274255	valid_1's l1: 0.268704
+[140]	training's l1: 0.274233	valid_1's l1: 0.268705
+[141]	training's l1: 0.274212	valid_1's l1: 0.268705
+[142]	training's l1: 0.274209	valid_1's l1: 0.268705
+[143]	training's l1: 0.274207	valid_1's l1: 0.268705
+[144]	training's l1: 0.274203	valid_1's l1: 0.268653
+[145]	training's l1: 0.274198	valid_1's l1: 0.268654
+[146]	training's l1: 0.274193	valid_1's l1: 0.268605
+[147]	training's l1: 0.274188	valid_1's l1: 0.268605
+[148]	training's l1: 0.274179	valid_1's l1: 0.268605
+[149]	training's l1: 0.274173	valid_1's l1: 0.268608
+[150]	training's l1: 0.27417	valid_1's l1: 0.268617
+[151]	training's l1: 0.274163	valid_1's l1: 0.268617
+[152]	training's l1: 0.27416	valid_1's l1: 0.268623
+[153]	training's l1: 0.274151	valid_1's l1: 0.268623
+[154]	training's l1: 0.274141	valid_1's l1: 0.268623
+[155]	training's l1: 0.27413	valid_1's l1: 0.268531
+[156]	training's l1: 0.274114	valid_1's l1: 0.268532
+[157]	training's l1: 0.274103	valid_1's l1: 0.26846
+[158]	training's l1: 0.274074	valid_1's l1: 0.268462
+[159]	training's l1: 0.274061	valid_1's l1: 0.268454
+[160]	training's l1: 0.274055	valid_1's l1: 0.268456
+[161]	training's l1: 0.274049	valid_1's l1: 0.268457
+[162]	training's l1: 0.27404	valid_1's l1: 0.268458
+[163]	training's l1: 0.274035	valid_1's l1: 0.268459
+[164]	training's l1: 0.274025	valid_1's l1: 0.26846
+[165]	training's l1: 0.274016	valid_1's l1: 0.268405
+[166]	training's l1: 0.274008	valid_1's l1: 0.2684
+[167]	training's l1: 0.274003	valid_1's l1: 0.2684
+[168]	training's l1: 0.273986	valid_1's l1: 0.268398
+[169]	training's l1: 0.273981	valid_1's l1: 0.268369
+[170]	training's l1: 0.27397	valid_1's l1: 0.268258
+[171]	training's l1: 0.273964	valid_1's l1: 0.268259
+[172]	training's l1: 0.273956	valid_1's l1: 0.26826
+[173]	training's l1: 0.273949	valid_1's l1: 0.26826
+[174]	training's l1: 0.273924	valid_1's l1: 0.268263
+[175]	training's l1: 0.27391	valid_1's l1: 0.268264
+[176]	training's l1: 0.273902	valid_1's l1: 0.268287
+[177]	training's l1: 0.273897	valid_1's l1: 0.268318
+[178]	training's l1: 0.273889	valid_1's l1: 0.268322
+[179]	training's l1: 0.273887	valid_1's l1: 0.268322
+[180]	training's l1: 0.27386	valid_1's l1: 0.268324
+[181]	training's l1: 0.273849	valid_1's l1: 0.268324
+[182]	training's l1: 0.273823	valid_1's l1: 0.268325
+[183]	training's l1: 0.273802	valid_1's l1: 0.268325
+[184]	training's l1: 0.273796	valid_1's l1: 0.268256
+[185]	training's l1: 0.273789	valid_1's l1: 0.268257
+[186]	training's l1: 0.273783	valid_1's l1: 0.268258
+[187]	training's l1: 0.273781	valid_1's l1: 0.268259
+[188]	training's l1: 0.273777	valid_1's l1: 0.26826
+[189]	training's l1: 0.273768	valid_1's l1: 0.26826
+[190]	training's l1: 0.273747	valid_1's l1: 0.268261
+[191]	training's l1: 0.273729	valid_1's l1: 0.268307
+[192]	training's l1: 0.2737	valid_1's l1: 0.268307
+[193]	training's l1: 0.273697	valid_1's l1: 0.268306
+[194]	training's l1: 0.273679	valid_1's l1: 0.268305
+[195]	training's l1: 0.273664	valid_1's l1: 0.268306
+[196]	training's l1: 0.273657	valid_1's l1: 0.268368
+[197]	training's l1: 0.273637	valid_1's l1: 0.268368
+[198]	training's l1: 0.273618	valid_1's l1: 0.268369
+[199]	training's l1: 0.273611	valid_1's l1: 0.268369
+[200]	training's l1: 0.273601	valid_1's l1: 0.268345
+[201]	training's l1: 0.273589	valid_1's l1: 0.268323
+[202]	training's l1: 0.273574	valid_1's l1: 0.268332
+[203]	training's l1: 0.273548	valid_1's l1: 0.268333
+[204]	training's l1: 0.273527	valid_1's l1: 0.268334
+[205]	training's l1: 0.273519	valid_1's l1: 0.268352
+[206]	training's l1: 0.273516	valid_1's l1: 0.268352
+[207]	training's l1: 0.273503	valid_1's l1: 0.268344
+[208]	training's l1: 0.273494	valid_1's l1: 0.268303
+[209]	training's l1: 0.273477	valid_1's l1: 0.268302
+[210]	training's l1: 0.273455	valid_1's l1: 0.268301
+[211]	training's l1: 0.273449	valid_1's l1: 0.268302
+[212]	training's l1: 0.27344	valid_1's l1: 0.268301
+[213]	training's l1: 0.273423	valid_1's l1: 0.268328
+[214]	training's l1: 0.273413	valid_1's l1: 0.26832
+[215]	training's l1: 0.2734	valid_1's l1: 0.268317
+[216]	training's l1: 0.273378	valid_1's l1: 0.268318
+[217]	training's l1: 0.273375	valid_1's l1: 0.268319
+[218]	training's l1: 0.273366	valid_1's l1: 0.268319
+[219]	training's l1: 0.273363	valid_1's l1: 0.268319
+[220]	training's l1: 0.273359	valid_1's l1: 0.2683
+[221]	training's l1: 0.273351	valid_1's l1: 0.26825
+[222]	training's l1: 0.273343	valid_1's l1: 0.26825
+[223]	training's l1: 0.27334	valid_1's l1: 0.268253
+[224]	training's l1: 0.273336	valid_1's l1: 0.268255
+[225]	training's l1: 0.273333	valid_1's l1: 0.268256
+[226]	training's l1: 0.27333	valid_1's l1: 0.268258
+[227]	training's l1: 0.273328	valid_1's l1: 0.268259
+[228]	training's l1: 0.273313	valid_1's l1: 0.26826
+[229]	training's l1: 0.273305	valid_1's l1: 0.268295
+[230]	training's l1: 0.27329	valid_1's l1: 0.268243
+[231]	training's l1: 0.273283	valid_1's l1: 0.268251
+[232]	training's l1: 0.273278	valid_1's l1: 0.268255
+[233]	training's l1: 0.273248	valid_1's l1: 0.268244
+[234]	training's l1: 0.273235	valid_1's l1: 0.268246
+[235]	training's l1: 0.27322	valid_1's l1: 0.268247
+[236]	training's l1: 0.273211	valid_1's l1: 0.268246
+[237]	training's l1: 0.273207	valid_1's l1: 0.268236
+[238]	training's l1: 0.2732	valid_1's l1: 0.268278
+[239]	training's l1: 0.273183	valid_1's l1: 0.268279
+[240]	training's l1: 0.273177	valid_1's l1: 0.268278
+[241]	training's l1: 0.273181	valid_1's l1: 0.26828
+[242]	training's l1: 0.273173	valid_1's l1: 0.268281
+[243]	training's l1: 0.273169	valid_1's l1: 0.268282
+[244]	training's l1: 0.273167	valid_1's l1: 0.26828
+[245]	training's l1: 0.27316	valid_1's l1: 0.268281
+[246]	training's l1: 0.273149	valid_1's l1: 0.268284
+[247]	training's l1: 0.273138	valid_1's l1: 0.268287
+[248]	training's l1: 0.273127	valid_1's l1: 0.268322
+[249]	training's l1: 0.273124	valid_1's l1: 0.26833
+[250]	training's l1: 0.273112	valid_1's l1: 0.268314
+[251]	training's l1: 0.273091	valid_1's l1: 0.268289
+[252]	training's l1: 0.273079	valid_1's l1: 0.26829
+[253]	training's l1: 0.273072	valid_1's l1: 0.268288
+[254]	training's l1: 0.27306	valid_1's l1: 0.268224
+[255]	training's l1: 0.273053	valid_1's l1: 0.268228
+[256]	training's l1: 0.273033	valid_1's l1: 0.268228
+[257]	training's l1: 0.273027	valid_1's l1: 0.268228
+[258]	training's l1: 0.273012	valid_1's l1: 0.268213
+[259]	training's l1: 0.273004	valid_1's l1: 0.268188
+[260]	training's l1: 0.272989	valid_1's l1: 0.268191
+[261]	training's l1: 0.272981	valid_1's l1: 0.268191
+[262]	training's l1: 0.272963	valid_1's l1: 0.26819
+[263]	training's l1: 0.272956	valid_1's l1: 0.268177
+[264]	training's l1: 0.272942	valid_1's l1: 0.268178
+[265]	training's l1: 0.272922	valid_1's l1: 0.26818
+[266]	training's l1: 0.272913	valid_1's l1: 0.268182
+[267]	training's l1: 0.272898	valid_1's l1: 0.268182
+[268]	training's l1: 0.27287	valid_1's l1: 0.268181
+[269]	training's l1: 0.272853	valid_1's l1: 0.268181
+[270]	training's l1: 0.272824	valid_1's l1: 0.26818
+[271]	training's l1: 0.27281	valid_1's l1: 0.268178
+[272]	training's l1: 0.272794	valid_1's l1: 0.268148
+[273]	training's l1: 0.272789	valid_1's l1: 0.26814
+[274]	training's l1: 0.272773	valid_1's l1: 0.268142
+[275]	training's l1: 0.272755	valid_1's l1: 0.268146
+[276]	training's l1: 0.272735	valid_1's l1: 0.268146
+[277]	training's l1: 0.272702	valid_1's l1: 0.268145
+[278]	training's l1: 0.272698	valid_1's l1: 0.268148
+[279]	training's l1: 0.272684	valid_1's l1: 0.26815
+[280]	training's l1: 0.272662	valid_1's l1: 0.268149
+[281]	training's l1: 0.27264	valid_1's l1: 0.26815
+[282]	training's l1: 0.272621	valid_1's l1: 0.268151
+[283]	training's l1: 0.272608	valid_1's l1: 0.26815
+[284]	training's l1: 0.272605	valid_1's l1: 0.268149
+[285]	training's l1: 0.272573	valid_1's l1: 0.268149
+[286]	training's l1: 0.272567	valid_1's l1: 0.26815
+[287]	training's l1: 0.272554	valid_1's l1: 0.26815
+[288]	training's l1: 0.272539	valid_1's l1: 0.268151
+[289]	training's l1: 0.272524	valid_1's l1: 0.268147
+[290]	training's l1: 0.272499	valid_1's l1: 0.268148
+[291]	training's l1: 0.272481	valid_1's l1: 0.268152
+[292]	training's l1: 0.272463	valid_1's l1: 0.268158
+[293]	training's l1: 0.272429	valid_1's l1: 0.268157
+[294]	training's l1: 0.272409	valid_1's l1: 0.26816
+[295]	training's l1: 0.272393	valid_1's l1: 0.268161
+[296]	training's l1: 0.272365	valid_1's l1: 0.268166
+[297]	training's l1: 0.272333	valid_1's l1: 0.268167
+[298]	training's l1: 0.272314	valid_1's l1: 0.268168
+[299]	training's l1: 0.272284	valid_1's l1: 0.268167
+[300]	training's l1: 0.272262	valid_1's l1: 0.268165
+[301]	training's l1: 0.272262	valid_1's l1: 0.268168
+[302]	training's l1: 0.272235	valid_1's l1: 0.268167
+[303]	training's l1: 0.272217	valid_1's l1: 0.268167
+[304]	training's l1: 0.272213	valid_1's l1: 0.268167
+[305]	training's l1: 0.272206	valid_1's l1: 0.268165
+[306]	training's l1: 0.272174	valid_1's l1: 0.268163
+[307]	training's l1: 0.272156	valid_1's l1: 0.268165
+[308]	training's l1: 0.272142	valid_1's l1: 0.268166
+[309]	training's l1: 0.272125	valid_1's l1: 0.268166
+[310]	training's l1: 0.2721	valid_1's l1: 0.268158
+[311]	training's l1: 0.272083	valid_1's l1: 0.268155
+[312]	training's l1: 0.272081	valid_1's l1: 0.268159
+[313]	training's l1: 0.272064	valid_1's l1: 0.26816
+[314]	training's l1: 0.272049	valid_1's l1: 0.268161
+[315]	training's l1: 0.272038	valid_1's l1: 0.268162
+[316]	training's l1: 0.272031	valid_1's l1: 0.268161
+[317]	training's l1: 0.272031	valid_1's l1: 0.268163
+[318]	training's l1: 0.272008	valid_1's l1: 0.268165
+[319]	training's l1: 0.271989	valid_1's l1: 0.268165
+[320]	training's l1: 0.271978	valid_1's l1: 0.268165
+[321]	training's l1: 0.271951	valid_1's l1: 0.268169
+[322]	training's l1: 0.271934	valid_1's l1: 0.268168
+[323]	training's l1: 0.271911	valid_1's l1: 0.268164
+[324]	training's l1: 0.271889	valid_1's l1: 0.268164
+[325]	training's l1: 0.271868	valid_1's l1: 0.268164
+[326]	training's l1: 0.271855	valid_1's l1: 0.268163
+[327]	training's l1: 0.271839	valid_1's l1: 0.268167
+[328]	training's l1: 0.27182	valid_1's l1: 0.268166
+[329]	training's l1: 0.271801	valid_1's l1: 0.268166
+[330]	training's l1: 0.271782	valid_1's l1: 0.268168
+[331]	training's l1: 0.271758	valid_1's l1: 0.268169
+[332]	training's l1: 0.27175	valid_1's l1: 0.268169
+[333]	training's l1: 0.271728	valid_1's l1: 0.268168
+[334]	training's l1: 0.271704	valid_1's l1: 0.268168
+[335]	training's l1: 0.271677	valid_1's l1: 0.268168
+[336]	training's l1: 0.271673	valid_1's l1: 0.26817
+[337]	training's l1: 0.271663	valid_1's l1: 0.268171
+[338]	training's l1: 0.271646	valid_1's l1: 0.268171
+[339]	training's l1: 0.271638	valid_1's l1: 0.26817
+[340]	training's l1: 0.271612	valid_1's l1: 0.268168
+[341]	training's l1: 0.271594	valid_1's l1: 0.268168
+[342]	training's l1: 0.27158	valid_1's l1: 0.268167
+[343]	training's l1: 0.271558	valid_1's l1: 0.268168
+[344]	training's l1: 0.271537	valid_1's l1: 0.268166
+[345]	training's l1: 0.271517	valid_1's l1: 0.268167
+[346]	training's l1: 0.271495	valid_1's l1: 0.268168
+[347]	training's l1: 0.271474	valid_1's l1: 0.268169
+[348]	training's l1: 0.271449	valid_1's l1: 0.268169
+[349]	training's l1: 0.271443	valid_1's l1: 0.268171
+[350]	training's l1: 0.271433	valid_1's l1: 0.268172
+[351]	training's l1: 0.271416	valid_1's l1: 0.268172
+[352]	training's l1: 0.271395	valid_1's l1: 0.268175
+[353]	training's l1: 0.271371	valid_1's l1: 0.268175
+[354]	training's l1: 0.271335	valid_1's l1: 0.268175
+[355]	training's l1: 0.271323	valid_1's l1: 0.268175
+[356]	training's l1: 0.271306	valid_1's l1: 0.268178
+[357]	training's l1: 0.271277	valid_1's l1: 0.268177
+[358]	training's l1: 0.271265	valid_1's l1: 0.268178
+[359]	training's l1: 0.271246	valid_1's l1: 0.268179
+[360]	training's l1: 0.271226	valid_1's l1: 0.26818
+[361]	training's l1: 0.271219	valid_1's l1: 0.268182
+[362]	training's l1: 0.271217	valid_1's l1: 0.268178
+[363]	training's l1: 0.2712	valid_1's l1: 0.268179
+[364]	training's l1: 0.271178	valid_1's l1: 0.26818
+[365]	training's l1: 0.27117	valid_1's l1: 0.268179
+[366]	training's l1: 0.27115	valid_1's l1: 0.26818
+[367]	training's l1: 0.271131	valid_1's l1: 0.26818
+[368]	training's l1: 0.271113	valid_1's l1: 0.268181
+[369]	training's l1: 0.271095	valid_1's l1: 0.268184
+[370]	training's l1: 0.271091	valid_1's l1: 0.268185
+[371]	training's l1: 0.271082	valid_1's l1: 0.268185
+[372]	training's l1: 0.271067	valid_1's l1: 0.268187
+[373]	training's l1: 0.271055	valid_1's l1: 0.268188
+[374]	training's l1: 0.271043	valid_1's l1: 0.268189
+[375]	training's l1: 0.271023	valid_1's l1: 0.26819
+[376]	training's l1: 0.271008	valid_1's l1: 0.268194
+[377]	training's l1: 0.270994	valid_1's l1: 0.268193
+[378]	training's l1: 0.270971	valid_1's l1: 0.268194
+[379]	training's l1: 0.270965	valid_1's l1: 0.268193
+[380]	training's l1: 0.270956	valid_1's l1: 0.268193
+[381]	training's l1: 0.270941	valid_1's l1: 0.268192
+[382]	training's l1: 0.270929	valid_1's l1: 0.268192
+[383]	training's l1: 0.27092	valid_1's l1: 0.268192
+[384]	training's l1: 0.270906	valid_1's l1: 0.268194
+[385]	training's l1: 0.270902	valid_1's l1: 0.268194
+[386]	training's l1: 0.270884	valid_1's l1: 0.268195
+[387]	training's l1: 0.270872	valid_1's l1: 0.268195
+[388]	training's l1: 0.270858	valid_1's l1: 0.268194
+[389]	training's l1: 0.27085	valid_1's l1: 0.268195
+[390]	training's l1: 0.270843	valid_1's l1: 0.268195
+[391]	training's l1: 0.270838	valid_1's l1: 0.268198
+[392]	training's l1: 0.27083	valid_1's l1: 0.268198
+[393]	training's l1: 0.270825	valid_1's l1: 0.2682
+[394]	training's l1: 0.270817	valid_1's l1: 0.268204
+[395]	training's l1: 0.270807	valid_1's l1: 0.268206
+[396]	training's l1: 0.270799	valid_1's l1: 0.268207
+[397]	training's l1: 0.270791	valid_1's l1: 0.268208
+[398]	training's l1: 0.270782	valid_1's l1: 0.268207
+Early stopping, best iteration is:
+[273]	training's l1: 0.272789	valid_1's l1: 0.26814
+Final training loss is 0.2707821771359544
+Final test loss is 0.26820741669022763
+Starting the daemon thread to refresh tokens in background for process with pid = 96
+
+
+[2021-02-05T12:06:37.303551] The experiment completed successfully. Finalizing run...
+Cleaning up all outstanding Run operations, waiting 900.0 seconds
+2 items cleaning up...
+Cleanup took 6.630350828170776 seconds
+[2021-02-05T12:06:44.284613] Finished context manager injector.
+2021/02/05 12:06:45 Attempt 1 of http call to http://10.0.0.5:16384/sendlogstoartifacts/status
+2021/02/05 12:06:45 Process Exiting with Code:  0
