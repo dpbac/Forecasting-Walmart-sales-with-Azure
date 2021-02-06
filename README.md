@@ -1,12 +1,14 @@
-*NOTE:* This file is a template that you can use to create the README for your project. The *TODO* comments below will highlight the information you should be sure to include.
-
 # Forecasting Walmart Sales with Azure 
 
-At this Capstone Project of **Udacity Nanodegree program Machine Learning Engineer with Microsoft Azure** you will create two models: one using Automated ML (denoted as AutoML from now on) and one customized model whose hyperparameters are tuned using HyperDrive. You will then compare the performance of both the models and deploy the best performing model as a web service. 
+In this repository we present the Capstone project of **Udacity Nanodegree program Machine Learning Engineer with Microsoft Azure**.
+In this last project, we create two models to solve a forecasting problem: one using `Automated ML` and one customized model whose hyperparameters are tuned using `HyperDrive`. Then we compare the performance of both the models and deploy the best performing model as a web service.
 
-## Project Workflow
+In particular, we chose a `Light GBM` as our customized model to have hyperparameters optimized by HyperDrive.
 
-*TODO:* Write a short introduction to your project.
+## Architecture Diagram
+
+![](https://github.com/dpbac/Forecasting-Walmart-sales-with-Azure/blob/master/images/architecture_diagram.JPG)
+
 
 ## Project Set Up and Installation
 *OPTIONAL:* If your project has any special installation steps, this is where you should put it. To turn this project into a professional portfolio project, you are encouraged to explain how to set up this project in AzureML.
