@@ -2,6 +2,7 @@ import argparse
 import os
 import numpy as np
 import pandas as pd
+import joblib
 from datetime import timedelta
 import lightgbm as lgb
 from azureml.core import Run
@@ -313,9 +314,17 @@ if __name__ == "__main__":
     print("Final training loss is {}".format(train_loss))
     print("Final test loss is {}".format(val_loss))
     
+    y_max = y_val.max()
+    y_min = y_val.min()
+    y_diff = (y_max - y_min)
+    
     # Log the validation loss (MAE)
-    run.log("RMSE", np.float(val_loss))
+    run.log("NRMSE", np.float(val_loss/y_diff))
  
-    # Files saved in the "./outputs" folder are automatically uploaded into run history
-    os.makedirs("./outputs/model", exist_ok=True)
-    bst.save_model("./outputs/model/bst-model.txt")
+
+    # os.makedirs("./outputs/model", exist_ok=True)
+    # bst.save_model("./outputs/model/bst-model.txt")
+    
+    #Dump the model using joblib
+    os.makedirs('outputs', exist_ok=True)
+    joblib.dump(value=bst, filename='outputs/bst-model.pkl')
