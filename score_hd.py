@@ -1,7 +1,7 @@
 import json
 import numpy as np
 import os
-from sklearn.externals import joblib
+# from sklearn.externals import joblib
 from azureml.core import Model
 import joblib, pickle
 
