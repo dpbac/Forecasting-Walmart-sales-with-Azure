@@ -13,7 +13,6 @@ In particular, we chose a `Light GBM` as our customized model to have hyperparam
 ## Dataset
 
 ### Overview
-*TODO*: Explain about the data you are using and where you got it from.
 
 The dataset used in this project is a small subset of a much bigger dataset made available at Kaggle's competition [M5 Forecasting - Accuracy Estimate the unit sales of Walmart retail goods](https://www.kaggle.com/c/m5-forecasting-accuracy/overview/description).
 
