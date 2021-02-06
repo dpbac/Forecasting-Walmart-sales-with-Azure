@@ -6,8 +6,6 @@ from datetime import timedelta
 import lightgbm as lgb
 from azureml.core import Run
 
-## FUNCTIONS
-
 def replace_nan_events(df):
     """ Replace nan events with "no_event"
     
@@ -44,32 +42,6 @@ def change_data_type(df):
             df[c] = df[c].astype('category')
             
     return df
-
-# If there is a problem with the change of data type
-# from sklearn.preprocessing import LabelEncoder
-
-# def encode_categorical(df):
-#     """ Transform categorical features in numerical features.
-
-#     Args:
-#         df: dataframe containing categorical features
-
-#     Return:
-#         df: dataframe with numerical features
-#     """
-
-#     cat = ['item_id', 'dept_id', 'cat_id', 'store_id', 'state_id', 'event_name_1', 'event_type_1', 
-#        'event_name_2', 'event_type_2']
-
-#     for feature in cat:
-#         encoder = LabelEncoder()
-#         df[feature] = encoder.fit_transform(df[feature])
-
-#     return df
-
-# create features
-
-# demand based features
 
 def create_lag_features(df, forecast_horizon):
     """ 
@@ -111,8 +83,6 @@ def create_df_rolling_stats(df):
 
     return df
 
-# price based features
-
 def create_features_price(df):
     """ 
     Create features based on price.
@@ -136,8 +106,6 @@ def create_features_price(df):
     df['rolling_price_std_t30'] = df.groupby(['id'])['sell_price'].transform(lambda x: x.rolling(30).std())
     
     return df
-
-# date based features
 
 def identify_weekend(day):
     """ Returns 1 if it is a weekend day
@@ -175,8 +143,6 @@ def create_date_features(df):
     
     return df
 
-# revenue based features
-
 def create_revenue_features(df):
     """ Create features based on revenue as defined by demand * price
     
@@ -196,8 +162,6 @@ def create_revenue_features(df):
     df.drop(['revenue'],axis=1,inplace=True)
     
     return df
-
-# Split time series data
 
 def split_train_test(df,forecast_horizon, gap):
     """ 
@@ -288,8 +252,8 @@ if __name__ == "__main__":
     
   # Parameters of GBM model
     params = {
-#         "objective": "mean_absolute_error",
-        "objective": "root_mean_squared_error",
+        "objective": "mean_absolute_error",
+#         "objective": "root_mean_squared_error",
         "num_leaves": args.num_leaves,
         "min_data_in_leaf": args.min_data_in_leaf,
         "learning_rate": args.learning_rate,
@@ -343,15 +307,14 @@ if __name__ == "__main__":
     bst = lgb.train(params, d_train, valid_sets=[d_train, d_val], categorical_feature="auto", evals_result=evals_result)
 
     # Get final training loss & validation loss (l1 is the same as mean_absolute_error
-    train_loss = evals_result["training"]["root_mean_squared_error"][-1]
-    val_loss = evals_result["valid_1"]["root_mean_squared_error"][-1]
+    train_loss = evals_result["training"]["l2_root"][-1]
+    val_loss = evals_result["valid_1"]["l2_root"][-1]
     print("Final training loss is {}".format(train_loss))
     print("Final test loss is {}".format(val_loss))
     
     # Log the validation loss (MAE)
-    run.log("RMSE", np.float(val_loss))
+    run.log("MAE", np.float(val_loss))
  
     # Files saved in the "./outputs" folder are automatically uploaded into run history
     os.makedirs("./outputs/model", exist_ok=True)
     bst.save_model("./outputs/model/bst-model.txt")
-
