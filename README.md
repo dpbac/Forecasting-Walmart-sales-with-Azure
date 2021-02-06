@@ -63,7 +63,7 @@ Contains the historical daily unit sales data per product and store.
     * state_id: The State where the store is located.
     * d_1, d_2, …, d_i, … d_1941: The number of units sold at day i, starting from 2011-01-29. 
 
-Basicaly we removed data from other states, i.e., **CA** and **WI** and we kept only the 10 products of the department **HOBBIE_2**. Details on how the new dataset was created can be seen in notebook [01-walmart_data_preparation](http://localhost:8888/notebooks/Capstone%20Project/notebooks/01-walmart_data_preparation.ipynb).
+Basicaly we removed data from other states, i.e., **CA** and **WI** and we kept only the 10 products of the department **HOBBIE_2**. Details on how the new dataset was created can be seen in notebook [01-walmart_data_preparation](https://github.com/dpbac/Forecasting-Walmart-sales-with-Azure/blob/master/01-create_sample_data_walmart.ipynb).
 
 ### Task
 *TODO*: Explain the task you are going to be solving with this dataset and the features you will be using for it.
