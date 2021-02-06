@@ -10,9 +10,6 @@ In particular, we chose a `Light GBM` as our customized model to have hyperparam
 ![](https://github.com/dpbac/Forecasting-Walmart-sales-with-Azure/blob/master/images/architecture_diagram.JPG)
 
 
-## Project Set Up and Installation
-*OPTIONAL:* If your project has any special installation steps, this is where you should put it. To turn this project into a professional portfolio project, you are encouraged to explain how to set up this project in AzureML.
-
 ## Dataset
 
 ### Overview
