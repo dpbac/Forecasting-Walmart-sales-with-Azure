@@ -103,7 +103,7 @@ In the case of the statistical ones AutoML loops over all time-series in your da
 
 Since we have a limited time to run all experiments, we set `experiment_timeout_minutes=30`.
 
-The primary metric was set to `normalized_root_mean_squared_error` which is indicated for forecasting demand.
+The primary metric was set to `normalized_root_mean_squared_error` considering that this metric is usually used in cases of [forecasting demand]( https://docs.microsoft.com/en-us/azure/machine-learning/how-to-configure-auto-train#primary-metrics-for-time-series-forecasting-scenarios).
 
 We were planning to convert our model to ONNX. However, it is not possible in the case of forecasting.
 
