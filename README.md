@@ -72,7 +72,7 @@ All the features listed above considering items of `HOBBIES_2` department of Wal
 
 More details and the code can be found in the script [train.py](https://github.com/dpbac/Forecasting-Walmart-sales-with-Azure/blob/master/train.py)
 
-After preprocessing the data (cleaning and creating features) it was split as shown in the image below. The `Training` part was used for training and validation while the `Testing` was used to test the model. For our experiments we used `GAP=0`. Details about `Splitting Time Dataset` can be found in the [Automated ML notebook]().
+After preprocessing the data (cleaning and creating features) it was split as shown in the image below. The `Training` part was used for training and validation while the `Testing` was used to test the model. For our experiments we used `GAP=0`. Details about `Splitting Time Dataset` can be found in the [Automated ML notebook](https://github.com/dpbac/Forecasting-Walmart-sales-with-Azure/blob/master/automl-final-version-070221.ipynb).
 
 ![](https://github.com/dpbac/Forecasting-Walmart-sales-with-Azure/blob/master/images/time_series_split.JPG)
 
