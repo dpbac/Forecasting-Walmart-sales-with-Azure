@@ -147,9 +147,24 @@ In order to compare the performance of HyperDrive with the one of AutoML we chos
 
 
 ### Results
-*TODO*: What are the results you got with your model? What were the parameters of the model? How could you have improved it?
 
-*TODO* Remeber to provide screenshots of the `RunDetails` widget as well as a screenshot of the best model trained with it's parameters.
+The best LGBM model obtained by using hyperparameter tunning using HyperDrive achieved NRMSE: 0.1427 which is worse than the result 
+obtained by the AutoML model.
+
+The hyperparameters of the LGBM model with best result is shown below:
+
+**IMAGE SECTION 6.3**
+
+The image bellow shows the progress of the training runs of different experiments.
+
+**ADD IMAGES OF WIDGET**
+
+Following an image showing details of the best model obtained.
+
+**ADD IMAGE OF THE BEST MODEL, MODEL PARAMETERS AND RUNID**
+
+To try to improve this result we could increase `max_total_runs`.
+
 
 ## Model Deployment
 
