@@ -65,11 +65,12 @@ Contains the historical daily unit sales data per product and store.
 Basicaly we removed data from other states, i.e., **CA** and **WI** and we kept only the 10 products of the department **HOBBIE_2**. Details on how the new dataset was created can be seen in notebook [01-walmart_data_preparation](https://github.com/dpbac/Forecasting-Walmart-sales-with-Azure/blob/master/01-create_sample_data_walmart.ipynb).
 
 ### Task
-*TODO*: Explain the task you are going to be solving with this dataset and the features you will be using for it.
 
-The task considered is to forecast daily sales for the next 28 days. We have used all the features above related to **TX**, department **HOBBIE_2** and products: 
+Our task in this project it to forecast daily sales for the next `28 days` of products in `HOBBIES_2` department for the stores of Walmart in Texas.
 
-In addition, we have created lagged .....DESCRIBE BRIEFLY FEATURES CREATED.
+All the features listed above considering items of `HOBBIES_2` department of Walmart were used. In addition, these features were used as basis to create other features in order to help improving the performance of the model. 
+
+More details and the code can be found in the script [train.py](https://github.com/dpbac/Forecasting-Walmart-sales-with-Azure/blob/master/train.py)
 
 ### Access
 *TODO*: Explain how you are accessing the data in your workspace.
