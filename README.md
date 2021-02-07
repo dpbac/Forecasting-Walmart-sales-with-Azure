@@ -210,6 +210,6 @@ Because of time restriction a subset of the available dataset was used. It would
     * Increase `experiment_timeout_minutes` to give more time for AutoML to try other models.
     * Make use of [`FeaturizationConfig`](https://docs.microsoft.com/en-us/azure/machine-learning/how-to-configure-auto-features), for example, to use other form of imputation of Nan values than the one chosen by AutoML.
     
-**Increase**:
+- **Increase `max_total_runs` in HyperDrive**:
 
 Try HyperDrive with higher value of `max_total_runs` to see if the performance increases.
