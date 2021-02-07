@@ -120,6 +120,7 @@ Following an image showing details of the best model obtained.
 **ADD IMAGE OF THE BEST MODEL, MODEL PARAMETERS AND RUNID**
 
 To try to improve this result we could, for instances:
+
 * Increase `experiment_timeout_minutes` to give more time for AutoML to try other models.
 * Make use of [`FeaturizationConfig`](https://docs.microsoft.com/en-us/azure/machine-learning/how-to-configure-auto-features), for example, to use other form of imputation of Nan values than the one chosen by AutoML.
 
