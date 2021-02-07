@@ -111,7 +111,7 @@ We were planning to convert our model to ONNX. However, it is not possible in th
 
 The best model obtained by using AutoML was `VotingEmsemble` with `NMRSE=0.1106`.
 
-In the image bellow you can observe the progress of the training tuns of different experiments.
+In the image bellow you can observe the progress of the training runs of different experiments.
 
 **ADD IMAGES OF WIDGET**
 
@@ -137,6 +137,8 @@ The ranges of parameters for the LGBM used were chosen considering the parameter
 
 For Bayesian Sampling it is recommend using a `maximum number of runs` greater than or equal to 20 times the number of hyperparameters being tuned. The recommended value is 140. We set the maximum number of child runs of HyperDrive `max_total_runs` to `20` to reduce the running time.
 
+In order to compare the performance of HyperDrive with the one of AutoML we chose as [objective metric]( https://lightgbm.readthedocs.io/en/latest/Parameters.html#objective) of LGBM `root_mean_squared_root` and we used the fact that `normalized_root_mean_squared_error` is the root_mean_squared_error divided by the range of the data. For more information check this [link]( https://docs.microsoft.com/en-us/azure/machine-learning/how-to-understand-automated-ml#metric-normalization).
+
 
 ### Results
 *TODO*: What are the results you got with your model? What were the parameters of the model? How could you have improved it?
@@ -161,6 +163,14 @@ In addition, it is necessary to an `InferenceConfig` and a container instance in
 Once everything is defined the model can be deployed.
 
 In order to test the deployed model, we have sent a request using the test dataset that consisted of data from `2016-04-25` till `2016-05-22`, i.e., our test dataset. Check [AutoML notebook]( https://github.com/dpbac/Forecasting-Walmart-sales-with-Azure/blob/master/automl-final-version-070221.ipynb) for results.
+
+Here we can see that the model is active.
+
+**IMAGE SHOWING THAT THE MODEL IS ACTIVE**
+
+**Notebook**
+
+**AzureML studio**
 
 
 ### HyperDrive 
