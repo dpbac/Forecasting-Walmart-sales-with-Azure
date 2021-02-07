@@ -117,9 +117,14 @@ The best model obtained by using AutoML was `VotingEmsemble` with `NMRSE=0.1108`
 
 In the image bellow you can observe the progress of the training runs of different experiments.
 
-**ADD IMAGES OF WIDGET**
+![](https://github.com/dpbac/Forecasting-Walmart-sales-with-Azure/blob/master/images/automl_widget_01.JPG)
+![](https://github.com/dpbac/Forecasting-Walmart-sales-with-Azure/blob/master/images/automl_widget_02.JPG)
 
 Following an image showing details of the best model obtained.
+
+![](https://github.com/dpbac/Forecasting-Walmart-sales-with-Azure/blob/master/images/models_automl.JPG)
+![](https://github.com/dpbac/Forecasting-Walmart-sales-with-Azure/blob/master/images/best_model_details_01.JPG)
+![](https://github.com/dpbac/Forecasting-Walmart-sales-with-Azure/blob/master/images/best_model_details_02.JPG)
 
 **ADD IMAGE OF THE BEST MODEL, MODEL PARAMETERS AND RUNID**
 
