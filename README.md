@@ -87,7 +87,26 @@ For both `AutoML` and `HyperDrive` approaches the data used is upload to a datas
 
 
 ## Automated ML
-*TODO*: Give an overview of the `automl` settings and configuration you used for this experiment
+
+The task for our AutoML model is `forecasting`. Therefore, it is necessary to set `forecasting_parameters`, i.e.,
+
+* `time_column_name` = 'date' (The name of your time column.)
+* `forecast_horizon` = 28 (How many days forward we would like to forecast.)
+* `time_series_id_column_names` = ['item_id','store_id'] (Names used to uniquely identify the time series in data that has multiple rows with the same timestamp)
+
+In the case of forecasting AutoML tries two types of time-series models:
+
+- Classical statistical models as Arima and Prophet
+- Machine Learning regression models
+
+In the case of the statistical ones AutoML loops over all time-series in your dataset and trains one model for each series. This can result in long runtimes to train these models if there are a lot of series in the data. We can mitigate it by making multiple compute cores available. That is the reason why we defined `max_cores_per_iteration=-1`.
+
+Since we have a limited time to run all experiments, we set `experiment_timeout_minutes=30`.
+
+The primary metric was set to `normalized_root_mean_squared_error` which is indicated for forecasting demand.
+
+We were planning to convert our model to ONNX. However, it is not possible in the case of forecasting.
+
 
 ### Results
 *TODO*: What are the results you got with your automated ML model? What were the parameters of the model? How could you have improved it?
