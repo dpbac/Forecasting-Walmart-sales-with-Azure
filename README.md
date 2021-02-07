@@ -118,6 +118,10 @@ For both `AutoML` and `HyperDrive` approaches the data used is upload to a datas
 
 I've employed `Single-Round Forecasting`, i.e., I've split the data in train and test once. The use of `Multi-Round Forecasting` means to split the data multiple times in non-overlaping time intervals. This allows us to evaluate the forecasting model on multiple rounds of data, and get a more robust estimate of our model's performance.
 
+- **Use complete dataset**: 
+
+Because of time restriction a subset of the available dataset was used. It would be interesting to use all dataset and the code presented here are ready for it. This would probably improve results because of the greater amount of data made available for training the model.
+
 
 
 
