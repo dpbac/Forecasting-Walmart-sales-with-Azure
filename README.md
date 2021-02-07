@@ -77,7 +77,14 @@ After preprocessing the data (cleaning and creating features) it was split as sh
 ![](https://github.com/dpbac/Forecasting-Walmart-sales-with-Azure/blob/master/images/time_series_split.JPG)
 
 ### Access
-*TODO*: Explain how you are accessing the data in your workspace.
+
+The original dataset was downloaded from [Kaggle]( https://www.kaggle.com/c/m5-forecasting-accuracy/data). The subset created from this data was made available at 
+[GitHub]( https://github.com/dpbac/Forecasting-Walmart-sales-with-Azure/tree/master/data). 
+
+The GitHub address of the raw data is used to load the data in the Azure workspace. 
+
+For both `AutoML` and `HyperDrive` approaches the data used is upload to a datastore from where it is accessed by the models. 
+
 
 ## Automated ML
 *TODO*: Give an overview of the `automl` settings and configuration you used for this experiment
