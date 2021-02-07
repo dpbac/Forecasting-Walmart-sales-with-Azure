@@ -4,6 +4,7 @@ import numpy as np
 import pandas as pd
 from datetime import timedelta
 import lightgbm as lgb
+import joblib
 from azureml.core import Run
 
 def replace_nan_events(df):
@@ -241,6 +242,7 @@ if __name__ == "__main__":
 
     # Data paths
     DATA_DIR = args.data_folder
+  
     
     # Data and forecast problem parameters
     time_column_name = 'date'
@@ -307,12 +309,14 @@ if __name__ == "__main__":
     print(evals_result["training"].keys())
     train_loss = evals_result["training"]["rmse"][-1]
     val_loss = evals_result["valid_1"]["rmse"][-1]
-    print("Final training loss is {}".format(train_loss))
-    print("Final test loss is {}".format(val_loss))
     
     y_max = y_val.max()
     y_min = y_val.min()
     y_diff = (y_max - y_min)
+    
+    
+    print("Final training loss is {}".format(train_loss/y_diff))
+    print("Final test loss is {}".format(val_loss/y_diff))
     
     # Log the validation loss (NRMSE - normalized root mean squared error)
     run.log("NRMSE", np.float(val_loss/y_diff))
