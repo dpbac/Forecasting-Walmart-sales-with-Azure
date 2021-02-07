@@ -1,5 +1,5 @@
 <img align="left" width="100" height="75" src="https://github.com/dpbac/Forecasting-Walmart-sales-with-Azure/blob/master/images/microsoft-azure-640x401.png">
-<img align="right" width="75" height="75" src="https://github.com/dpbac/Forecasting-Walmart-sales-with-Azure/blob/master/images/Walmart1_Logo-scaled.jpg">
+<img align="right" width="100" height="70" src="https://github.com/dpbac/Forecasting-Walmart-sales-with-Azure/blob/master/images/Walmart1_Logo-scaled.jpg">
 
 
 # Forecasting Walmart Sales with Azure 
