@@ -156,8 +156,11 @@ In order to test the deployed model, we have sent a request using the test datas
 
 ### HyperDrive 
 
-Although, this was not the best model we decided to include in the notebook the implementation of the deployment since it is a bit 
-different then the way of implementing for an AutoML model.
+Although, this was not the best model we decided to include in the [HyperDrive notebook]() the implementation of the model deployment since it is a bit different then the way of implementing for an AutoML model.
+
+Scoring (score.py) and environment files are provided as part of the AutoML files. For HyperDrive, this is not the same. We must write the scoring file for our HyperDrive experiment. Details on how to do it can be found [here](https://docs.microsoft.com/en-us/azure/machine-learning/how-to-deploy-and-where?tabs=azcli#define-an-entry-script). Our scoring file for the hyper drive is [here](https://github.com/dpbac/Forecasting-Walmart-sales-with-Azure/blob/master/score_hd.py).
+
+More details about the deployment of an HyperDrive Experiment can be seen in section `Model Deployment` of [HyperDrive notebook]( https://github.com/dpbac/Forecasting-Walmart-sales-with-Azure/blob/master/hyperparameter-tuning-final-version-070221.ipynb)
 
 ## Screen Recording
 *TODO* Provide a link to a screen recording of the project in action. Remember that the screencast should demonstrate:
