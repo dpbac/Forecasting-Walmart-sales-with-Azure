@@ -1,0 +1,31 @@
+2021-02-07 16:27:35.130 - INFO - 5350 - azureml.train.automl.run._log_activity:54 - ActivityStarted: GetOutput
+2021-02-07 16:27:35.145 - INFO - 5350 - azureml.train.automl.run._log_activity:54 - ActivityStarted: GetOutput
+2021-02-07 16:27:35.251 - INFO - 5350 - azureml.train.automl.run._log_activity:54 - ActivityStarted: GetChildren
+2021-02-07 16:27:35.404 - INFO - 5350 - azureml.train.automl.run._log_activity:92 - ActivityCompleted: Activity=GetChildren, HowEnded=Success, Duration=152.98[ms]
+2021-02-07 16:27:35.404 - INFO - 5350 - azureml.train.automl.run._log_activity:92 - ActivityCompleted: Activity=GetOutput, HowEnded=Success, Duration=258.87[ms]
+2021-02-07 16:27:35.405 - INFO - 5350 - azureml.train.automl._model_download_utilities._log_activity:54 - ActivityStarted: DownloadModel
+2021-02-07 16:27:52.238 - INFO - 5350 - azureml.automl.runtime.distributed.utilities.horovod_initialized:58 - Horovod not found in current environment. Distribution via Horovod will be disabled.
+2021-02-07 16:28:01.873 - INFO - 5350 - azureml.train.automl._model_download_utilities._log_activity:92 - ActivityCompleted: Activity=DownloadModel, HowEnded=Success, Duration=26468.35[ms]
+2021-02-07 16:28:01.874 - INFO - 5350 - azureml.train.automl.run._log_activity:92 - ActivityCompleted: Activity=GetOutput, HowEnded=Success, Duration=26743.83[ms]
+2021-02-07 16:28:05.003 - INFO - 5350 - azureml.train.automl.run._log_activity:54 - ActivityStarted: RegisterModel
+2021-02-07 16:28:05.012 - INFO - 5350 - azureml.train.automl.run._log_activity:54 - ActivityStarted: GetChildren
+2021-02-07 16:28:05.147 - INFO - 5350 - azureml.train.automl.run._log_activity:92 - ActivityCompleted: Activity=GetChildren, HowEnded=Success, Duration=134.37[ms]
+2021-02-07 16:28:05.916 - INFO - 5350 - azureml.train.automl.run._log_activity:92 - ActivityCompleted: Activity=RegisterModel, HowEnded=Success, Duration=913.48[ms]
+2021-02-07 16:28:06.126 - INFO - 5350 - azureml.automl.runtime.featurizer.transformer.timeseries.timeseries_transformer._logger_wrapper:81 - Starting transform operation of TimeSeriesTransformer.
+2021-02-07 16:28:06.359 - INFO - 5350 - azureml.automl.runtime.featurizer.transformer.timeseries.missingdummies_transformer._logger_wrapper:81 - Starting transform operation of MissingDummiesTransformer.
+2021-02-07 16:28:06.362 - INFO - 5350 - azureml.automl.runtime.featurizer.transformer.timeseries.missingdummies_transformer._logger_wrapper:81 - MissingDummiesTransformer transform operation complete.
+2021-02-07 16:28:06.363 - INFO - 5350 - azureml.automl.runtime.featurizer.transformer.timeseries.time_series_imputer._logger_wrapper:98 - Starting transform operation of TimeSeriesImputer.
+2021-02-07 16:28:06.662 - INFO - 5350 - azureml.automl.runtime.featurizer.transformer.timeseries.time_series_imputer._logger_wrapper:98 - TimeSeriesImputer transform operation complete.
+2021-02-07 16:28:06.662 - INFO - 5350 - azureml.automl.runtime.featurizer.transformer.timeseries.short_grain_dropper._logger_wrapper:98 - Starting transform operation of ShortGrainDropper.
+2021-02-07 16:28:06.701 - INFO - 5350 - azureml.automl.runtime.featurizer.transformer.timeseries.short_grain_dropper._logger_wrapper:98 - ShortGrainDropper transform operation complete.
+2021-02-07 16:28:06.702 - INFO - 5350 - azureml.automl.runtime.featurizer.transformer.timeseries.restore_dtypes_transformer._logger_wrapper:81 - Starting transform operation of RestoreDtypesTransformer.
+2021-02-07 16:28:06.704 - INFO - 5350 - azureml.automl.runtime.featurizer.transformer.timeseries.restore_dtypes_transformer._logger_wrapper:81 - RestoreDtypesTransformer transform operation complete.
+2021-02-07 16:28:06.704 - INFO - 5350 - azureml.automl.runtime.featurizer.transformer.timeseries.grain_index_featurizer._logger_wrapper:98 - Starting transform operation of GrainIndexFeaturizer.
+2021-02-07 16:28:06.712 - INFO - 5350 - azureml.automl.runtime.featurizer.transformer.timeseries.grain_index_featurizer._logger_wrapper:98 - GrainIndexFeaturizer transform operation complete.
+2021-02-07 16:28:06.712 - INFO - 5350 - azureml.automl.runtime.featurizer.transformer.timeseries.numericalize_transformer._logger_wrapper:81 - Starting transform operation of NumericalizeTransformer.
+2021-02-07 16:28:06.726 - INFO - 5350 - azureml.automl.runtime.featurizer.transformer.timeseries.numericalize_transformer._logger_wrapper:81 - NumericalizeTransformer transform operation complete.
+2021-02-07 16:28:06.726 - INFO - 5350 - azureml.automl.runtime.featurizer.transformer.timeseries.time_index_featurizer._logger_wrapper:98 - Starting transform operation of TimeIndexFeaturizer.
+2021-02-07 16:28:06.853 - INFO - 5350 - azureml.automl.runtime.featurizer.transformer.timeseries.time_index_featurizer._logger_wrapper:98 - TimeIndexFeaturizer transform operation complete.
+2021-02-07 16:28:06.853 - INFO - 5350 - azureml.automl.runtime.featurizer.transformer.timeseries.category_binarizer._logger_wrapper:98 - Starting transform operation of CategoryBinarizer.
+2021-02-07 16:28:06.854 - INFO - 5350 - azureml.automl.runtime.featurizer.transformer.timeseries.category_binarizer._logger_wrapper:98 - CategoryBinarizer transform operation complete.
+2021-02-07 16:28:06.908 - INFO - 5350 - azureml.automl.runtime.featurizer.transformer.timeseries.timeseries_transformer._logger_wrapper:81 - TimeSeriesTransformer transform operation complete.
