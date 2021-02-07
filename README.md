@@ -138,6 +138,22 @@ To try to improve this result we could, for instances:
 
 ### AutoML (Best model compared with HyperDrive model)
 
+`Deployment` is about delivering a trained model into production so that it can be consumed by others.
+
+Comparing the results of AutoML and HyperDrive we saw that AutoML gave us the best model (lower NMRSE). Therefore, this is the model to be deployed.
+
+Details of the deployment of the AutoML model can be seen in section `Model Deployment` of the [AutoML notebook]( https://github.com/dpbac/Forecasting-Walmart-sales-with-Azure/blob/master/automl-final-version-070221.ipynb).
+
+For the deployment we need a function ([score.py]()) which will run the forecast on serialized data. It can be obtained from the `best_run`.
+
+[](https://github.com/dpbac/Forecasting-Walmart-sales-with-Azure/blob/master/images/obtain_score.JPG)
+
+In addition, it is necessary to an `InferenceConfig` and a container instance including in its parameters the necessary numbers of `cpu_cores` and `memory_gb` suitable for the application considered.
+Once everything is defined the model can be deployed.
+
+In order to test the deployed model, we have sent a request using the test dataset that consisted of data from `2016-04-25` till `2016-05-22`, i.e., our test dataset. Check [AutoML notebook]( https://github.com/dpbac/Forecasting-Walmart-sales-with-Azure/blob/master/automl-final-version-070221.ipynb) for results.
+
+
 ### HyperDrive 
 
 Although, this was not the best model we decided to include in the notebook the implementation of the deployment since it is a bit 
