@@ -135,6 +135,13 @@ To try to improve this result we could, for instances:
 ## Model Deployment
 *TODO*: Give an overview of the deployed model and instructions on how to query the endpoint with a sample input.
 
+### AutoML (Best model compared with HyperDrive model)
+
+### HyperDrive 
+
+Although, this was not the best model we decided to include in the notebook the implementation of the deployment since it is a bit 
+different then the way of implementing for an AutoML model.
+
 ## Screen Recording
 *TODO* Provide a link to a screen recording of the project in action. Remember that the screencast should demonstrate:
 - A working model
