@@ -1,7 +1,3 @@
-""" In this script we provide code used to prepare data and perform training using Light GBM on the subset 
-of the Walmart data that can be found at https://github.com/dpbac/Forecasting-Walmart-sales-with-Azure/tree/master/data """"
-
-
 import argparse
 import os
 import numpy as np
