@@ -125,7 +125,17 @@ To try to improve this result we could, for instances:
 * Make use of [`FeaturizationConfig`](https://docs.microsoft.com/en-us/azure/machine-learning/how-to-configure-auto-features), for example, to use other form of imputation of Nan values than the one chosen by AutoML.
 
 ## Hyperparameter Tuning
-*TODO*: What kind of model did you choose for this experiment and why? Give an overview of the types of parameters and their ranges used for the hyperparameter search
+
+Classical models used for forecasting are statistical models such as `Arima` and `Prophet`. In this experiment I wanted to try a Machine Learning algorithm. I have chosen [`Light GBM (LGBM)`]( https://lightgbm.readthedocs.io/en/latest/index.html) for its great performance on different kind of tasks being, for instance, one of the most used algorithms in [Kaggle]( https://www.kaggle.com/) competitions.
+
+Usually, this implementation gradient boosting algorithm shows better performance than other gradient boost and ensemble algorithms like for example [XGBoost]( https://www.analyticsvidhya.com/blog/2017/06/which-algorithm-takes-the-crown-light-gbm-vs-xgboost/).
+LGBM presents usually best accuracy and high speed.
+
+The ranges of parameters for the LGBM used were chosen considering the parameters tuning guides for different scenarios provided [here]( https://lightgbm.readthedocs.io/en/latest/Parameters-Tuning.html).
+
+`Bayesian sampling` method was chosen because tries to intelligently pick the next sample of hyperparameters, based on how the previous samples performed, such that the new sample improves the reported primary metric. This sampling method does not support `terminantion_policy`. Therefore, `policy=None`.
+
+For Bayesian Sampling it is recommend using a `maximum number of runs` greater than or equal to 20 times the number of hyperparameters being tuned. The recommended value is 140. We set the maximum number of child runs of HyperDrive `max_total_runs` to `20` to reduce the running time.
 
 
 ### Results
@@ -134,7 +144,6 @@ To try to improve this result we could, for instances:
 *TODO* Remeber to provide screenshots of the `RunDetails` widget as well as a screenshot of the best model trained with it's parameters.
 
 ## Model Deployment
-*TODO*: Give an overview of the deployed model and instructions on how to query the endpoint with a sample input.
 
 ### AutoML (Best model compared with HyperDrive model)
 
@@ -178,8 +187,13 @@ I've employed `Single-Round Forecasting`, i.e., I've split the data in train and
 
 Because of time restriction a subset of the available dataset was used. It would be interesting to use all dataset and the code presented here are ready for it. This would probably improve results because of the greater amount of data made available for training the model.
 
+- **Change parameters of AutoML**
 
+    This could include as mentioned earlier:
+    
+    * Increase `experiment_timeout_minutes` to give more time for AutoML to try other models.
+    * Make use of [`FeaturizationConfig`](https://docs.microsoft.com/en-us/azure/machine-learning/how-to-configure-auto-features), for example, to use other form of imputation of Nan values than the one chosen by AutoML.
+    
+**Increase**:
 
-
-## Standout Suggestions
-*TODO (Optional):* This is where you can provide information about any standout suggestions that you have attempted.
+Try HyperDrive with higher value of `max_total_runs` to see if the performance increases.
