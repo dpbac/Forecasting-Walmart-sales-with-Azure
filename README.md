@@ -107,11 +107,19 @@ The primary metric was set to `normalized_root_mean_squared_error` considering t
 
 We were planning to convert our model to ONNX. However, it is not possible in the case of forecasting.
 
-
 ### Results
-*TODO*: What are the results you got with your automated ML model? What were the parameters of the model? How could you have improved it?
 
-*TODO* Remeber to provide screenshots of the `RunDetails` widget as well as a screenshot of the best model trained with it's parameters.
+The best model obtained by using AutoML was `VotingEmsemble` with `NMRSE=0.1106`.
+
+In the image bellow you can observe the progress of the training tuns of different experiments.
+**ADD IMAGES OF WIDGET**
+
+Following an image showing details of the best model obtained.
+**ADD IMAGE OF THE BEST MODEL, MODEL PARAMETERS AND RUNID**
+
+To try to improve this result we could, for instances:
+* Increase `experiment_timeout_minutes` to give more time for AutoML to try other models.
+* Make use of [`FeaturizationConfig`](https://docs.microsoft.com/en-us/azure/machine-learning/how-to-configure-auto-features), for example, to use other form of imputation of Nan values than the one chosen by AutoML.
 
 ## Hyperparameter Tuning
 *TODO*: What kind of model did you choose for this experiment and why? Give an overview of the types of parameters and their ranges used for the hyperparameter search
