@@ -112,9 +112,11 @@ We were planning to convert our model to ONNX. However, it is not possible in th
 The best model obtained by using AutoML was `VotingEmsemble` with `NMRSE=0.1106`.
 
 In the image bellow you can observe the progress of the training tuns of different experiments.
+
 **ADD IMAGES OF WIDGET**
 
 Following an image showing details of the best model obtained.
+
 **ADD IMAGE OF THE BEST MODEL, MODEL PARAMETERS AND RUNID**
 
 To try to improve this result we could, for instances:
