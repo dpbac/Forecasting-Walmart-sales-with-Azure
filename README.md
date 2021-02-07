@@ -190,11 +190,14 @@ In order to test the deployed model, we have sent a request using the test datas
 
 Here we can see that the model is active.
 
-**IMAGE SHOWING THAT THE MODEL IS ACTIVE**
+![](https://github.com/dpbac/Forecasting-Walmart-sales-with-Azure/blob/master/images/model_deployed_notebook_01.JPG)
 
-**Notebook**
+![](https://github.com/dpbac/Forecasting-Walmart-sales-with-Azure/blob/master/images/model_deployed_notebook_02.JPG)
 
-**AzureML studio**
+And also in the Azure ML Studio:
+
+![](https://github.com/dpbac/Forecasting-Walmart-sales-with-Azure/blob/master/images/model_deployed_autoML_studio_01.JPG)
+![](https://github.com/dpbac/Forecasting-Walmart-sales-with-Azure/blob/master/images/model_deployed_autoML_studio_02.JPG)
 
 
 ### HyperDrive 
