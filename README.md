@@ -168,7 +168,6 @@ First, you can see already in the notebook which one is the best model, details 
 But you can also check within ML Studio, the top runs and details about the best model.
 
 ![](https://github.com/dpbac/Forecasting-Walmart-sales-with-Azure/blob/master/images/hd_top_runs.JPG)
-![](https://github.com/dpbac/Forecasting-Walmart-sales-with-Azure/blob/master/images/hd_best_model.JPG)
 ![](https://github.com/dpbac/Forecasting-Walmart-sales-with-Azure/blob/master/images/hd_best_model_01.JPG)
 ![](https://github.com/dpbac/Forecasting-Walmart-sales-with-Azure/blob/master/images/hd_best_model_02.JPG)
 
