@@ -239,3 +239,9 @@ Because of time restriction a subset of the available dataset was used. It would
 - **Increase `max_total_runs` in HyperDrive**:
 
 Try HyperDrive with higher value of `max_total_runs` to see if the performance increases.
+
+# References
+
+- https://github.com/Azure/MachineLearningNotebooks/blob/master/how-to-use-azureml/automated-machine-learning/forecasting-orange-juice-sales/auto-ml-forecasting-orange-juice-sales.ipynb
+
+- https://techcommunity.microsoft.com/t5/azure-ai/open-source-repository-of-forecasting-best-practices-for/ba-p/1298941
