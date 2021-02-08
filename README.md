@@ -191,34 +191,24 @@ Comparing the results of AutoML and HyperDrive we saw that AutoML gave us the be
 
 Details of the deployment of the AutoML model can be seen in section `Model Deployment` of the [AutoML notebook]( https://github.com/dpbac/Forecasting-Walmart-sales-with-Azure/blob/master/automl-final-version-080221.ipynb).
 
-For the deployment we need a function ([score_forecast.py](https://github.com/dpbac/Forecasting-Walmart-sales-with-Azure/blob/master/score_forecast.py)) which will run the forecast on serialized data. It can be obtained from the `best_run`.
+For the deployment we need a function ([score_forecast.py](https://github.com/dpbac/Forecasting-Walmart-sales-with-Azure/blob/master/score_forecast.py)) which will run the forecast on serialized data. Notice that it can be obtained from 
+the `best_run` (See following image).
 
 [](https://github.com/dpbac/Forecasting-Walmart-sales-with-Azure/blob/master/images/obtain_score.JPG)
 
-In addition, it is necessary to an `InferenceConfig` and a container instance including in its parameters the necessary numbers of `cpu_cores` and `memory_gb` suitable for the application considered.
-Once everything is defined the model can be deployed.
+In addition, it is necessary to create an `InferenceConfig` and a container instance including as parameters the necessary numbers of `cpu_cores` and `memory_gb` suitable for the application considered. Once everything is defined the model can be deployed.
 
-In order to test the deployed model, we have sent a request using the test dataset that consisted of data from `2016-04-25` till `2016-05-22`, i.e., our test dataset. Check [AutoML notebook]( https://github.com/dpbac/Forecasting-Walmart-sales-with-Azure/blob/master/automl-final-version-070221.ipynb) for results.
+In order to test the deployed model, we have sent a request using the test dataset that consisted of data from `2016-04-25` till `2016-05-22`, i.e., 28 days in our test dataset. Check [AutoML notebook]( https://github.com/dpbac/Forecasting-Walmart-sales-with-Azure/blob/master/automl-final-version-070221.ipynb) for results.
 
-Here we can see that the model is active.
+In the notebook we can verify the status of the deployment which is `healthy` which means it is active.
 
-![](https://github.com/dpbac/Forecasting-Walmart-sales-with-Azure/blob/master/images/model_deployed_notebook_01.JPG)
+![](https://github.com/dpbac/Forecasting-Walmart-sales-with-Azure/blob/master/images/automl_deployment_status.JPG)
 
-![](https://github.com/dpbac/Forecasting-Walmart-sales-with-Azure/blob/master/images/model_deployed_notebook_02.JPG)
-
-And also in the Azure ML Studio:
+And also in Azure ML Studio:
 
 ![](https://github.com/dpbac/Forecasting-Walmart-sales-with-Azure/blob/master/images/model_deployed_autoML_studio_01.JPG)
 ![](https://github.com/dpbac/Forecasting-Walmart-sales-with-Azure/blob/master/images/model_deployed_autoML_studio_02.JPG)
 
-
-### HyperDrive 
-
-Although, this was not the best model we decided to include in the [HyperDrive notebook]() the implementation of the model deployment since it is a bit different then the way of implementing for an AutoML model.
-
-Scoring (score.py) and environment files are provided as part of the AutoML files. For HyperDrive, this is not the same. We must write the scoring file for our HyperDrive experiment. Details on how to do it can be found [here](https://docs.microsoft.com/en-us/azure/machine-learning/how-to-deploy-and-where?tabs=azcli#define-an-entry-script). Our scoring file for the hyper drive is [here](https://github.com/dpbac/Forecasting-Walmart-sales-with-Azure/blob/master/score_hd.py).
-
-More details about the deployment of an HyperDrive Experiment can be seen in section `Model Deployment` of [HyperDrive notebook]( https://github.com/dpbac/Forecasting-Walmart-sales-with-Azure/blob/master/hyperparameter-tuning-final-version-070221.ipynb)
 
 ## Screen Recording
 *TODO* Provide a link to a screen recording of the project in action. Remember that the screencast should demonstrate:
