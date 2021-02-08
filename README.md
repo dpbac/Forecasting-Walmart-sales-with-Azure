@@ -76,7 +76,7 @@ All the features listed above considering items of `HOBBIES_2` department of Wal
 
 More details and the code can be found in the script [train.py](https://github.com/dpbac/Forecasting-Walmart-sales-with-Azure/blob/master/train.py)
 
-After preprocessing the data (cleaning and creating features) it was split as shown in the image below. The `Training` part was used for training and validation while the `Testing` was used to test the model. For our experiments we used `GAP=0`. Details about `Splitting Time Dataset` can be found in the [Automated ML notebook](https://github.com/dpbac/Forecasting-Walmart-sales-with-Azure/blob/master/automl-final-version-070221.ipynb).
+After preprocessing the data (cleaning and creating features) it was split as shown in the image below. The `Training` part was used for training and validation while the `Testing` was used to test the model. For our experiments we used `GAP=0`. Details about `Splitting Time Dataset` can be found in the [Automated ML notebook](https://github.com/dpbac/Forecasting-Walmart-sales-with-Azure/blob/master/automl-final-version-080221.ipynb).
 
 ![](https://github.com/dpbac/Forecasting-Walmart-sales-with-Azure/blob/master/images/time_series_split.JPG)
 
@@ -85,7 +85,7 @@ After preprocessing the data (cleaning and creating features) it was split as sh
 The original dataset was downloaded from [Kaggle]( https://www.kaggle.com/c/m5-forecasting-accuracy/data). The subset created from this data was made available at 
 [GitHub]( https://github.com/dpbac/Forecasting-Walmart-sales-with-Azure/tree/master/data). 
 
-The GitHub address of the raw data is used to load the data in the Azure workspace. 
+The GitHub address of the [raw data](https://raw.githubusercontent.com/dpbac/Forecasting-Walmart-sales-with-Azure/master/data/walmart_tx_stores_10_items_with_day.csv) is used to load the data in the Azure workspace. 
 
 For both `AutoML` and `HyperDrive` approaches the data used is upload to a datastore from where it is accessed by the models. 
 
@@ -113,7 +113,7 @@ We were planning to convert our model to ONNX. However, it is not possible in th
 
 ### Results
 
-The best model obtained by using AutoML was `VotingEmsemble` with `NMRSE=0.1108`.
+The best model obtained by using AutoML was `VotingEmsemble` with `NMRSE=0.1106`.
 
 In the image bellow you can observe the progress of the training runs of different experiments.
 
@@ -126,7 +126,6 @@ Following an image showing details of the best model obtained.
 ![](https://github.com/dpbac/Forecasting-Walmart-sales-with-Azure/blob/master/images/best_model_details_01.JPG)
 ![](https://github.com/dpbac/Forecasting-Walmart-sales-with-Azure/blob/master/images/best_model_details_02.JPG)
 
-**ADD IMAGE OF THE BEST MODEL, MODEL PARAMETERS AND RUNID**
 
 To try to improve this result we could, for instances:
 
