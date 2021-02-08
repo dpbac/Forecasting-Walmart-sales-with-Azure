@@ -212,7 +212,9 @@ And also in Azure ML Studio:
 
 
 ## Screen Recording
-*TODO* Provide a link to a screen recording of the project in action. Remember that the screencast should demonstrate:
+
+Click [here](https://youtu.be/U2KGHlXrTfQ) to see a short demo of the project in action showing:
+
 - A working model
 - Demo of the deployed  model
 - Demo of a sample request sent to the endpoint and its response
