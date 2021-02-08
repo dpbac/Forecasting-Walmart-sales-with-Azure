@@ -185,7 +185,7 @@ For more details about Hyperparameter Tuning with HyperDrive implementation chec
 
 ## Deployment of the Best Model 
 
-`Deployment` is about delivering a trained model into production so that it can be consumed by others.
+`Deployment` is about delivering a trained model into production so that it can be consumed by others. By deploying a model you make it possible to interact with the HTTP API service and interact with the model by sending data over POST requests, for example.
 
 Comparing the results of AutoML and HyperDrive we saw that AutoML gave us the best model (lower NMRSE). Therefore, this is the model to be deployed.
 
@@ -208,6 +208,7 @@ And also in Azure ML Studio:
 
 ![](https://github.com/dpbac/Forecasting-Walmart-sales-with-Azure/blob/master/images/model_deployed_autoML_studio_01.JPG)
 ![](https://github.com/dpbac/Forecasting-Walmart-sales-with-Azure/blob/master/images/model_deployed_autoML_studio_02.JPG)
+![](https://github.com/dpbac/Forecasting-Walmart-sales-with-Azure/blob/master/images/automl_log_deployed_model.JPG)
 
 
 ## Screen Recording
