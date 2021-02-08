@@ -150,20 +150,27 @@ In order to compare the performance of HyperDrive with the one of AutoML we chos
 
 ### Results
 
-The best LGBM model obtained by using hyperparameter tunning using HyperDrive achieved NRMSE: 0.1427 which is worse than the result 
+The best LGBM model obtained by using hyperparameter tunning using HyperDrive achieved NRMSE: 0.1430 which is worse than the result 
 obtained by the AutoML model.
-
-The hyperparameters of the LGBM model with best result is shown below:
-
-**IMAGE SECTION 6.3**
 
 The image bellow shows the progress of the training runs of different experiments.
 
-**ADD IMAGES OF WIDGET**
+![](https://github.com/dpbac/Forecasting-Walmart-sales-with-Azure/blob/master/images/hd_widget_01.JPG)
+![](https://github.com/dpbac/Forecasting-Walmart-sales-with-Azure/blob/master/images/hd_widget_02.JPG)
+![](https://github.com/dpbac/Forecasting-Walmart-sales-with-Azure/blob/master/images/hd_widget_03.JPG)
 
-Following an image showing details of the best model obtained.
+The hyperparameters of the LGBM model with best result is shown below.
 
-**ADD IMAGE OF THE BEST MODEL, MODEL PARAMETERS AND RUNID**
+First, you can see already in the notebook which one is the best model, details about it, and its parameters.
+
+![](https://github.com/dpbac/Forecasting-Walmart-sales-with-Azure/blob/master/images/hd_best_model_notebook.JPG)
+
+But you can also check within ML Studio, the top runs and details about the best model.
+
+![](https://github.com/dpbac/Forecasting-Walmart-sales-with-Azure/blob/master/images/hd_top_runs.JPG)
+![](https://github.com/dpbac/Forecasting-Walmart-sales-with-Azure/blob/master/images/hd_best_model.JPG)
+![](https://github.com/dpbac/Forecasting-Walmart-sales-with-Azure/blob/master/images/hd_best_model_01.JPG)
+![](https://github.com/dpbac/Forecasting-Walmart-sales-with-Azure/blob/master/images/hd_best_model_02.JPG)
 
 To try to improve this result we could increase `max_total_runs`.
 
