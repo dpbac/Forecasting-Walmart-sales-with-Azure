@@ -136,6 +136,9 @@ To try to improve this result we could, for instances:
 * Increase `experiment_timeout_minutes` to give more time for AutoML to try other models.
 * Make use of [`FeaturizationConfig`](https://docs.microsoft.com/en-us/azure/machine-learning/how-to-configure-auto-features), for example, to use other form of imputation of Nan values than the one chosen by AutoML.
 
+For more details about AutoML implementation check: [AutoML notebook](https://github.com/dpbac/Forecasting-Walmart-sales-with-Azure/blob/master/automl-final-version-080221.ipynb)
+
+
 ## Hyperparameter Tuning
 
 Classical models used for forecasting are statistical models such as `Arima` and `Prophet`. In this experiment I wanted to try a Machine Learning algorithm. I have chosen [`Light GBM (LGBM)`]( https://lightgbm.readthedocs.io/en/latest/index.html) for its great performance on different kind of tasks being, for instance, one of the most used algorithms in [Kaggle]( https://www.kaggle.com/) competitions.
@@ -177,18 +180,18 @@ But you can also check within ML Studio, the top runs and details about the best
 
 To try to improve this result we could increase `max_total_runs`.
 
+For more details about Hyperparameter Tuning with HyperDrive implementation check: [HyperDrive notebook](https://github.com/dpbac/Forecasting-Walmart-sales-with-Azure/blob/master/hyperparameter-tuning-final-version-080221.ipynb)
 
-## Model Deployment
 
-### AutoML (Best model compared with HyperDrive model)
+## Deployment of the Best Model 
 
 `Deployment` is about delivering a trained model into production so that it can be consumed by others.
 
 Comparing the results of AutoML and HyperDrive we saw that AutoML gave us the best model (lower NMRSE). Therefore, this is the model to be deployed.
 
-Details of the deployment of the AutoML model can be seen in section `Model Deployment` of the [AutoML notebook]( https://github.com/dpbac/Forecasting-Walmart-sales-with-Azure/blob/master/automl-final-version-070221.ipynb).
+Details of the deployment of the AutoML model can be seen in section `Model Deployment` of the [AutoML notebook]( https://github.com/dpbac/Forecasting-Walmart-sales-with-Azure/blob/master/automl-final-version-080221.ipynb).
 
-For the deployment we need a function ([score.py]()) which will run the forecast on serialized data. It can be obtained from the `best_run`.
+For the deployment we need a function ([score_forecast.py](https://github.com/dpbac/Forecasting-Walmart-sales-with-Azure/blob/master/score_forecast.py)) which will run the forecast on serialized data. It can be obtained from the `best_run`.
 
 [](https://github.com/dpbac/Forecasting-Walmart-sales-with-Azure/blob/master/images/obtain_score.JPG)
 
