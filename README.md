@@ -136,6 +136,8 @@ To try to improve this result we could, for instances:
 * Increase `experiment_timeout_minutes` to give more time for AutoML to try other models.
 * Make use of [`FeaturizationConfig`](https://docs.microsoft.com/en-us/azure/machine-learning/how-to-configure-auto-features), for example, to use other form of imputation of Nan values than the one chosen by AutoML.
 
+You can find the best AutoML model in the compressed file [automl_best_model.zip](https://github.com/dpbac/Forecasting-Walmart-sales-with-Azure/blob/master/automl_best_model.zip)
+
 For more details about AutoML implementation check: [AutoML notebook](https://github.com/dpbac/Forecasting-Walmart-sales-with-Azure/blob/master/automl-final-version-090221.ipynb)
 
 
@@ -184,6 +186,8 @@ But you can also check within ML Studio, the top 10 runs and details about the b
 ![](https://github.com/dpbac/Forecasting-Walmart-sales-with-Azure/blob/master/images/hd_best_model_0902_details_01.JPG)
 
 To try to improve this result we could increase `max_total_runs`.
+
+You can find the best Light GBM model hyperparameter tuned with HyperDrive in the file [bst-model.pkl](https://github.com/dpbac/Forecasting-Walmart-sales-with-Azure/blob/master/bst-model.pkl)
 
 For more details about Hyperparameter Tuning with HyperDrive implementation check: [HyperDrive notebook](https://github.com/dpbac/Forecasting-Walmart-sales-with-Azure/blob/master/hyperparameter-tuning-final-version-090221.ipynb)
 
