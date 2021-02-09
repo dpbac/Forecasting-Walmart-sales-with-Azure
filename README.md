@@ -76,7 +76,7 @@ All the features listed above considering items of `HOBBIES_2` department of Wal
 
 More details and the code can be found in the script [train.py](https://github.com/dpbac/Forecasting-Walmart-sales-with-Azure/blob/master/train.py)
 
-After preprocessing the data (cleaning and creating features) it was split as shown in the image below. The `Training` part was used for training and validation while the `Testing` was used to test the model. For our experiments we used `GAP=0`. Details about `Splitting Time Dataset` can be found in the [Automated ML notebook](https://github.com/dpbac/Forecasting-Walmart-sales-with-Azure/blob/master/automl-final-version-080221.ipynb).
+After preprocessing the data (cleaning and creating features) it was split as shown in the image below. The `Training` part was used for training and validation while the `Testing` was used to test the model. For our experiments we used `GAP=0`. Details about `Splitting Time Dataset` can be found in the [Automated ML notebook](https://github.com/dpbac/Forecasting-Walmart-sales-with-Azure/blob/master/automl-final-version-090221.ipynb).
 
 ![](https://github.com/dpbac/Forecasting-Walmart-sales-with-Azure/blob/master/images/time_series_split.JPG)
 
@@ -136,7 +136,7 @@ To try to improve this result we could, for instances:
 * Increase `experiment_timeout_minutes` to give more time for AutoML to try other models.
 * Make use of [`FeaturizationConfig`](https://docs.microsoft.com/en-us/azure/machine-learning/how-to-configure-auto-features), for example, to use other form of imputation of Nan values than the one chosen by AutoML.
 
-For more details about AutoML implementation check: [AutoML notebook](https://github.com/dpbac/Forecasting-Walmart-sales-with-Azure/blob/master/automl-final-version-080221.ipynb)
+For more details about AutoML implementation check: [AutoML notebook](https://github.com/dpbac/Forecasting-Walmart-sales-with-Azure/blob/master/automl-final-version-090221.ipynb)
 
 
 ## Hyperparameter Tuning
@@ -180,7 +180,7 @@ But you can also check within ML Studio, the top runs and details about the best
 
 To try to improve this result we could increase `max_total_runs`.
 
-For more details about Hyperparameter Tuning with HyperDrive implementation check: [HyperDrive notebook](https://github.com/dpbac/Forecasting-Walmart-sales-with-Azure/blob/master/hyperparameter-tuning-final-version-080221.ipynb)
+For more details about Hyperparameter Tuning with HyperDrive implementation check: [HyperDrive notebook](https://github.com/dpbac/Forecasting-Walmart-sales-with-Azure/blob/master/hyperparameter-tuning-final-version-090221.ipynb)
 
 
 ## Deployment of the Best Model 
@@ -189,7 +189,7 @@ For more details about Hyperparameter Tuning with HyperDrive implementation chec
 
 Comparing the results of AutoML and HyperDrive we saw that AutoML gave us the best model (lower NMRSE). Therefore, this is the model to be deployed.
 
-Details of the deployment of the AutoML model can be seen in section `Model Deployment` of the [AutoML notebook]( https://github.com/dpbac/Forecasting-Walmart-sales-with-Azure/blob/master/automl-final-version-080221.ipynb).
+Details of the deployment of the AutoML model can be seen in section `Model Deployment` of the [AutoML notebook]( https://github.com/dpbac/Forecasting-Walmart-sales-with-Azure/blob/master/automl-final-version-090221.ipynb).
 
 For the deployment we need a function ([score_forecast.py](https://github.com/dpbac/Forecasting-Walmart-sales-with-Azure/blob/master/score_forecast.py)) which will run the forecast on serialized data. Notice that it can be obtained from 
 the `best_run` (See following image).
