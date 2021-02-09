@@ -157,26 +157,31 @@ In order to compare the performance of HyperDrive with the one of AutoML we chos
 
 ### Results
 
-The best LGBM model obtained by using hyperparameter tunning using HyperDrive achieved NRMSE: 0.1430 which is worse than the result 
+The best LGBM model obtained by using hyperparameter tunning using HyperDrive achieved NRMSE: 0.1424 which is worse than the result 
 obtained by the AutoML model.
 
 The image bellow shows the progress of the training runs of different experiments.
 
-![](https://github.com/dpbac/Forecasting-Walmart-sales-with-Azure/blob/master/images/hd_widget_01.JPG)
-![](https://github.com/dpbac/Forecasting-Walmart-sales-with-Azure/blob/master/images/hd_widget_02.JPG)
-![](https://github.com/dpbac/Forecasting-Walmart-sales-with-Azure/blob/master/images/hd_widget_03.JPG)
+![](https://github.com/dpbac/Forecasting-Walmart-sales-with-Azure/blob/master/images/hd_widget_0902_01.JPG)
+![](https://github.com/dpbac/Forecasting-Walmart-sales-with-Azure/blob/master/images/hd_widget_0902_02.JPG)
+![](https://github.com/dpbac/Forecasting-Walmart-sales-with-Azure/blob/master/images/hd_widget_0902_03.JPG)
+![](https://github.com/dpbac/Forecasting-Walmart-sales-with-Azure/blob/master/images/hd_widget_0902_04.JPG)
+
+In the notebook you can see experiment logs for the metrics (Image below).
+
+![](https://github.com/dpbac/Forecasting-Walmart-sales-with-Azure/blob/master/images/hd_widget_0902_05_log_metrics.JPG)
 
 The hyperparameters of the LGBM model with best result is shown below.
 
 First, you can see already in the notebook which one is the best model, details about it, and its parameters.
 
-![](https://github.com/dpbac/Forecasting-Walmart-sales-with-Azure/blob/master/images/hd_best_model_notebook.JPG)
+![](https://github.com/dpbac/Forecasting-Walmart-sales-with-Azure/blob/master/images/hd_best_model_0902_notebook.JPG)
 
-But you can also check within ML Studio, the top runs and details about the best model.
+But you can also check within ML Studio, the top 10 runs and details about the best model.
 
-![](https://github.com/dpbac/Forecasting-Walmart-sales-with-Azure/blob/master/images/hd_top_runs.JPG)
-![](https://github.com/dpbac/Forecasting-Walmart-sales-with-Azure/blob/master/images/hd_best_model_01.JPG)
-![](https://github.com/dpbac/Forecasting-Walmart-sales-with-Azure/blob/master/images/hd_best_model_02.JPG)
+![](https://github.com/dpbac/Forecasting-Walmart-sales-with-Azure/blob/master/images/hd_top_10_0902.JPG)
+![](https://github.com/dpbac/Forecasting-Walmart-sales-with-Azure/blob/master/images/hd_best_model_0902_details_01.JPG)
+![](https://github.com/dpbac/Forecasting-Walmart-sales-with-Azure/blob/master/images/hd_best_model_0902_details_01.JPG)
 
 To try to improve this result we could increase `max_total_runs`.
 
